@@ -3035,3 +3035,7 @@
 02/07/2015 17:37:12 : [INFORMATION] file F:\wamp\www\GCsystem\system\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
 #################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
 02/07/2015 19:17:52 : [object] file F:\wamp\www\gcsystem\dev\gcsystem\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+02/07/2015 19:22:17 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+02/07/2015 19:24:21 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+02/07/2015 19:27:34 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+02/07/2015 19:28:29 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction

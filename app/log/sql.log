@@ -2374,3 +2374,19 @@
 [gcs] [index] [default] [orm-61]SELECT post.id AS post_id, post.content AS post_content, post.article AS post_article, post.file AS post_file, article.id AS article_id, article.title AS article_title, article.content AS article_content FROM post LEFT JOIN article ON post.article = article.id WHERE post.id = 132
 02/07/2015 19:17:52 : [INFORMATION] file 302 / line F:\wamp\www\gcsystem\dev\gcsystem\vendor\gcsystem\framework\core\system\Sql\Sql.php / 
 [gcs] [index] [default] [update_article_64]UPDATE article SET title = 'titre article', content = 'contenu article' WHERE id = 76
+02/07/2015 19:22:17 : [INFORMATION] file 302 / line F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Sql\Sql.php / 
+[gcs] [index] [default] [orm-90]SELECT post.id AS post_id, post.content AS post_content, post.article AS post_article, post.file AS post_file, article.id AS article_id, article.title AS article_title, article.content AS article_content FROM post LEFT JOIN article ON post.article = article.id WHERE post.id = 132
+02/07/2015 19:22:17 : [INFORMATION] file 302 / line F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Sql\Sql.php / 
+[gcs] [index] [default] [update_article_81]UPDATE article SET title = 'titre article', content = 'contenu article' WHERE id = 76
+02/07/2015 19:24:21 : [INFORMATION] file 302 / line F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Sql\Sql.php / 
+[gcs] [index] [default] [orm-6]SELECT post.id AS post_id, post.content AS post_content, post.article AS post_article, post.file AS post_file, article.id AS article_id, article.title AS article_title, article.content AS article_content FROM post LEFT JOIN article ON post.article = article.id WHERE post.id = 132
+02/07/2015 19:24:21 : [INFORMATION] file 302 / line F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Sql\Sql.php / 
+[gcs] [index] [default] [update_article_52]UPDATE article SET title = 'titre article', content = 'contenu article' WHERE id = 76
+02/07/2015 19:27:34 : [INFORMATION] file 302 / line F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Sql\Sql.php / 
+[gcs] [index] [default] [orm-54]SELECT post.id AS post_id, post.content AS post_content, post.article AS post_article, post.file AS post_file, article.id AS article_id, article.title AS article_title, article.content AS article_content FROM post LEFT JOIN article ON post.article = article.id WHERE post.id = 132
+02/07/2015 19:27:34 : [INFORMATION] file 302 / line F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Sql\Sql.php / 
+[gcs] [index] [default] [update_article_24]UPDATE article SET title = 'titre article', content = 'contenu article' WHERE id = 76
+02/07/2015 19:28:29 : [INFORMATION] file 302 / line F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Sql\Sql.php / 
+[gcs] [index] [default] [orm-91]SELECT post.id AS post_id, post.content AS post_content, post.article AS post_article, post.file AS post_file, article.id AS article_id, article.title AS article_title, article.content AS article_content FROM post LEFT JOIN article ON post.article = article.id WHERE post.id = 132
+02/07/2015 19:28:29 : [INFORMATION] file 302 / line F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Sql\Sql.php / 
+[gcs] [index] [default] [update_article_97]UPDATE article SET title = 'titre article', content = 'contenu article' WHERE id = 76
