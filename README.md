@@ -19,7 +19,7 @@ Installation :
 
 * Clônez le dépôt github et installlez-le avec composer:
 
-> https://github.com/fabsgc/gcsystem.git ou avec composer
+> https://github.com/fabsgc/gcsystem.git
 > composer install
 
 * Ou directement :
