@@ -1,0 +1,25 @@
+<?php
+	namespace Orm\Entity;
+
+	use System\Orm\Entity\Entity;
+	use System\Orm\Entity\Field;
+	use System\Orm\Entity\ForeignKey;
+
+	class Courseidstudentid extends Entity{
+		public function tableDefinition(){
+			$this->name('CourseIdStudentId');
+			$this->field('id')
+				->primary(true)
+				->unique(true)
+				->type(Field::INCREMENT)
+				->beNull(false);
+			$this->field('student_id')
+				->type(Field::INT)
+				->beNull(false)
+				->foreign(ForeignKey::MANY_TO_ONE, ['student', 'id']);
+			$this->field('course_id')
+				->type(Field::INT)
+				->beNull(false)
+				->foreign(ForeignKey::MANY_TO_ONE, ['course', 'id']);
+		}
+	}

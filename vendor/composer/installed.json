@@ -1,0 +1,33 @@
+[
+    {
+        "name": "gcsystem/framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fabsgc/framework.git",
+            "reference": "2d7bee7497558576b7dd2ad6676b9363adc8fd30"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fabsgc/framework/zipball/2d7bee7497558576b7dd2ad6676b9363adc8fd30",
+            "reference": "2d7bee7497558576b7dd2ad6676b9363adc8fd30",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.12"
+        },
+        "time": "2015-07-02 17:02:08",
+        "type": "project",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "The Laravel Framework.",
+        "keywords": [
+            "framework",
+            "gcsystem"
+        ]
+    }
+]

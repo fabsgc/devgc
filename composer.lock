@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "db5d1f1198b9bffe3cfaeb957cc6f30e",
+    "packages": [
+        {
+            "name": "gcsystem/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabsgc/framework.git",
+                "reference": "2d7bee7497558576b7dd2ad6676b9363adc8fd30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabsgc/framework/zipball/2d7bee7497558576b7dd2ad6676b9363adc8fd30",
+                "reference": "2d7bee7497558576b7dd2ad6676b9363adc8fd30",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.12"
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The Laravel Framework.",
+            "keywords": [
+                "framework",
+                "gcsystem"
+            ],
+            "time": "2015-07-02 17:02:08"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "gcsystem/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5.12"
+    },
+    "platform-dev": []
+}

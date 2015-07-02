@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>GCsystem V<?php echo (VERSION); ?></title>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="/<?php echo $this->path(RESOLVE_IMAGE); ?>logo.png" />
+		<link href="<?php echo $this->getUrl('.gcs.gcs.assetManager.default', array('a5c839bd03409b2a091a7358efc82010f94efd12','css')); ?>" rel="stylesheet" media="screen" type="text/css" />
+	</head>
+	<body id="body">
+		<header id="header">
+			<div class="content">
+				<h1>GCsystem V<?php echo (VERSION); ?></h1>
+			</div>
+		</header>
+		<div id="main">
+			<div class="content">
+				<h1><?php echo $this->useLang('gcs.default.welcome',array()); ?></h1>
+				<p><?php echo $this->useLang('gcs.default.content',array()); ?></p>
+				<ul>
+					<li><a href="http://www.gcs-framework.dzv.me/fr/"><?php echo $this->useLang('gcs.default.website',array()); ?></a></li>
+					<li><a href="http://www.gcs-framework.dzv.me/fr/documentation"><?php echo $this->useLang('gcs.default.website-documentation',array()); ?></a></li>
+					<li><a href="http://www.gcs-framework.dzv.me/fr/tutorial"><?php echo $this->useLang('gcs.default.website-tutorial',array()); ?></a></li>
+				</ul>
+
+				<ul>
+					<?php if(isset($data)) { foreach($data as $value) { ?>
+						<li>
+							<h4>Cours "<?php echo ($value->name); ?>"</h4>
+							<p><?php echo ($value->content); ?></p>
+							<ul>
+								<?php if(isset($value->students)) { foreach($value->students as $students) { ?>
+									<li><?php echo ($students->name); ?></li>
+								<?php }} ?>
+							</ul>
+						</li>
+					<?php }} ?>
+				</ul>
+			</div>
+		</div>
+		<footer id="footer">Gcsystem V<?php echo (VERSION); ?></footer>
+		<script type="text/javascript">
+			updateHeight();
+
+			window.onresize = function(event) {
+				updateHeight();
+			};
+
+			function updateHeight(){
+				console.log(document.body.offsetHeight);
+				document.getElementById('main').style.height = window.innerHeight - document.getElementById('header').offsetHeight - document.getElementById('footer').offsetHeight + "px";
+			}
+		</script>
+	</body>
+</html>
