@@ -18,10 +18,10 @@ Installation :
 -----------
 
 * Clônez le dépôt github et installlez-le avec composer:
-    > https://github.com/fabsgc/gcsystem.git ou avec composer
-    > composer install
+> https://github.com/fabsgc/gcsystem.git ou avec composer
+> composer install
 * Ou directement :
-    > composer require gcsystem/gcsystem
+> composer require gcsystem/gcsystem
 * dans le fichier config.php, modifiez la constante "FOLDER" et indiquez-y le répertoire où se trouve le framework. Par exemple : /projet
 * chargez l'url racine du site (/)
 
