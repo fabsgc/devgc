@@ -5,6 +5,13 @@
 	use System\Orm\Entity\Field;
 	use System\Orm\Entity\ForeignKey;
 
+	/**
+	 * @property integer id
+	 * @property string content
+	 * @property integer article
+	 * @property \System\Orm\Entity\Type\File file
+	*/
+
 	class Post extends Entity{
 		public function tableDefinition(){
 			$this->name('post');
