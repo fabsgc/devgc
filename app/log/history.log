@@ -1760,3 +1760,9 @@ URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC 
 URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
 URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
 URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
