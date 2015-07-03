@@ -24,7 +24,7 @@
 			$this->field('article')
 				->type(Field::INT)
 				->beNull(false)
-				->foreign(ForeignKey::MANY_TO_ONE, ['Article', 'id']);
+				->foreign(['type' => ForeignKey::MANY_TO_ONE, 'reference' => ['Article', 'id']]);
 			$this->field('file')
 				->type(Field::FILE)
 				->beNull(false);

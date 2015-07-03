@@ -1388,3 +1388,375 @@ URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "
 URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
 URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
 URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://eef2f146.ngrok.io/favicon.ico (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN : https://eef2f146.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://7dd7f2fc.ngrok.io/favicon.ico (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN : http://7dd7f2fc.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/vendor/ (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/vendor/ (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/veghj (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ftgfhf (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/vendor/ (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/vendor/ (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://740fd7dd.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://740fd7dd.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://740fd7dd.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://740fd7dd.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://740fd7dd.ngrok.io/favicon.ico (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN : http://740fd7dd.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://740fd7dd.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://740fd7dd.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://740fd7dd.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://740fd7dd.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://740fd7dd.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/scaffolding/ (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/scaffolding/ (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/favicon.ico (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN : http://www.legeekcafe.com/fr/talk/3/55/le-cafe-des-geeks / IP : 127.0.0.1 / 
+URL : http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://1dd7cfb7.ngrok.io/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/4c9b1f92c818f3a21a20fae1a23d3a69c13a91e7.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "home" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/Article (200) / SRC "gcs" / CONTROLLER "index" / ACTION "entity" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/Article (200) / SRC "gcs" / CONTROLLER "index" / ACTION "entity" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 (200) / SRC "gcs" / CONTROLLER "index" / ACTION "entity" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 (200) / SRC "gcs" / CONTROLLER "index" / ACTION "entity" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 (200) / SRC "gcs" / CONTROLLER "index" / ACTION "entity" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/insert/1 (200) / SRC "gcs" / CONTROLLER "index" / ACTION "entity" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/insert/1 / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/insert/1 (200) / SRC "gcs" / CONTROLLER "index" / ACTION "entity" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/insert/1 / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/insert/1 (200) / SRC "gcs" / CONTROLLER "index" / ACTION "entity" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/insert/1 / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 (200) / SRC "gcs" / CONTROLLER "index" / ACTION "entity" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 (200) / SRC "gcs" / CONTROLLER "index" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/ (404) / SRC "" / CONTROLLER "" / ACTION "" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/ (200) / SRC "gcs" / CONTROLLER "index" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/ / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article (200) / SRC "gcs" / CONTROLLER "scaffolding" / ACTION "insert" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/profiler (200) / SRC "gcs" / CONTROLLER "profiler" / ACTION "default" / CACHE "0" / ORIGIN :  / IP : 127.0.0.1 / 
+URL : http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css (200) / SRC "gcs" / CONTROLLER "assetManager" / ACTION "default" / CACHE "0" / ORIGIN : http://www.gcsystem.dev/gcs/profiler / IP : 127.0.0.1 / 

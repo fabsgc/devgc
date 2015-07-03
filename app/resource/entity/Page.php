@@ -17,6 +17,6 @@
 				->unique(true)
 				->type(Field::INT)
 				->beNull(false)
-				->foreign(ForeignKey::ONE_TO_ONE, ['Image', 'id']);
+				->foreign(['type' => ForeignKey::ONE_TO_ONE, 'reference' => ['Image', 'id']]);
 		}
 	}

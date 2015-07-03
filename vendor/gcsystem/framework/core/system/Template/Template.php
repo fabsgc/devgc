@@ -114,13 +114,13 @@
 		 * @param $cache int : cache time
 		 * @param $stream int : use a file or a string
 		 * @throws \System\Exception\MissingTemplateException if the tpl file can't be read
+		 * @return \System\Template\Template
 		 * @since 3.0
 		 * @package System\Template
 		*/
 
 		public function __construct ($file = '', $name = 'template', $cache = 0, $stream = self::TPL_FILE){
 			$this->_createlang();
-
 			$this->_file = $this->resolve(RESOLVE_TEMPLATE, $file).EXT_TEMPLATE;
 			$this->_name      = $name;
 			$this->_timeCache = $cache;
@@ -161,6 +161,8 @@
 				$this->_fileCache = APP_CACHE_PATH_TEMPLATE.substr($hash, 0, 10).'_template_'.$this->_name.EXT_COMPILED_TEMPLATE;
 
 			$this->_setParser();
+
+			return $this;
 		}
 
 		/**
@@ -231,7 +233,7 @@
 		 * insert variable
 		 * @param $name
 		 * @param $vars
-		 * @return void
+		 * @return \System\Template\Template
 		 * @since 3.0
 		 * @package System\Template
 		*/
@@ -241,6 +243,8 @@
 				$this->vars = array_merge($this->vars, $name);
 			else
 				$this->vars[$name] = $vars;
+
+			return $this;
 		}
 
 		/**

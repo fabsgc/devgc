@@ -6,25 +6,71 @@
         "source": {
             "type": "git",
             "url": "https://github.com/fabsgc/framework.git",
-            "reference": "2d7bee7497558576b7dd2ad6676b9363adc8fd30"
+            "reference": "afd171407ee7c318959ef27345fbf94616be7dca"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fabsgc/framework/zipball/2d7bee7497558576b7dd2ad6676b9363adc8fd30",
-            "reference": "2d7bee7497558576b7dd2ad6676b9363adc8fd30",
+            "url": "https://api.github.com/repos/fabsgc/framework/zipball/afd171407ee7c318959ef27345fbf94616be7dca",
+            "reference": "afd171407ee7c318959ef27345fbf94616be7dca",
             "shasum": ""
         },
         "require": {
             "php": ">=5.5.12"
         },
-        "time": "2015-07-02 17:02:08",
+        "time": "2015-07-03 20:28:14",
         "type": "project",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1-dev"
+            }
+        },
         "installation-source": "source",
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
         ],
-        "description": "The Laravel Framework.",
+        "description": "GCsystem Framework",
+        "keywords": [
+            "framework",
+            "gcsystem"
+        ]
+    },
+    {
+        "name": "gcsystem/scaffolding",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fabsgc/scaffolding.git",
+            "reference": "6670929dbc3cf29298450435965c48f0e734684d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fabsgc/scaffolding/zipball/6670929dbc3cf29298450435965c48f0e734684d",
+            "reference": "6670929dbc3cf29298450435965c48f0e734684d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.12"
+        },
+        "time": "2015-07-03 20:47:18",
+        "type": "project",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Scaffolding\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "GCsystem Framework scaffolding plugin",
         "keywords": [
             "framework",
             "gcsystem"

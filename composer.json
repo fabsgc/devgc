@@ -5,7 +5,9 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"php": ">=5.5.12"
+		"php": ">=5.5.12",
+		"gcsystem/framework": "dev-master",
+		"gcsystem/scaffolding": "dev-master"
 	},
 	"extra": {
 		"branch-alias": {

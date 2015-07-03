@@ -3049,3 +3049,855 @@
 02/07/2015 20:03:45 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
 02/07/2015 20:22:36 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
 02/07/2015 20:22:43 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 01:41:20 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 01:47:32 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Scaffolding/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding ####################
+03/07/2015 12:05:16 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Scaffolding/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding ####################
+03/07/2015 15:14:09 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Builder.php / line 623 / The entity  does not exist
+03/07/2015 15:14:10 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://eef2f146.ngrok.io/favicon.ico
+#################### END OF EXECUTION OF http://eef2f146.ngrok.io/favicon.ico ####################
+03/07/2015 15:31:29 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Builder.php / line 623 / The entity  does not exist
+03/07/2015 15:31:30 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://7dd7f2fc.ngrok.io/favicon.ico
+#################### END OF EXECUTION OF http://7dd7f2fc.ngrok.io/favicon.ico ####################
+03/07/2015 15:51:47 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Field.php / line 184 / The parameter "type" is missing for the foreign key
+03/07/2015 15:52:40 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Field.php / line 184 / The parameter "type" is missing for the foreign key
+03/07/2015 15:53:37 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Builder.php / line 623 / The entity  does not exist
+03/07/2015 15:54:09 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Builder.php / line 623 / The entity  does not exist
+03/07/2015 15:55:01 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Builder.php / line 623 / The entity  does not exist
+03/07/2015 15:56:13 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Builder.php / line 623 / The entity  does not exist
+03/07/2015 15:56:15 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Builder.php / line 623 / The entity  does not exist
+03/07/2015 15:56:34 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Builder.php / line 623 / The entity  does not exist
+03/07/2015 15:56:36 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Builder.php / line 623 / The entity  does not exist
+03/07/2015 15:57:43 : [MissingEntityException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Builder.php / line 623 / The entity  does not exist
+03/07/2015 15:58:18 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:07:20 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:07:46 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Scaffolding/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding ####################
+03/07/2015 16:07:48 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:10:04 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:10:30 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 16:10:30 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 16:20:46 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:20:47 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:22:48 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/vendor/
+#################### END OF EXECUTION OF http://www.gcsystem.dev/vendor/ ####################
+03/07/2015 16:23:02 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:23:02 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:23:04 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/vendor/
+#################### END OF EXECUTION OF http://www.gcsystem.dev/vendor/ ####################
+03/07/2015 16:23:13 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/veghj
+#################### END OF EXECUTION OF http://www.gcsystem.dev/veghj ####################
+03/07/2015 16:23:16 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:23:40 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:24:18 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:24:48 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:25:21 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:25:41 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:25:42 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:26:08 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:26:09 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:26:14 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:26:40 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:28:02 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:28:17 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:28:24 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/ftgfhf
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ftgfhf ####################
+03/07/2015 16:28:30 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/vendor/
+#################### END OF EXECUTION OF http://www.gcsystem.dev/vendor/ ####################
+03/07/2015 16:32:19 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/vendor/
+#################### END OF EXECUTION OF http://www.gcsystem.dev/vendor/ ####################
+03/07/2015 16:32:21 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 16:32:21 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 16:32:58 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://740fd7dd.ngrok.io/ ####################
+03/07/2015 16:32:59 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://740fd7dd.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 16:36:05 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://740fd7dd.ngrok.io/ ####################
+03/07/2015 16:36:05 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://740fd7dd.ngrok.io/favicon.ico
+#################### END OF EXECUTION OF http://740fd7dd.ngrok.io/favicon.ico ####################
+03/07/2015 16:36:06 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://740fd7dd.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 16:36:57 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:37:06 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:37:08 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:37:12 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:37:12 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:37:32 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://740fd7dd.ngrok.io/ ####################
+03/07/2015 16:37:33 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://740fd7dd.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 16:37:35 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:37:35 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:37:56 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:37:58 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:37:58 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:38:05 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:38:08 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:38:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:38:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:38:11 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:38:18 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:38:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:38:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:38:29 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:38:30 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:38:30 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:38:48 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:38:54 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:38:54 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:39:13 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:39:14 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:39:16 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:39:18 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:39:18 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:39:54 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:39:55 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:39:55 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:39:56 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:39:56 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:39:56 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:39:56 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:40:14 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:40:14 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:40:15 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:40:16 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:40:16 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:40:34 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:40:43 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:40:47 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:41:00 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:41:03 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:41:26 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 16:41:26 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 16:41:41 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:41:57 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:42:00 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:42:00 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:42:08 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:42:08 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:42:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:42:25 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:42:25 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:42:26 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 16:42:26 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 16:42:27 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:42:28 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:42:40 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:42:41 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:42:41 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:42:42 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:42:42 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:42:43 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:42:44 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:42:44 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 16:43:17 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:43:22 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:43:26 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:43:30 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:43:35 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:43:39 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:43:43 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:44:15 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:44:20 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:44:28 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:44:36 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:44:45 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:45:13 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:45:21 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 16:45:21 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 16:45:27 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 16:45:27 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 16:45:36 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:46:00 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:46:00 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:46:01 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:47:53 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:48:01 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:48:02 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:48:57 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 16:48:57 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 16:49:29 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 325 / There is already an active transaction
+03/07/2015 16:49:36 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 326 / There is already an active transaction
+03/07/2015 16:49:45 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 326 / There is already an active transaction
+03/07/2015 16:49:50 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Orm\Entity\Entity.php / line 326 / There is already an active transaction
+03/07/2015 16:56:31 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 16:56:31 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 16:56:33 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 16:56:33 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 17:06:29 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 17:06:29 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 17:13:12 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "index/default.tpl"
+03/07/2015 17:13:35 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "src/gcs/resource/template//vendor/index/default.tpl"
+03/07/2015 17:15:13 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "test.tpl"
+03/07/2015 17:15:15 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "test.tpl"
+03/07/2015 17:16:19 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "app/resource/template/gcs/index/test.tpl"
+03/07/2015 17:16:37 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "test.tpl"
+03/07/2015 17:16:56 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "test.tpl"
+03/07/2015 17:20:31 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "vendor/test.tpl"
+03/07/2015 17:20:36 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "vendor/test.tpl"
+03/07/2015 17:21:04 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 17:21:06 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 17:21:06 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 17:49:33 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "vendor/gcsystem/test.tpl"
+03/07/2015 17:54:35 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 17:54:35 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 17:54:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 17:54:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 17:54:51 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "vendor/gcsystem/test.tpl"
+03/07/2015 18:00:04 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "vendor/gcsystem/test.tpl"
+03/07/2015 18:00:18 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 18:00:19 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 18:07:08 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 18:07:08 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 18:07:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 18:07:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 18:08:42 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 18:08:42 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 18:11:12 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 18:11:12 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 18:16:06 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/scaffolding/
+#################### END OF EXECUTION OF http://www.gcsystem.dev/scaffolding/ ####################
+03/07/2015 18:16:11 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 149 / can't open template file "vendor/gcsystem/scaffolding/template/home.tpl"
+03/07/2015 18:19:07 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 18:19:08 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 18:19:08 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 18:19:29 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 18:19:30 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 18:19:30 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 18:19:34 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 18:19:35 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 18:19:35 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 18:19:36 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 18:19:36 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 18:21:22 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 18:41:41 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 18:44:18 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 18:44:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 18:44:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 18:49:07 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 18:49:07 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 18:49:32 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/ ####################
+03/07/2015 18:49:32 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 18:50:08 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 18:50:08 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 18:50:13 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 18:50:14 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 18:50:15 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 18:50:15 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 18:51:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/profiler ####################
+03/07/2015 18:51:21 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 18:51:26 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/scaffolding/
+#################### END OF EXECUTION OF http://www.gcsystem.dev/scaffolding/ ####################
+03/07/2015 18:51:29 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 18:51:29 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 18:51:31 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/profiler ####################
+03/07/2015 18:51:31 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 18:51:39 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 18:51:39 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 18:51:40 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/profiler ####################
+03/07/2015 18:51:41 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 18:51:46 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 18:51:47 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 18:51:48 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/profiler ####################
+03/07/2015 18:51:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 18:59:51 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/profiler ####################
+03/07/2015 18:59:51 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 19:12:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/profiler ####################
+03/07/2015 19:12:50 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 19:13:12 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/ ####################
+03/07/2015 19:13:12 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 19:13:19 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/profiler ####################
+03/07/2015 19:13:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 19:17:01 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/profiler ####################
+03/07/2015 19:17:01 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 19:20:33 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/ ####################
+03/07/2015 19:20:33 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 19:20:36 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/ ####################
+03/07/2015 19:20:37 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://1dd7cfb7.ngrok.io/favicon.ico
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/favicon.ico ####################
+03/07/2015 19:56:43 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 19:56:43 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 19:59:58 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/ ####################
+03/07/2015 19:59:58 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:00:00 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:00:00 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:03:19 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:03:19 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:03:21 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:05:22 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:05:23 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:05:23 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:05:24 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:06:35 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:06:52 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:06:52 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:10:40 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://1dd7cfb7.ngrok.io/favicon.ico
+03/07/2015 20:10:40 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://1dd7cfb7.ngrok.io/favicon.ico
+03/07/2015 20:10:40 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://1dd7cfb7.ngrok.io/favicon.ico
+03/07/2015 20:10:41 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://1dd7cfb7.ngrok.io/favicon.ico
+03/07/2015 20:13:46 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:13:47 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:16:06 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/ ####################
+03/07/2015 20:16:06 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:16:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/ ####################
+03/07/2015 20:16:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:16:21 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/ ####################
+03/07/2015 20:16:22 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:16:23 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/ ####################
+03/07/2015 20:16:24 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://1dd7cfb7.ngrok.io/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:16:28 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:16:28 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:16:31 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 20:16:31 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:21:12 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:21:15 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:21:17 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:21:22 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:21:23 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:21:34 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:21:46 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:22:11 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:22:44 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:22:45 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:23:34 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:24:00 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:24:29 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:24:30 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:24:30 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:27:48 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:27:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:27:50 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:29:04 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:29:11 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:29:32 : [FATAL] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\TemplateParser.php / line 340 / The Template can't be extended by "vendor/gcsystem/scaffolding/template/main.tpl"
+03/07/2015 20:29:32 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:29:48 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:29:50 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:29:50 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:30:00 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:30:03 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:30:03 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:30:23 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:30:23 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/4c9b1f92c818f3a21a20fae1a23d3a69c13a91e7.css ####################
+03/07/2015 20:30:27 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:30:27 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:31:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:31:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:31:29 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:31:29 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:31:47 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:31:47 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:35:26 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:35:27 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:36:33 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:36:33 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:36:36 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionHome" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/ ####################
+03/07/2015 20:36:57 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionEntity" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/Article ####################
+03/07/2015 20:36:57 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:37:55 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionEntity" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/Article ####################
+03/07/2015 20:37:55 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:38:30 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionEntity" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 ####################
+03/07/2015 20:38:30 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:38:50 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionEntity" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 ####################
+03/07/2015 20:38:51 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:39:04 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionEntity" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 ####################
+03/07/2015 20:39:04 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:39:13 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 ####################
+03/07/2015 20:39:31 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/Article/1 ####################
+03/07/2015 20:39:59 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionEntity" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/Article/insert/1 ####################
+03/07/2015 20:39:59 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:40:06 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionEntity" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/Article/insert/1 ####################
+03/07/2015 20:40:06 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:40:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionEntity" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/Article/insert/1 ####################
+03/07/2015 20:40:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:40:16 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionEntity" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 ####################
+03/07/2015 20:40:16 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:40:43 : [MissingTemplateException] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\Template.php / line 150 / can't open template file "vendor/gcsystem/scaffolding/src/template/.tpl"
+03/07/2015 20:41:05 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 ####################
+03/07/2015 20:41:05 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 20:48:42 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:48:43 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:48:55 : [FATAL] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Template\TemplateParser.php / line 340 / The Template can't be extended by "src/gcs/resource/template/main.tpl"
+03/07/2015 20:48:55 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:48:55 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:49:06 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:49:06 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 20:49:25 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 20:49:25 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:05:42 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 ####################
+03/07/2015 21:05:42 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 21:05:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 21:05:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 21:06:21 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 21:06:21 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 21:10:40 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 21:10:40 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 21:11:13 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 21:11:13 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 21:11:16 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 ####################
+03/07/2015 21:11:16 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 21:11:32 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 ####################
+03/07/2015 21:11:43 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 ####################
+03/07/2015 21:11:48 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 21:11:48 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 21:18:41 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 21:18:41 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 21:18:53 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 21:18:53 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 21:19:04 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/1 ####################
+03/07/2015 21:19:06 : [WARNING] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 340 / routing failed : http://www.gcsystem.dev/gcs/
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/ ####################
+03/07/2015 21:19:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:19:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:19:23 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:19:23 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:19:25 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:20:34 : [EXCEPTION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Facade\Facade.php / line 80 / undefined method "_parse" in "F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Config\Config.php" line 145
+03/07/2015 21:20:46 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:20:46 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:21:06 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:21:06 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:21:28 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:21:28 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:21:39 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:21:39 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:22:01 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:01 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:05 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:05 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:10 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:10 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:22:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:22:37 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:37 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:46 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:46 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:47 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:47 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:47 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:47 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:47 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:47 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:47 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:47 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:48 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:48 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:48 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:48 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:48 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:48 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:49 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:49 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:49 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:49 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:49 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:49 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:50 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:50 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:50 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:50 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:22:50 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:22:50 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:23:24 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:23:24 : [object] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Profiler\Profiler.php / line 123 / Serialization of 'SimpleXMLElement' is not allowed
+03/07/2015 21:23:37 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:23:37 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:23:42 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:23:42 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:23:56 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:23:56 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 290 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:31:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:31:20 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:32:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:32:09 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:32:44 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:32:44 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:32:45 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:32:46 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:32:58 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:32:58 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:43:04 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:43:05 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:43:52 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 21:43:52 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 292 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 21:50:53 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 21:50:53 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 21:51:21 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 21:51:21 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 22:19:41 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 22:19:41 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 22:47:39 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 22:47:40 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 22:47:41 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 22:47:41 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 22:47:48 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 22:47:48 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 22:48:59 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 22:48:59 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 22:54:43 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 22:54:43 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 22:54:45 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 22:54:45 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 22:56:16 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/ ####################
+03/07/2015 22:56:16 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+03/07/2015 22:56:18 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Scaffolding/actionInsert" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/scaffolding/entity/insert/Article ####################
+03/07/2015 22:56:18 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+03/07/2015 22:56:19 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/profiler ####################
+03/07/2015 22:56:19 : [INFORMATION] file F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 291 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################

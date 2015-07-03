@@ -1,8 +1,0 @@
-CREATE TABLE IF NOT EXISTS `<?php echo ($table); ?>` (
-	`id` int(11) NOT NULL AUTO_INCREMENT,
-	`<?php echo ($entity1); ?>_<?php echo ($field1); ?>` int(11) NOT NULL,
-	`<?php echo ($entity2); ?>_<?php echo ($field2); ?>` int(11) NOT NULL,
-	PRIMARY KEY (`id`),
-	FOREIGN KEY (<?php echo ($entity1); ?>_<?php echo ($field1); ?>) REFERENCES <?php echo ($entity1); ?>(<?php echo ($field1); ?>),
-	FOREIGN KEY (<?php echo ($entity2); ?>_<?php echo ($field2); ?>) REFERENCES <?php echo ($entity2); ?>(<?php echo ($field2); ?>)
-);

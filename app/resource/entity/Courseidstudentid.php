@@ -16,10 +16,10 @@
 			$this->field('student_id')
 				->type(Field::INT)
 				->beNull(false)
-				->foreign(ForeignKey::MANY_TO_ONE, ['student', 'id']);
+				->foreign(['type' => ForeignKey::MANY_TO_ONE, 'reference' => ['student', 'id']]);
 			$this->field('course_id')
 				->type(Field::INT)
 				->beNull(false)
-				->foreign(ForeignKey::MANY_TO_ONE, ['course', 'id']);
+				->foreign(['type' => ForeignKey::MANY_TO_ONE, 'reference' => ['course', 'id']]);
 		}
 	}

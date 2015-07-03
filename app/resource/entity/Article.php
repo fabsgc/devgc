@@ -1,6 +1,7 @@
 <?php
 	namespace Orm\Entity;
 
+	use System\Orm\Builder;
 	use System\Orm\Entity\Entity;
 	use System\Orm\Entity\Field;
 	use System\Orm\Entity\ForeignKey;
@@ -20,6 +21,12 @@
 				->size(65536)
 				->beNull(false);
 			$this->field('posts')
-				->foreign(ForeignKey::ONE_TO_MANY, ['Post', 'article'], ['Article', 'id'], ForeignKey::COMPOSITION);
+				->foreign([
+					'type' => ForeignKey::ONE_TO_MANY,
+					'reference' => ['Post', 'article'],
+					'current' => ['Article', 'id'],
+					'belong' => ForeignKey::COMPOSITION,
+					'join' => Builder::JOIN_LEFT
+				]);
 		}
 	}

@@ -17,6 +17,6 @@
 				->size(255)
 				->beNull(false);
 			$this->field('students')
-				->foreign(ForeignKey::MANY_TO_MANY, ['Student', 'id'], ['Course', 'id']);
+				->foreign(['type' => ForeignKey::MANY_TO_MANY, 'reference' => ['Student', 'id'], 'current' => ['Course', 'id']]);
 		}
 	}
