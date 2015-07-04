@@ -10,6 +10,7 @@
 	
 	namespace System\Engine;
 
+	use System\Controller\Injector\Injector;
 	use System\General\di;
 	use System\General\error;
 	use System\General\langs;
@@ -64,6 +65,7 @@
 			$this->response = Response::getInstance();
 			$this->profiler = Profiler::getInstance();
 			$this->config   = Config::getInstance();
+			                  Injector::getInstance();
 		}
 
 		/**
@@ -161,17 +163,28 @@
 				}
 			}
 
+			$this->request->data->post   =                                 $_POST;
+			$this->request->data->get    =                                  $_GET;
+			$this->request->data->method = strtolower($_SERVER['REQUEST_METHOD']);
+
+			if(isset($_POST['request-post']))
+				$this->request->data->method = 'post';
+			else if(isset($_POST['request-put']))
+				$this->request->data->method = 'put';
+			else if(isset($_POST['request-delete']))
+				$this->request->data->method = 'delete';
+
 			if($matchedRoute = $router->getRoute(preg_replace('`\?'.preg_quote($_SERVER['QUERY_STRING']).'`isU', '', $_SERVER['REQUEST_URI']), $this->config)){
 				$_GET = array_merge($_GET, $matchedRoute->vars());
 
-				$this->request->name       =         $matchedRoute->name();
-				$this->request->src        =          $matchedRoute->src();
-				$this->request->controller =   $matchedRoute->controller();
-				$this->request->action     =       $matchedRoute->action();
-				$this->request->logged     =       $matchedRoute->logged();
-				$this->request->access     =       $matchedRoute->access();
-				$this->request->method     =       $matchedRoute->method();
-				$this->request->auth       = new Auth($this->request->src);
+				$this->request->name         =         $matchedRoute->name();
+				$this->request->src          =          $matchedRoute->src();
+				$this->request->controller   =   $matchedRoute->controller();
+				$this->request->action       =       $matchedRoute->action();
+				$this->request->logged       =       $matchedRoute->logged();
+				$this->request->access       =       $matchedRoute->access();
+				$this->request->method       =       $matchedRoute->method();
+				$this->request->auth         = new Auth($this->request->src);
 
 				if(CACHE_ENABLED == true && $matchedRoute->cache() != '')
 					$this->request->cache = $matchedRoute->cache();

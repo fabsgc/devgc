@@ -25,6 +25,7 @@
 	 * @property string method
 	 * @property string lang
 	 * @property \System\Request\Auth auth
+	 * @property \System\Request\Data data
 	*/
 	class Request{
 		use error, singleton;
@@ -44,7 +45,8 @@
 			'access'     =>  '*',
 			'method'     =>  '*',
 			'lang'       => LANG,
-			'auth'       =>    ''
+			'auth'       =>   '',
+			'data'       => null
 		);
 
 		/**
@@ -55,6 +57,7 @@
 		*/
 
 		private function __construct (){
+			$this->param['data'] = Data::getInstance();
 		}
 
 		/**

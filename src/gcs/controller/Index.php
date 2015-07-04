@@ -1,6 +1,7 @@
 <?php
 	namespace gcs;
 
+	use Controller\Request\FormRequest;
 	use System\Controller\Controller;
 	use System\Orm\Entity;
 
@@ -12,6 +13,23 @@
 		
 		public function actionDefault(){
 			return self::Template('index/default', 'gcsDefault')
+				->show();
+		}
+
+		public function actionGet(){
+			return self::Template('index/form', 'formDefault')
+				->show();
+		}
+
+		public function actionPost(FormRequest $request){
+			return self::Template('index/form', 'formDefault')
+				->assign('request', $request)
+				->show();
+		}
+
+		public function actionPut(FormRequest $request){
+			return self::Template('index/form', 'formDefault')
+				->assign('request', $request)
 				->show();
 		}
 
