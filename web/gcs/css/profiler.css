@@ -33,6 +33,7 @@ section .content-section{
     padding: 10px;
 }
 input[type='submit'] {
+    width: 115px;
     display: inline-block;
     line-height: 34px;
     margin: 0;
@@ -41,7 +42,6 @@ input[type='submit'] {
     border-radius: 2px;
     color: white;
     font-size: 17px;
-    color: white !important;
     padding: 0 10px;
     -webkit-transition-duration: 0.15s;
     -moz-transition-duration: 0.15s;

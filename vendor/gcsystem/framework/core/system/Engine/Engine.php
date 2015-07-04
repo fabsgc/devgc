@@ -165,6 +165,7 @@
 
 			$this->request->data->post   =                                 $_POST;
 			$this->request->data->get    =                                  $_GET;
+			$this->request->data->file   =                                $_FILES;
 			$this->request->data->method = strtolower($_SERVER['REQUEST_METHOD']);
 
 			if(isset($_POST['request-post']))

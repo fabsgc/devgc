@@ -32,6 +32,7 @@
 			'get'     => [],
 			'post'    => [],
 			'cookie'  => [],
+			'file'    => [],
 			'session' => []
 		);
 

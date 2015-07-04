@@ -21,5 +21,8 @@
 		<group name="maintenance">
 			<lang name="title">Maintenance</lang>
 		</group>
+		<group name="form">
+			<lang name="exist">Le champs n'existe pas</lang>
+		</group>
 	</group>
 </root>

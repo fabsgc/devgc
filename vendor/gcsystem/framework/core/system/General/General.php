@@ -113,6 +113,7 @@
 	 * @method \System\Template\Template Template
 	 * @method \System\Terminal\Terminal Terminal
 	 * @method \System\AssetManager\AssetManager AssetManager
+	 * @method \System\Orm\Validation\Validation OrmValidation
 	 * @method \System\Orm\Entity\Multiple EntityMultiple
 	 * @method \System\Template\TemplateParser TemplateParser
 	 * @method \System\Config\Config Config

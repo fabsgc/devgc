@@ -615,8 +615,8 @@
 				'`<'.$this->_name.preg_quote($this->markup['foreach'][0]).$this->_spaceR.preg_quote($this->markup['foreach'][1]).$this->_space.'="'.$this->_space.'(.+)'.$this->_space.'"'.$this->_spaceR.preg_quote($this->markup['foreach'][2]).$this->_space.'='.$this->_space.'"(.+)'.$this->_space.'"'.$this->_space.'>`sU',
 				'`</'.$this->_name.preg_quote($this->markup['foreach'][0]).$this->_space.'>`sU'
 			),array(
-				'<?php if(isset($1)) { foreach(\1 as \2) { ?>',
-				'<?php }} ?>'
+				'<?php foreach(\1 as \2) { ?>',
+				'<?php } ?>'
 			),
 			$this->_content);
 		}

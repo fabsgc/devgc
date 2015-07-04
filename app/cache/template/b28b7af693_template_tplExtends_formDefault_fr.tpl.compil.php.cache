@@ -32,7 +32,9 @@
     function updateHeight(){
         document.getElementById('main').style.height = window.innerHeight - document.getElementById('header').offsetHeight - document.getElementById('footer').offsetHeight + "px";
 		if(document.getElementById('page'))
-			document.getElementById('page').style.width = window.innerWidth - 165 + "px";
+			document.getElementById('page').style.width = window.innerWidth - document.getElementById('submit').offsetWidth - 50 + "px";
+		if(document.getElementById('form'))
+			document.getElementById('form').style.width = window.innerWidth - document.getElementById('submit').offsetWidth - 30 + "px";
 	}
 </script>
 </body>
