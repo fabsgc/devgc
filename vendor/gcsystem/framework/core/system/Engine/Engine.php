@@ -555,14 +555,14 @@
 						if(!array_key_exists($path.$entry, $GLOBALS['eventListeners'])){
 							include_once($path.$entry);
 
-							$event = '\event\\'.preg_replace('#(.+)'.preg_quote(EXT_EVENT.'.php').'#', '$1', $entry);
-							$event = preg_replace('#'.preg_quote('/').'#', '\\', $event);
-
-							if($src == null)
-								$event = '\app'.$event;
-							else
-								$event = '\\'.$src.$event;
-
+							if($src != null) {
+								$event = '\Event\\' . ucfirst($src) . '\\' . preg_replace('#(.+)' . preg_quote(EXT_EVENT . '.php') . '#', '$1', $entry);
+								$event = preg_replace('#' . preg_quote('/') . '#', '\\', $event);
+							}
+							else{
+								$event = '\Event\\' . preg_replace('#(.+)' . preg_quote(EXT_EVENT . '.php') . '#', '$1', $entry);
+								$event = preg_replace('#' . preg_quote('/') . '#', '\\', $event);
+							}
 
 							$GLOBALS['eventListeners'][''.$path.$entry.''] = new $event();
 						}

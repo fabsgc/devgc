@@ -1,5 +1,5 @@
 <?php
-	namespace Controller\Request;
+	namespace Controller\Request\Gcs;
 
 	use \System\Request\Form;
 

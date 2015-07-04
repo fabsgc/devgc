@@ -1,7 +1,7 @@
 <?php
-	namespace gcs;
+	namespace Gcs;
 
-	use Controller\Request\FormRequest;
+	use Controller\Request\Gcs\FormRequest;
 	use System\Controller\Controller;
 	use System\Orm\Entity;
 

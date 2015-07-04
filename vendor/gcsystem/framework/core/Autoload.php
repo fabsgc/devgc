@@ -33,11 +33,6 @@
 				include_once(SYSTEM_CORE_PATH.$class.'.php');
 				return;
 			}
-
-			if(file_exists(APP_RESOURCE_EVENT_PATH.$class.EXT_EVENT.'.php')){
-				include_once(APP_RESOURCE_EVENT_PATH.$class.EXT_EVENT.'.php');
-				return;
-			}
 			
 			if(file_exists(APP_RESOURCE_PATH.lcfirst(str_replace('Orm/', '', $class)).EXT_ENTITY.'.php')){
 				include_once(APP_RESOURCE_PATH.lcfirst(str_replace('Orm/', '', $class)).EXT_ENTITY.'.php');
@@ -59,33 +54,16 @@
 				return;
 			}
 
-			if ($handle = opendir(SRC_PATH)) {
-				while (false !== ($entry = readdir($handle))) {
-					if($entry != '..' && is_dir($entry)){
-						if(file_exists(SRC_PATH.$entry.SRC_RESOURCE_EVENT_PATH.$class.EXT_ENTITY.'.php')){
-							include_once(SRC_PATH.$entry.SRC_RESOURCE_EVENT_PATH.$class.EXT_ENTITY.'.php');
-							return;
-						}
-					}
-				}
-
-				closedir($handle);
-			}
-
 			if(file_exists(APP_RESOURCE_REQUEST_PATH.preg_replace('#Controller\/Request\/#isU', '', $class).'.php')){
 				include_once(APP_RESOURCE_REQUEST_PATH.preg_replace('#Controller\/Request\/#isU', '', $class).'.php');
 				return;
 			}
 
-			if ($handle = opendir(SRC_PATH)) {
-				while (false !== ($entry = readdir($handle))) {
-					if(file_exists(SRC_PATH.$entry.'/'.SRC_RESOURCE_REQUEST_PATH.preg_replace('#Controller\/Request\/#isU', '', $class).'.php')){
-						include_once(SRC_PATH.$entry.'/'.SRC_RESOURCE_REQUEST_PATH.preg_replace('#Controller\/Request\/#isU', '', $class).'.php');
-						return;
-					}
-				}
+			$formRequest = preg_replace('#(Controller\/Request\/)([a-zA-Z]+)(\/)([a-zA-Z]+)#is', '$2', $class);
 
-				closedir($handle);
+			if(file_exists(SRC_PATH.strtolower($formRequest).'/'.SRC_RESOURCE_REQUEST_PATH.preg_replace('#Controller\/Request\/'.$formRequest.'\/#isU', '', $class).'.php')){
+				include_once(SRC_PATH.strtolower($formRequest).'/'.SRC_RESOURCE_REQUEST_PATH.preg_replace('#Controller\/Request\/'.$formRequest.'\/#isU', '', $class).'.php');
+				return;
 			}
 
 			throw new Exception('Class "'.$class.'" not found');
