@@ -24,10 +24,10 @@
 			$data = $cache->getCache();
 
 			if($data != ''){
-				$t = $this->Template('profiler/default', 'gcsProfiler', '0');
-				$t->assign(array('data' => $cache->getCache()));
-
-				return $t->show();
+				return self::Template('profiler/default', 'gcsProfiler', '0')
+					->assign('data', $cache->getCache())
+					->assign('title', 'Profiler ['.$data['url'].']')
+					->show();
 			}
 			else{
 				self::Response()->status(404);
