@@ -24,9 +24,9 @@
 		*/
 
 		private $_alias = array(
-			'Pagination' => '\helper\Pagination\Pagination',
-			'Mail'       =>             '\helper\Mail\Mail',
-			'Alert'      =>            '\helper\Alert\Alert'
+			'Pagination' => '\Helper\Pagination\Pagination',
+			'Mail'       =>             '\Helper\Mail\Mail',
+			'Alert'      =>            '\Helper\Alert\Alert'
 		);
 
 		/**
