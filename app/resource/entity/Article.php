@@ -29,4 +29,8 @@
 					'join' => Builder::JOIN_LEFT
 				]);
 		}
+
+		public function beforeUpdate(){
+			//echo 'test';
+		}
 	}

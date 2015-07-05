@@ -3,6 +3,7 @@
 	<input type="hidden" name="request-put"/>
 	<input type="text" id="form" name="text" placeholder="entrez une valeur" />
 	<input type="submit" id="submit" value="envoyer"/>
+	<input type="text" name="captcha" placeholder="entrez une valeur" />
 </form>
 <p>
 	<gc:if condition="isset($request)">

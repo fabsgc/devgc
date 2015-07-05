@@ -3,7 +3,7 @@
 	 | ------------------------------------------------------
 	 | @file : Validation.php
 	 | @author : fab@c++
-	 | @description : contain data from headers
+	 | @description : request validation
 	 | @version : 3.0 Bêta
 	 | ------------------------------------------------------
 	\*/

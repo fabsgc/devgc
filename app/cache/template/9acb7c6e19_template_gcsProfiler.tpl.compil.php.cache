@@ -26,9 +26,9 @@
 </div>
 <div class="content-section">
 	<ul>
-		<?php if(isset($data['timeUser'])) { foreach($data['timeUser'] as $key => $value) { ?>
+		<?php foreach($data['timeUser'] as $key => $value) { ?>
 			<li><strong><?php echo ($key); ?></strong> : <?php echo ($value); ?></li>
-		<?php }} ?>
+		<?php } ?>
 	</ul>
 </div>
 </section>
@@ -72,7 +72,7 @@
 	<h3><?php echo $this->useLang('gcs.profiler.sql',array()); ?></h3>
 </div>
 <div class="content-section">
-	<?php if(isset($data['sql'])) { foreach($data['sql'] as $key => $value) { ?>
+	<?php foreach($data['sql'] as $key => $value) { ?>
 		<div class="query-header"><?php echo ($key); ?> (<?php echo ($value['time']); ?> ms)</div>
 		<div>
 			<pre><?php 
@@ -81,7 +81,7 @@
 				 ?>
 			</pre>
 		</div>
-	<?php }} ?>
+	<?php } ?>
 </div>
 </section>
 <section>
@@ -90,9 +90,9 @@
 </div>
 <div class="content-section">
 	<ul>
-		<?php if(isset($data['template'])) { foreach($data['template'] as $key => $value) { ?>
+		<?php foreach($data['template'] as $key => $value) { ?>
 			<li><?php echo ($key); ?> (<?php echo ($value['time']); ?> ms)</li>
-		<?php }} ?>
+		<?php } ?>
 	</ul>
 </div>
 </section>
@@ -160,9 +160,9 @@
 </div>
 <div class="content-section">
 	<ul>
-		<?php if(isset($data['controller'])) { foreach($data['controller'] as $key => $value) { ?>
+		<?php foreach($data['controller'] as $key => $value) { ?>
 			<li><?php echo ($value); ?></li>
-		<?php }} ?>
+		<?php } ?>
 	</ul>
 </div>
 </section>

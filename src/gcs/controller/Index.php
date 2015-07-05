@@ -2,6 +2,7 @@
 	namespace Gcs;
 
 	use Controller\Request\Gcs\FormRequest;
+	use Orm\Entity\Article;
 	use System\Controller\Controller;
 	use System\Orm\Entity;
 
@@ -30,7 +31,7 @@
 				->show();
 		}
 
-		public function actionPut(FormRequest $request){
+		public function actionPut(FormRequest $request, Article $article){
 			return self::Template('index/form', 'formDefault')
 				->assign('title', 'Injection Formulaire')
 				->assign('request', $request)

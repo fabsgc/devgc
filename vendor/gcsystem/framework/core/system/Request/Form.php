@@ -116,7 +116,7 @@
 		}
 
 		/**
-		 * Is the request valid ?
+		 * get errors list
 		 * @access public
 		 * @return string[]
 		 * @since 3.0

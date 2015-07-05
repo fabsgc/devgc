@@ -53,12 +53,13 @@ input[type='submit'] {
     border: none;
     outline:none;
     position: relative;
-    top: 1px;
+    top: 0px;
 }
 input[type='text']  {
     width: 500px;
     padding: 8px;
     outline:none;
+    margin-bottom: 8px;
 }
 .query-header{
     width: 100%;

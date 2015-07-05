@@ -11,6 +11,7 @@
 	namespace System\Orm\Entity;
 
 	use System\Exception\MissingEntityException;
+	use \System\Orm\Validation\Validation;
 	use System\General\facades;
 	use System\Orm\Builder;
 	use System\Sql\Sql;
@@ -44,6 +45,13 @@
 		protected $_token = '';
 
 		/**
+		 * We put errors inside
+		 * @var \System\Orm\Validation\Validation
+		*/
+
+		protected $validation = null;
+
+		/**
 		 * Constructor
 		 * @access public
 		 * @throws MissingEntityException
@@ -56,6 +64,7 @@
 			$this->tableDefinition();
 			$this->_getPrimary();
 			$this->_token = rand(0,100);
+			$this->validation = new Validation();
 
 			if($this->_primary == '')
 				throw new MissingEntityException('The entity '.$this->_name.' does not have any primary key');
@@ -473,9 +482,6 @@
 							if(in_array($field->type, array(Field::INCREMENT, Field::INT, Field::FLOAT))){
 								$sql->vars($field->name, array($field->value, sql::PARAM_INT));
 							}
-							if(in_array($field->type, array(Field::FLOAT))){
-								$sql->vars($field->name, array($field->value, sql::PARAM_LOB));
-							}
 							else if(in_array($field->type, array(Field::CHAR, Field::TEXT, Field::STRING, Field::DATE, Field::DATETIME, Field::TIME, Field::TIMESTAMP))){
 								$sql->vars($field->name, array($field->value, sql::PARAM_STR));
 							}
@@ -745,9 +751,6 @@
 							if(in_array($field->type, array(Field::INCREMENT, Field::INT, Field::FLOAT))){
 								$sql->vars($field->name, array($field->value, sql::PARAM_INT));
 							}
-							if(in_array($field->type, array(Field::FLOAT))){
-								$sql->vars($field->name, array($field->value, sql::PARAM_LOB));
-							}
 							else if(in_array($field->type, array(Field::CHAR, Field::TEXT, Field::STRING, Field::DATE, Field::DATETIME, Field::TIME, Field::TIMESTAMP))){
 								$sql->vars($field->name, array($field->value, sql::PARAM_STR));
 							}
@@ -976,6 +979,123 @@
 
 			if(!$transaction)
 				self::Database()->db()->commit();
+		}
+
+		/**
+		 * We can check the validity of a GET request thanks to this method that you can override
+		 * @access public
+		 * @return void
+		 * @since 3.0
+		 * @package System\Request
+		 */
+
+		public function beforeInsert(){
+		}
+
+		/**
+		 * We can check the validity of a POST request thanks to this method that you can override
+		 * @access public
+		 * @return void
+		 * @since 3.0
+		 * @package System\Request
+		 */
+
+		public function beforeUpdate(){
+		}
+
+		/**
+		 * We can check the validity of a PUT request thanks to this method that you can override
+		 * @access public
+		 * @return void
+		 * @since 3.0
+		 * @package System\Request
+		*/
+
+		public function beforeDelete(){
+		}
+
+		/**
+		 * Check
+		 * @access public
+		 * @return void
+		 * @since 3.0
+		 * @package System\Request
+		*/
+
+		public function check(){
+			$this->validation->check();
+		}
+
+		/**
+		 * Is the entity valid ?
+		 * @access public
+		 * @return boolean
+		 * @since 3.0
+		 * @package System\Request
+		*/
+
+		public function valid(){
+			return $this->validation->valid();
+		}
+
+		/**
+		 * get errors list
+		 * @access public
+		 * @return string[]
+		 * @since 3.0
+		 * @package System\Request
+		*/
+
+		public function errors(){
+			return $this->validation->errors();
+		}
+
+		/**
+		 * Before validation, we must inserting all the data
+		 * @access public
+		 * @param $data array
+		 * @return void
+		 * @since 3.0
+		 * @package System\Request
+		*/
+
+		public function hydrate($data){
+			foreach($this->_fields as $field){
+				if($field->foreign != null){
+					switch($field->foreign->type()){
+						case ForeignKey::ONE_TO_ONE :
+
+						break;
+
+						case ForeignKey::MANY_TO_ONE :
+
+						break;
+
+						case ForeignKey::ONE_TO_MANY :
+
+						break;
+
+						case ForeignKey::MANY_TO_MANY :
+
+						break;
+					}
+				}
+				if(in_array($field->type, array(Field::INCREMENT, Field::INT, Field::FLOAT))){
+
+				}
+				else if(in_array($field->type, array(Field::CHAR, Field::TEXT, Field::STRING, Field::DATE, Field::DATETIME, Field::TIME, Field::TIMESTAMP))){
+
+				}
+				else if(in_array($field->type, array(Field::BOOL))){
+
+				}
+				else if(in_array($field->type, array(Field::FILE))){
+
+				}
+				else{
+
+				}
+			}
 		}
 
 
