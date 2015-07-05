@@ -10,7 +10,6 @@
 
 	namespace System;
 
-	use System\Exception\Exception;
 	use System\General\facades;
 
 	require_once(APP_FUNCTION);
@@ -22,7 +21,6 @@
 		/**
 		 * Autoloader for classes
 		 * @param $class string
-		 * @throws Exception
 		 * @return void
 		*/
 
@@ -65,8 +63,6 @@
 				include_once(SRC_PATH.strtolower($formRequest).'/'.SRC_RESOURCE_REQUEST_PATH.preg_replace('#Controller\/Request\/'.$formRequest.'\/#isU', '', $class).'.php');
 				return;
 			}
-
-			throw new Exception('Class "'.$class.'" not found');
 		}
 	}
 
