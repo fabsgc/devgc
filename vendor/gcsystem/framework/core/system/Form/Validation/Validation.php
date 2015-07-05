@@ -10,6 +10,9 @@
 
 	namespace System\Form\Validation;
 
+	use System\Form\Validation\Element\Checkbox;
+	use System\Form\Validation\Element\File;
+	use System\Form\Validation\Element\Radio;
 	use System\Form\Validation\Element\Text;
 
 	class Validation{
@@ -45,6 +48,8 @@
 		*/
 
 		public function check(){
+			$this->_errors = array();
+
 			/** @var $element \System\Form\Validation\Element\Element */
 			foreach($this->_elements as $element){
 				$element->check();
@@ -96,6 +101,54 @@
 			$text = new Text($field, $label);
 			array_push($this->_elements, $text);
 			return $text;
+		}
+
+		/**
+		 * add checkbox element
+		 * @access public
+		 * @param $field string
+		 * @param $label string
+		 * @return \System\Form\Validation\Element\Checkbox
+		 * @since 3.0
+		 * @package System\Form\Validation
+		*/
+
+		public function checkbox($field, $label){
+			$checkbox = new Checkbox($field, $label);
+			array_push($this->_elements, $text);
+			return $checkbox;
+		}
+
+		/**
+		 * add radio element
+		 * @access public
+		 * @param $field string
+		 * @param $label string
+		 * @return \System\Form\Validation\Element\Radio
+		 * @since 3.0
+		 * @package System\Form\Validation
+		*/
+
+		public function radio($field, $label){
+			$radio = new Radio($field, $label);
+			array_push($this->_elements, $text);
+			return $radio;
+		}
+
+		/**
+		 * add file element
+		 * @access public
+		 * @param $field string
+		 * @param $label string
+		 * @return \System\Form\Validation\Element\File
+		 * @since 3.0
+		 * @package System\Form\Validation
+		 */
+
+		public function file($field, $label){
+			$file = new File($field, $label);
+			array_push($this->_elements, $text);
+			return $file;
 		}
 
 		/**

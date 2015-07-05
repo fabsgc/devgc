@@ -1,9 +1,9 @@
 <?php
 	/*\
 	 | ------------------------------------------------------
-	 | @file : Input.php
+	 | @file : Radio.php
 	 | @author : fab@c++
-	 | @description : input text validation
+	 | @description : radio validation
 	 | @version : 3.0 Bêta
 	 | ------------------------------------------------------
 	\*/
@@ -12,17 +12,15 @@
 
 	use System\General\facades;
 
-	class Text extends Element{
+	class Radio extends Element{
 		use facades;
-
-		const CONSTRAINT_EQUAL = 0;
 
 		/**
 		 * constructor
 		 * @access public
 		 * @param $field string
 		 * @param $label string
-		 * @return \System\Form\Validation\Element\Text
+		 * @return \System\Form\Validation\Element\Radio
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
 		*/
@@ -43,28 +41,6 @@
 		}
 
 		/**
-		 * the field must be equal to
-		 * @access public
-		 * @param $equal string
-		 * @param $error string
-		 * @return \System\Form\Validation\Element\Text
-		 * @since 3.0
-		 * @package System\Form\Validation\Element
-		*/
-
-		public function equal($equal, $error){
-			if($this->_exist){
-				array_push($this->_constraints, [
-					'type' => self::CONSTRAINT_EQUAL,
-					'value' => $equal,
-					'message' => $error
-				]);
-			}
-
-			return $this;
-		}
-
-		/**
 		 * check validity
 		 * @access public
 		 * @return void
@@ -77,14 +53,6 @@
 
 			foreach($this->_constraints as $constraint){
 				switch($constraint['type']){
-					case self::CONSTRAINT_EQUAL:
-						if($this->_data[$this->_field] != $constraint['value']){
-							array_push($this->_errors, [
-								'field' => $this->_label,
-								'message' => $constraint['message']
-							]);
-						}
-					break;
 				}
 			}
 		}

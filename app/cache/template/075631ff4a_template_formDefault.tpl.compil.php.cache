@@ -17,9 +17,9 @@
         
 <form action="<?php echo $this->getUrl('get', array()); ?>" method="post">
 	<input type="hidden" name="request-put"/>
-	<input type="text" id="form" name="text" placeholder="entrez une valeur" />
+	<input type="text" name="text" placeholder="texte" /><br />
+	<input type="text" name="captcha" placeholder="captcha" /><br />
 	<input type="submit" id="submit" value="envoyer"/>
-	<input type="text" name="captcha" placeholder="entrez une valeur" />
 </form>
 <p>
 	<?php if(isset($request)) { ?>

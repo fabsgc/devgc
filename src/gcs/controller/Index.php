@@ -35,6 +35,7 @@
 			return self::Template('index/form', 'formDefault')
 				->assign('title', 'Injection Formulaire')
 				->assign('request', $request)
+				->assign('article', $article)
 				->show();
 		}
 

@@ -43,6 +43,8 @@
 		*/
 
 		public function check(){
+			$this->_errors = array();
+
 			/** @var $element \System\Orm\Validation\Element\Element */
 			foreach($this->_elements as $element){
 				$element->check();

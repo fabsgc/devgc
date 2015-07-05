@@ -95,6 +95,7 @@
 		*/
 
 		public function check(){
+			$this->_errors = array();
 		}
 
 		/**
