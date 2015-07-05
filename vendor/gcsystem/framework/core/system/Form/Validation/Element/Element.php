@@ -15,6 +15,8 @@
 	abstract class Element{
 		use facades;
 
+		const CONSTRAINT_EQUAL = 0;
+
 		/**
 		 * post, put, get data
 		 * @var $_data array
@@ -123,6 +125,29 @@
 
 		public function errors(){
 			return $this->_errors;
+		}
+
+
+		/**
+		 * the field must be equal to
+		 * @access public
+		 * @param $equal string
+		 * @param $error string
+		 * @return \System\Form\Validation\Element\Text
+		 * @since 3.0
+		 * @package System\Form\Validation\Element
+		*/
+
+		public function equal($equal, $error){
+			if($this->_exist){
+				array_push($this->_constraints, [
+					'type' => self::CONSTRAINT_EQUAL,
+					'value' => $equal,
+					'message' => $error
+				]);
+			}
+
+			return $this;
 		}
 
 		/**

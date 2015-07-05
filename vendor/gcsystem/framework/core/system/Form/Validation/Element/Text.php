@@ -15,8 +15,6 @@
 	class Text extends Element{
 		use facades;
 
-		const CONSTRAINT_EQUAL = 0;
-
 		/**
 		 * constructor
 		 * @access public
@@ -37,28 +35,6 @@
 				]);
 
 				$this->_exist = false;
-			}
-
-			return $this;
-		}
-
-		/**
-		 * the field must be equal to
-		 * @access public
-		 * @param $equal string
-		 * @param $error string
-		 * @return \System\Form\Validation\Element\Text
-		 * @since 3.0
-		 * @package System\Form\Validation\Element
-		*/
-
-		public function equal($equal, $error){
-			if($this->_exist){
-				array_push($this->_constraints, [
-					'type' => self::CONSTRAINT_EQUAL,
-					'value' => $equal,
-					'message' => $error
-				]);
 			}
 
 			return $this;
