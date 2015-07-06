@@ -18,7 +18,8 @@
 	 * @property array get
 	 * @property array post
 	 * @property array put
-	 */
+	 * @property array file
+	*/
 	class Data{
 		use singleton;
 
@@ -49,6 +50,7 @@
 		/**
 		 * singleton
 		 * @access public
+		 * @return \System\Request\Data
 		 * @since 3.0
 		 * @package System\Request
 		*/

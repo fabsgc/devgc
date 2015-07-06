@@ -49,12 +49,8 @@
 		*/
 
 		public function check(){
-			parent::check();
-
-			foreach($this->_constraints as $constraint){
-				switch($constraint['type']){
-				}
-			}
+			if($this->_exist)
+				parent::check();
 		}
 
 		/**

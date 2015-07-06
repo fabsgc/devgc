@@ -13,6 +13,7 @@
 	use System\Form\Validation\Element\Checkbox;
 	use System\Form\Validation\Element\File;
 	use System\Form\Validation\Element\Radio;
+	use System\Form\Validation\Element\Select;
 	use System\Form\Validation\Element\Text;
 
 	class Validation{
@@ -115,7 +116,7 @@
 
 		public function checkbox($field, $label){
 			$checkbox = new Checkbox($field, $label);
-			array_push($this->_elements, $text);
+			array_push($this->_elements, $checkbox);
 			return $checkbox;
 		}
 
@@ -131,8 +132,24 @@
 
 		public function radio($field, $label){
 			$radio = new Radio($field, $label);
-			array_push($this->_elements, $text);
+			array_push($this->_elements, $radio);
 			return $radio;
+		}
+
+		/**
+		 * add select element
+		 * @access public
+		 * @param $field string
+		 * @param $label string
+		 * @return \System\Form\Validation\Element\Select
+		 * @since 3.0
+		 * @package System\Form\Validation
+		*/
+
+		public function select($field, $label){
+			$select = new Select($field, $label);
+			array_push($this->_elements, $select);
+			return $select;
 		}
 
 		/**
@@ -143,11 +160,12 @@
 		 * @return \System\Form\Validation\Element\File
 		 * @since 3.0
 		 * @package System\Form\Validation
-		 */
+		*/
 
 		public function file($field, $label){
+			/** @var \System\Form\Validation\Element\File $file */
 			$file = new File($field, $label);
-			array_push($this->_elements, $text);
+			array_push($this->_elements, $file);
 			return $file;
 		}
 

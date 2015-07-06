@@ -7,17 +7,15 @@
 		}
 
 		foreach($a as $k => $value) {
-			if($k != ''){
-				if($n != 0){
-					echo '<ul>';
-				}
-				if($k<10){
-					echo '<li><strong>'.$k.'</strong> : ';
-					printArray($value, $n+1);
-				}
-				if($n != 0){
-					echo '</ul>';
-				}
+			if($n != 0){
+				echo '<ul>';
+			}
+			if($k<10){
+				echo '<li><strong>'.$k.'</strong> : ';
+				printArray($value, $n+1);
+			}
+			if($n != 0){
+				echo '</ul>';
 			}
 		}
 	}

@@ -59,7 +59,7 @@
 		 * @var \System\Template\Template
 		*/
 
-		protected $_parent = 0;
+		protected $_parent = null;
 
 		/**
 		 * @var string[]
@@ -112,6 +112,12 @@
 
 		public function parse($content){
 			$this->_content = $content;
+
+			$this->_parseExtends();
+
+			if($this->_parent != null)
+				$this->_parseExtendsMain();
+
 			$this->_parseDebugStart();
 			$this->_parseExtend();
 			$this->_parseInclude();
@@ -133,10 +139,6 @@
 			$this->_parseCall();
 			$this->_parseMinify();
 			$this->_parseDebugEnd();
-			$this->_parseExtends();
-
-			if($this->_parent != null)
-				$this->_parseExtendsMain();
 
 			return $this->_content;
 		}
@@ -349,14 +351,13 @@
 		/**
 		 * if there is a parent template, we parse it
 		 * @access protected
-		 * @param $m
 		 * @return void
 		 * @since 3.0
 		 * @package System\Template
 		 */
 
 		protected function _parseExtendsMain(){
-			$content = $this->_parent->show();
+			$content = file_get_contents($this->_parent->getFile());
 			$this->_content = preg_replace('`<'.$this->_name.preg_quote($this->markup['extends'][3]).$this->_space.'/>`isU', $this->_content, $content);
 		}
 

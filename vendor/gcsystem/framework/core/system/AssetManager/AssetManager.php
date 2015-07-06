@@ -290,6 +290,10 @@
 		*/
 
 		protected function _compress(){
+			$before = '(?<=[:(, ])';
+			$after = '(?=[ ,);}])';
+			$units = '(em|ex|%|px|cm|mm|in|pt|pc|ch|rem|vh|vw|vmin|vmax|vm)';
+
 			foreach ($this->_data as $value) {
 				$this->_concatenedContent .= $value;
 			}

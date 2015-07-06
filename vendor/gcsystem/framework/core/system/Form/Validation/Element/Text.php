@@ -10,10 +10,9 @@
 
 	namespace System\Form\Validation\Element;
 
-	use System\General\facades;
+	use System\Lang\Lang;
 
 	class Text extends Element{
-		use facades;
 
 		/**
 		 * constructor
@@ -31,7 +30,7 @@
 			if(!isset($this->_data[$field])){
 				array_push($this->_errors, [
 					'field' => $this->_label,
-					'message' =>self::Lang()->lang('.app.system.form.exist')
+					'message' => Lang::getInstance()->lang('.app.system.form.exist')
 				]);
 
 				$this->_exist = false;
@@ -49,20 +48,8 @@
 		*/
 
 		public function check(){
-			parent::check();
-
-			foreach($this->_constraints as $constraint){
-				switch($constraint['type']){
-					case self::CONSTRAINT_EQUAL:
-						if($this->_data[$this->_field] != $constraint['value']){
-							array_push($this->_errors, [
-								'field' => $this->_label,
-								'message' => $constraint['message']
-							]);
-						}
-					break;
-				}
-			}
+			if($this->_exist)
+				parent::check();
 		}
 
 		/**

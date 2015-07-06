@@ -296,9 +296,9 @@
 		 * @return \System\Orm\Builder
 		 * @since 3.0
 		 * @package System\Orm\Entity
-		 */
+		*/
 
-		public function raw($query){
+		public static function raw($query){
 			/** @var \System\Orm\Entity\Entity $obj */
 			$obj = new static();
 			$builder = new Builder($obj);
@@ -314,11 +314,26 @@
 		 * @package System\Orm\Entity
 		*/
 
-		public function distinct($distinct){
+		public static function distinct($distinct){
 			/** @var \System\Orm\Entity\Entity $obj */
 			$obj = new static();
 			$builder = new Builder($obj);
 			return $builder->findDistinct($distinct);
+		}
+
+		/**
+		 * count number of line
+		 * @access public
+		 * @return \System\Orm\Builder
+		 * @since 3.0
+		 * @package System\Orm\Entity
+		*/
+
+		public static function count(){
+			/** @var \System\Orm\Entity\Entity $obj */
+			$obj = new static();
+			$builder = new Builder($obj);
+			return $builder->findCount();
 		}
 
 		/**
@@ -349,8 +364,6 @@
 			$fieldsInsertManyToMany = array();
 			/** @var $fieldsUpdateOneToMany \System\Orm\Entity\Entity[] */
 			$fieldsUpdateManyToMany = array();
-
-
 
 			/** @var $field \System\Orm\Entity\Field */
 			foreach($this->_fields as $field){

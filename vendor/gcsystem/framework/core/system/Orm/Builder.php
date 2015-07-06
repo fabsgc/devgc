@@ -22,6 +22,7 @@
 		const QUERY_SELECT   = 0;
 		const QUERY_DISTINCT = 1;
 		const QUERY_RAW      = 2;
+		const QUERY_COUNT    = 3;
 
 		const JOIN_LEFT  =  'LEFT JOIN';
 		const JOIN_RIGHT = 'RIGHT JOIN';
@@ -174,6 +175,21 @@
 		public function findRaw($query) {
 			$this->_type = self::QUERY_RAW;
 			$this->_query = $query;
+
+			return $this;
+		}
+
+		/**
+		 * create a select count query
+		 * @access public
+		 * @return \System\Orm\Builder
+		 * @since 3.0
+		 * @package System\Orm
+		*/
+
+		public function findCount() {
+			$this->_type = self::QUERY_COUNT;
+			$this->_getSelect();
 
 			return $this;
 		}
@@ -383,7 +399,11 @@
 			$sql = self::Sql();
 			$sql->vars($this->_vars);
 			$sql->query('orm-'.$this->_token, $this->_query);
-			$sql->fetch('orm-'.$this->_token, Sql::PARAM_FETCH);
+
+			if($this->_type == self::QUERY_COUNT)
+				return $sql->fetch('orm-'.$this->_token, Sql::PARAM_FETCHCOLUMN);
+			else
+				$sql->fetch('orm-'.$this->_token, Sql::PARAM_FETCH²²²²²);
 
 			$collection = $sql->data($this->_getTableName($this->_entity->name())->name());
 
@@ -568,6 +588,10 @@
 						$this->_query .= 'SELECT DISTINCT '.$this->_distinct. ' ';
 					else
 						$this->_query .= 'SELECT DISTINCT '.$this->_distinct. ', '.$primaryColumn.' ';
+				break;
+
+				case self::QUERY_COUNT :
+					$this->_query .= 'SELECT COUNT(*) ';
 				break;
 			}
 

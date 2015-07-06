@@ -27,16 +27,6 @@
 
 		public function __construct ($field, $label){
 			parent::__construct($field, $label);
-
-			if(!isset($this->_data[$field])){
-				array_push($this->_errors, [
-					'field' => $this->_label,
-					'message' =>self::Lang()->lang('.app.system.form.exist')
-				]);
-
-				$this->_exist = false;
-			}
-
 			return $this;
 		}
 
@@ -49,12 +39,8 @@
 		*/
 
 		public function check(){
-			parent::check();
-
-			foreach($this->_constraints as $constraint){
-				switch($constraint['type']){
-				}
-			}
+			if($this->_exist)
+				parent::check();
 		}
 
 		/**
