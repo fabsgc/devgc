@@ -3,6 +3,7 @@
 
 	use Controller\Request\Gcs\FormRequest;
 	use Orm\Entity\Article;
+	use Orm\Entity\Post;
 	use System\Controller\Controller;
 	use System\Orm\Entity;
 
@@ -19,15 +20,17 @@
 		}
 
 		public function actionGet(){
-			return self::Template('index/form', 'formDefault')
+			return self::Template('index/formPost', 'formDefault')
 				->assign('title', 'Injection Formulaire')
+				->assign('articles', Article::find()->fetch())
 				->show();
 		}
 
-		public function actionPost(FormRequest $request){
-			return self::Template('index/form', 'formDefault')
+		public function actionPost(Post $post){
+			return self::Template('index/formPost', 'formDefault')
 				->assign('title', 'Injection Formulaire')
-				->assign('request', $request)
+				->assign('post', $post)
+				->assign('articles', Article::find()->fetch())
 				->show();
 		}
 

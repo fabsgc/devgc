@@ -403,7 +403,7 @@
 			if($this->_type == self::QUERY_COUNT)
 				return $sql->fetch('orm-'.$this->_token, Sql::PARAM_FETCHCOLUMN);
 			else
-				$sql->fetch('orm-'.$this->_token, Sql::PARAM_FETCH²²²²²);
+				$sql->fetch('orm-'.$this->_token, Sql::PARAM_FETCH);
 
 			$collection = $sql->data($this->_getTableName($this->_entity->name())->name());
 

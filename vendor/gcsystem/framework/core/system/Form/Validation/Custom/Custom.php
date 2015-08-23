@@ -1,7 +1,10 @@
 <?php
 	namespace System\Form\Validation\Custom;
 
+	use System\General\facades;
+
 	abstract class Custom{
+		use facades;
 
 		/**
 		 * the field name

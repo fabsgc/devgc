@@ -79,7 +79,11 @@
 				$this->path .= '/';
 			}
 
-			$this->_oldFile = $this->path.$this->name;
+			if($this->path != '/')
+				$this->_oldFile = $this->path.$this->name;
+			else
+				$this->_oldFile = $this->name;
+
 			$this->content  = file_get_contents($this->_oldFile);
 		}
 

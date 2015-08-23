@@ -11,9 +11,11 @@
 	namespace System\Orm\Entity;
 
 	use System\Exception\MissingEntityException;
+	use System\Orm\Entity\Type\File;
 	use \System\Orm\Validation\Validation;
 	use System\General\facades;
 	use System\Orm\Builder;
+	use System\Request\Data;
 	use System\Sql\Sql;
 
 	abstract class Entity {
@@ -52,6 +54,13 @@
 		protected $validation = null;
 
 		/**
+		 * post, put, get data
+		 * @var $_data array
+		*/
+
+		protected $_data;
+
+		/**
 		 * Constructor
 		 * @access public
 		 * @throws MissingEntityException
@@ -68,6 +77,26 @@
 
 			if($this->_primary == '')
 				throw new MissingEntityException('The entity '.$this->_name.' does not have any primary key');
+
+			$requestData = Data::getInstance();
+
+			switch($requestData->method){
+				case 'get' :
+					$this->_data = $requestData->get;
+				break;
+
+				case 'post' :
+					$this->_data = $requestData->post;
+				break;
+
+				case 'put' :
+					$this->_data = $requestData->post;
+				break;
+
+				case 'delete' :
+					$this->_data = $requestData->post;
+				break;
+			}
 
 			return $this;
 		}
@@ -1073,6 +1102,10 @@
 		*/
 
 		public function hydrate($data){
+			$table = strtolower($this->_name);
+
+			print_r($this->_data);
+
 			foreach($this->_fields as $field){
 				if($field->foreign != null){
 					switch($field->foreign->type()){
@@ -1094,19 +1127,35 @@
 					}
 				}
 				if(in_array($field->type, array(Field::INCREMENT, Field::INT, Field::FLOAT))){
-
+					if(isset($this->_data[$table.'_'.$field->name]))
+						$field->value = $this->_data[$table.'_'.$field->name];
+					else
+						$field->value = null;
 				}
 				else if(in_array($field->type, array(Field::CHAR, Field::TEXT, Field::STRING, Field::DATE, Field::DATETIME, Field::TIME, Field::TIMESTAMP))){
-
+					if(isset($this->_data[$table.'_'.$field->name]))
+						$field->value = $this->_data[$table.'_'.$field->name];
+					else
+						$field->value = null;
 				}
 				else if(in_array($field->type, array(Field::BOOL))){
-
+					if(isset($this->_data[$table.'_'.$field->name]))
+						$field->value = true;
+					else
+						$field->value = false;
 				}
 				else if(in_array($field->type, array(Field::FILE))){
-
+					$data = Data::getInstance()->file;
+					if(isset($data[$table.'_'.$field->name])){
+						$tmp = $data[$table.'_'.$field->name];
+						$file = new File($tmp['name'], file_get_contents($tmp['name']), $tmp['type']);
+						$field->value = $file;
+					}
+					else
+						$field->value = null;
 				}
 				else{
-
+					$field->value = null;
 				}
 			}
 		}
