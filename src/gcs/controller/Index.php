@@ -14,6 +14,10 @@
 		}
 		
 		public function actionDefault(){
+			/*$lines = $this->getFileLineDir('vendor/gcsystem/framework/core/');
+			$lines += $this->getFileLineDir('app/');
+			$lines += $this->getFileLineDir('src/');
+			echo $lines;*/
 			return self::Template('index/default', 'gcsDefault')
 				->assign('title', 'GCsystem V'.VERSION)
 				->show();
@@ -44,5 +48,41 @@
 
 		public static function extTemplate($content){
 			return $content;
+		}
+
+		public function getFileLineDir($dir){
+			$line = 0;
+
+			if (is_dir($dir)) {
+				if ($dh = opendir($dir)) {
+					while (($file = readdir($dh)) !== false) {
+						if(is_dir($dir . $file)){
+							if(strlen($file) > 2){
+								$line += $this->getFileLineDir($dir . $file.'/');
+							}
+						}
+						else if(pathinfo($dir . $file)['extension'] == 'php' || pathinfo($dir . $file)['extension'] == 'xml' || pathinfo($dir . $file)['extension'] == 'tpl'){
+							echo $dir . $file.'<br />';
+							$line += $this->countLines($dir . $file);
+						}
+					}
+
+					closedir($dh);
+				}
+			}
+
+			return $line;
+		}
+
+		public function countLines($filepath){
+			$handle = fopen( $filepath, "r" );
+			$count = 0;
+
+			while( fgets($handle) ){
+				$count++;
+			}
+
+			fclose($handle);
+			return $count;
 		}
 	}

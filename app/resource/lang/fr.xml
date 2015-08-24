@@ -24,5 +24,8 @@
 		<group name="form">
 			<lang name="exist">Le champs n'existe pas</lang>
 		</group>
+		<group name="entity">
+			<lang name="exist">Le champs n'existe pas</lang>
+		</group>
 	</group>
 </root>

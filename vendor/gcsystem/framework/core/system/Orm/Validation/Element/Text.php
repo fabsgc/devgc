@@ -3,39 +3,28 @@
 	 | ------------------------------------------------------
 	 | @file : Text.php
 	 | @author : fab@c++
-	 | @description : input text validation
+	 | @description : default field validation
 	 | @version : 3.0 Bêta
 	 | ------------------------------------------------------
 	\*/
 
-	namespace System\Form\Validation\Element;
-
-	use System\Lang\Lang;
+	namespace System\Orm\Validation\Element;
 
 	class Text extends Element{
 
 		/**
 		 * constructor
 		 * @access public
+		 * @param $entity \System\Orm\Entity\Entity
 		 * @param $field string
 		 * @param $label string
-		 * @return \System\Form\Validation\Element\Text
+		 * @return \System\Orm\Validation\Element\Text
 		 * @since 3.0
-		 * @package System\Form\Validation\Element
+		 * @package System\Orm\Validation\Element
 		*/
 
-		public function __construct ($field, $label){
-			parent::__construct($field, $label);
-
-			if(!isset($this->_data[$field])){
-				array_push($this->_errors, [
-					'field' => $this->_label,
-					'message' => Lang::getInstance()->lang('.app.system.form.exist')
-				]);
-
-				$this->_exist = false;
-			}
-
+		public function __construct ($entity, $field, $label){
+			parent::__construct($entity, $field, $label);
 			return $this;
 		}
 
@@ -48,8 +37,7 @@
 		*/
 
 		public function check(){
-			if($this->_exist)
-				parent::check();
+			parent::check();
 		}
 
 		/**

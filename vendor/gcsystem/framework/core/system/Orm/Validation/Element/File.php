@@ -1,41 +1,30 @@
 <?php
 	/*\
 	 | ------------------------------------------------------
-	 | @file : Text.php
+	 | @file : File.php
 	 | @author : fab@c++
-	 | @description : input text validation
+	 | @description : file validation
 	 | @version : 3.0 Bêta
 	 | ------------------------------------------------------
 	\*/
 
-	namespace System\Form\Validation\Element;
+	namespace System\Orm\Validation\Element;
 
-	use System\Lang\Lang;
-
-	class Text extends Element{
+	class File extends Element{
 
 		/**
 		 * constructor
 		 * @access public
+		 * @param $entity \System\Orm\Entity\Entity
 		 * @param $field string
 		 * @param $label string
-		 * @return \System\Form\Validation\Element\Text
+		 * @return \System\Orm\Validation\Element\File
 		 * @since 3.0
-		 * @package System\Form\Validation\Element
+		 * @package System\Orm\Validation\Element
 		*/
 
-		public function __construct ($field, $label){
-			parent::__construct($field, $label);
-
-			if(!isset($this->_data[$field])){
-				array_push($this->_errors, [
-					'field' => $this->_label,
-					'message' => Lang::getInstance()->lang('.app.system.form.exist')
-				]);
-
-				$this->_exist = false;
-			}
-
+		public function __construct ($entity, $field, $label){
+			parent::__construct($entity, $field, $label);
 			return $this;
 		}
 
@@ -48,8 +37,7 @@
 		*/
 
 		public function check(){
-			if($this->_exist)
-				parent::check();
+			parent::check();
 		}
 
 		/**

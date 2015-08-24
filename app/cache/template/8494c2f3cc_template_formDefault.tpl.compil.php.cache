@@ -33,23 +33,23 @@
   }
 </style>
 <form action="<?php echo $this->getUrl('get', array()); ?>" method="post" enctype="multipart/form-data">
-<input type="hidden" name="request-post"/>
-<label>Identifiant </label>
-<input type="text" name="post.id" value="10"/><br />
-<label>Contenu </label>
-<input type="text" name="post.content" value="contenu"/><br />
-<label>Article </label>
-<select name="post.article">
-	<?php foreach($articles as $article) { ?>
-		<option value="<?php echo ($article->id); ?>"><?php echo ($article->title); ?></option>
-	<?php } ?>
-</select><br />
-<input type="submit" id="submit" value="envoyer"/><br />
+	<input type="hidden" name="request-post"/>
+	<label>Identifiant </label>
+	<input type="text" name="post.id" value=""/><br />
+	<label>Contenu </label>
+	<input type="text" name="post.content" value="contenu"/><br />
+	<label>Article </label>
+	<select name="post.article">
+		<?php foreach($articles as $article) { ?>
+			<option value="<?php echo ($article->id); ?>"><?php echo ($article->title); ?></option>
+		<?php } ?>
+	</select><br />
+	<label>Fichier </label><input type="file" name="post.file" /><br />
+	<input type="submit" id="submit" value="envoyer"/><br />
 </form>
 <p>
 <?php if(isset($post)) { ?>
-	<?php print_r($post->fields()); ?>
-	test
+	<?php //print_r($post->fields()); ?>
 <?php } ?>
 </p>
     </div>

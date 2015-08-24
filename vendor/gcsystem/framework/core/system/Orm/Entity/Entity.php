@@ -73,7 +73,7 @@
 			$this->tableDefinition();
 			$this->_getPrimary();
 			$this->_token = rand(0,100);
-			$this->validation = new Validation();
+			$this->validation = new Validation($this);
 
 			if($this->_primary == '')
 				throw new MissingEntityException('The entity '.$this->_name.' does not have any primary key');
@@ -1024,7 +1024,7 @@
 		}
 
 		/**
-		 * We can check the validity of a GET request thanks to this method that you can override
+		 * We can check the validity of a GET or POST request thanks to this method that you can override
 		 * @access public
 		 * @return void
 		 * @since 3.0
@@ -1035,7 +1035,7 @@
 		}
 
 		/**
-		 * We can check the validity of a POST request thanks to this method that you can override
+		 * We can check the validity of a PUST request thanks to this method that you can override
 		 * @access public
 		 * @return void
 		 * @since 3.0
@@ -1046,7 +1046,7 @@
 		}
 
 		/**
-		 * We can check the validity of a PUT request thanks to this method that you can override
+		 * We can check the validity of a DELETE request thanks to this method that you can override
 		 * @access public
 		 * @return void
 		 * @since 3.0
@@ -1104,29 +1104,66 @@
 		public function hydrate($data){
 			$table = strtolower($this->_name);
 
-			print_r($this->_data);
-
 			foreach($this->_fields as $field){
 				if($field->foreign != null){
+					$in = '';
+					$inVars = array();
+					$entityName = $field->foreign->referenceEntity();
+					$fieldName = lcfirst($field->foreign->entity()).'_'.lcfirst($field->foreign->referenceEntity());
+					$fieldFormName = lcfirst($field->foreign->referenceEntity()).'.'.lcfirst($field->foreign->referenceField());
+					$entityJoin = self::Entity()->$entityName();
+
 					switch($field->foreign->type()){
 						case ForeignKey::ONE_TO_ONE :
-
+							$builder = new Builder($entityJoin);
+							$field->value = $field->value = $builder->find()
+								->where($fieldFormName.' = :id')
+								->vars(array('id' => $this->_data[$fieldName]))
+								->fetch()
+								->first();
 						break;
 
 						case ForeignKey::MANY_TO_ONE :
-
+							$builder = new Builder($entityJoin);
+							$field->value = $field->value = $builder->find()
+								->where($fieldFormName.' = :id')
+								->vars(array('id' => $this->_data[$fieldName]))
+								->fetch()
+								->first();
 						break;
 
 						case ForeignKey::ONE_TO_MANY :
+							foreach($this->_data[$fieldName] as $key => $manyJoin){
+								$in .= ' :join'.$key.',';
+								$inVars['join'.$key] = $manyJoin;
+							}
 
+							$in = trim($in, ',');
+
+							$builder = new Builder($entityJoin);
+							$field->value = $field->value = $builder->find()
+								->where($fieldFormName.' IN('.$in.')')
+								->vars($inVars)
+								->fetch();
 						break;
 
 						case ForeignKey::MANY_TO_MANY :
+							foreach($this->_data[$fieldName] as $key => $manyJoin){
+								$in .= ' :join'.$key.',';
+								$inVars['join'.$key] = $manyJoin;
+							}
 
+							$in = trim($in, ',');
+
+							$builder = new Builder($entityJoin);
+							$field->value = $field->value = $builder->find()
+								->where($fieldFormName.' IN('.$in.')')
+								->vars($inVars)
+								->fetch();
 						break;
 					}
 				}
-				if(in_array($field->type, array(Field::INCREMENT, Field::INT, Field::FLOAT))){
+				else if(in_array($field->type, array(Field::INCREMENT, Field::INT, Field::FLOAT))){
 					if(isset($this->_data[$table.'_'.$field->name]))
 						$field->value = $this->_data[$table.'_'.$field->name];
 					else
@@ -1146,13 +1183,20 @@
 				}
 				else if(in_array($field->type, array(Field::FILE))){
 					$data = Data::getInstance()->file;
+
 					if(isset($data[$table.'_'.$field->name])){
-						$tmp = $data[$table.'_'.$field->name];
-						$file = new File($tmp['name'], file_get_contents($tmp['name']), $tmp['type']);
-						$field->value = $file;
+						if(isset($data[$table.'_'.$field->name]) && $data[$table.'_'.$field->name]['error'] != 4){
+							$tmp = $data[$table.'_'.$field->name];
+							$file = new File($tmp['name'], file_get_contents($tmp['tmp_name']), $tmp['type']);
+							$field->value = $file;
+						}
+						else{
+							$field->value = null;
+						}
 					}
-					else
+					else{
 						$field->value = null;
+					}
 				}
 				else{
 					$field->value = null;
