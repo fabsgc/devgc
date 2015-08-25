@@ -92,7 +92,7 @@
 
 		public function __construct($entity) {
 			$this->_entity = $entity;
-			$this->_token = rand(0,100);
+			$this->_token = rand(0,10000);
 			array_push($this->_entities, str_replace('Orm\Entity\\', '', get_class($entity)));
 			return $this;
 		}
@@ -458,8 +458,62 @@
 		*/
 
 		protected function _dataOneToMany($field, $collection){
+			/**
+			 * Instead of making only one query by line, we assemble all the lines IDs and we make a big query (time saving)
+			 * First, we make the query, using IN()
+			 * Then, we loop through the query lines and we add to each line her data from join
+			*/
+
+			$in = '';
+			$inVars = [];
+			$currentField  = $field->foreign->field();
+			$referenceEntity = $field->foreign->referenceEntity();
+			$referenceField = $field->foreign->referenceField();
+			$fieldFormName = lcfirst($referenceEntity).'.'.lcfirst($referenceField);
+
 			/** @var $line \System\Orm\Entity\Entity */
-			foreach($collection as $line){
+			foreach($collection as $key => $line){
+				$in .= ' :join'.$key.',';
+				$inVars['join'.$key] = $line->get($currentField);
+			}
+
+			$in = trim($in, ',');
+
+			/** @var $datasJoin \System\Collection\Collection */
+			$datasJoin = self::Entity()->$referenceEntity()->find()
+				->where($fieldFormName.' IN('.$in.')')
+				->orderBy($fieldFormName.' ASC')
+				->vars($inVars)
+				->fetch();
+
+			$data = null;
+
+			//echo $datasJoin->count().'<br />';
+
+			/** @var $line \System\Orm\Entity\Entity */
+			foreach($collection as $key => $line){
+				//echo $line->get($field->name).'<br />';
+				$count = $line->get($field->name);
+				$data = null;
+
+				/** @var $dataJoin \System\Orm\Entity\Entity */
+				foreach($datasJoin as $key2 => $dataJoin){
+					if($dataJoin->get($referenceField)->get($currentField) == $line->get($currentField)){
+						$data = new Collection($datasJoin->getRange($key2, $count));
+						$datasJoin->deleteRange($key2, $count);
+						break;
+					}
+				}
+
+				//echo $datasJoin->count().'<br />';
+
+				$line->set($field->name, $data);
+			}
+
+			//echo $datasJoin->count().'<br />';
+
+			/** @var $line \System\Orm\Entity\Entity */
+			/*foreach($collection as $line){
 				$currentEntity = $field->foreign->entity();
 				$currentField  = $field->foreign->field();
 				$referenceEntity = $field->foreign->referenceEntity();
@@ -467,7 +521,7 @@
 				$where = $currentEntity.'.'.$currentField.' = '.$line->get($line->primary());
 				$data = self::Entity()->$referenceEntity()->find()->where($where)->fetch();
 				$line->set($field->name, $data);
-			}
+			}*/
 
 			return $collection;
 		}
@@ -542,6 +596,19 @@
 						//We mustn't add fields which don't exist in the SQL table
 						if($value->foreign == null || in_array($value->foreign->type(), array(ForeignKey::ONE_TO_ONE, ForeignKey::MANY_TO_ONE))){
 							$this->_query.= $this->_entity->name().'.'.$value->name. ' AS '.$this->_entity->name().'_'.$value->name;
+
+							if($i < $nFields - 1){
+								$this->_query .= ', ';
+							}
+						}
+						//To optimize the relation ONE TO MANY, we replace the join value by the number of element in this join
+						else if($value->foreign != null && $value->foreign->type() == ForeignKey::ONE_TO_MANY){
+							$currentEntity  = $value->foreign->entity();
+							$currentField  = $value->foreign->field();
+							$referenceEntity = $value->foreign->referenceEntity();
+							$referenceField = $value->foreign->referenceField();
+
+							$this->_query.= '(SELECT COUNT(*) FROM '.$referenceEntity.' WHERE '.$referenceEntity.'.'.$referenceField.' = '.$currentEntity.'.'.$currentField.') AS count_'.$this->_entity->name().'_'.$value->name;
 
 							if($i < $nFields - 1){
 								$this->_query .= ', ';

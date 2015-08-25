@@ -364,11 +364,15 @@
 					foreach($line as $key => $field){
 						$value = null;
 
+						$key = str_replace('count_'.$entity.'_', '', $key);
 						$key = str_replace($entity.'_', '', $key);
 
 						if(gettype($key) == "string" && $entityObject->getField($key) != null){
 							if(in_array($entityObject->getField($key)->type, array(Field::INCREMENT, Field::INT, Field::TEXT, Field::STRING, Field::BOOL))){
 								if($entityObject->getField($key)->foreign == null){
+									$value = $field;
+								}
+								else if($entityObject->getField($key)->foreign->type() == ForeignKey::ONE_TO_MANY){
 									$value = $field;
 								}
 								else{

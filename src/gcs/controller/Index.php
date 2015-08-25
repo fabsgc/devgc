@@ -4,6 +4,7 @@
 	use Controller\Request\Gcs\FormRequest;
 	use Orm\Entity\Article;
 	use Orm\Entity\Post;
+	use Orm\Entity\Student;
 	use System\Controller\Controller;
 	use System\Orm\Entity;
 
@@ -18,9 +19,31 @@
 			$lines += $this->getFileLineDir('app/');
 			$lines += $this->getFileLineDir('src/');
 			echo $lines;*/
-			return self::Template('index/default', 'gcsDefault')
+			/*return self::Template('index/default', 'gcsDefault')
 				->assign('title', 'GCsystem V'.VERSION)
-				->show();
+				->show();*/
+
+			//Article::find()->fetch();
+			Article::find()->fetch();
+			//Article::find()->limit(0,200)->fetch();
+			//Student::find()->fetch();
+
+			//print_r(Article::find()->fetch());
+
+			/*for($i = 0; $i < 10; $i++){
+				$article = new Article();
+				$article->title = 'titre article'.$i;
+				$article->content = 'contenu article';
+				$article->insert();
+
+				$entity = new Post();
+				$entity->content = 'post'.$i;
+				$entity->article = $article;
+				$entity->article->title = 'test';
+				$entity->article->content = 'content';
+				$entity->file = new Entity\Type\File('README.md', file_get_contents('README.md'), 'text/plain');
+				$entity->insert();
+			}*/
 		}
 
 		public function actionGet(){

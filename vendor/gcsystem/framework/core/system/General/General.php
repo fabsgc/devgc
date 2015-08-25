@@ -11,6 +11,7 @@
 	namespace System\General;
 
 	use System\Exception\MissingConfigException;
+	use System\Orm\Entity\Multiple;
 	use System\Lang\Lang;
 
 	trait resolve{
@@ -245,7 +246,7 @@
 					}
 				}
 				else{
-					$entityObject = self::EntityMultiple($data);
+					$entityObject = new Multiple($data);
 				}
 
 				array_push($entities, $entityObject);

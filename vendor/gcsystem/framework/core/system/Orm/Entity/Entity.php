@@ -72,7 +72,7 @@
 		final public function __construct() {
 			$this->tableDefinition();
 			$this->_getPrimary();
-			$this->_token = rand(0,100);
+			$this->_token = rand(0,10000);
 			$this->validation = new Validation($this);
 
 			if($this->_primary == '')
@@ -212,8 +212,9 @@
 
 		public function set($key, $value) {
 			if(array_key_exists($key, $this->_fields)){
-				if(gettype($this->_fields[''.$key.'']) == 'object')
+				if(gettype($this->_fields[''.$key.'']) == 'object'){
 					$this->_fields[''.$key.'']->value = $value;
+				}
 				else
 					$this->_fields[''.$key.''] = $value;
 			}
@@ -1108,10 +1109,10 @@
 				if($field->foreign != null){
 					$in = '';
 					$inVars = array();
-					$entityName = $field->foreign->referenceEntity();
+					$entityName = '\Orm\Entity\\'.$field->foreign->referenceEntity();
 					$fieldName = lcfirst($field->foreign->entity()).'_'.lcfirst($field->foreign->referenceEntity());
 					$fieldFormName = lcfirst($field->foreign->referenceEntity()).'.'.lcfirst($field->foreign->referenceField());
-					$entityJoin = self::Entity()->$entityName();
+					$entityJoin = new $entityName();
 
 					switch($field->foreign->type()){
 						case ForeignKey::ONE_TO_ONE :
