@@ -1030,18 +1030,18 @@
 		 * @return void
 		 * @since 3.0
 		 * @package System\Request
-		 */
+		*/
 
 		public function beforeInsert(){
 		}
 
 		/**
-		 * We can check the validity of a PUST request thanks to this method that you can override
+		 * We can check the validity of a PUT request thanks to this method that you can override
 		 * @access public
 		 * @return void
 		 * @since 3.0
 		 * @package System\Request
-		 */
+		*/
 
 		public function beforeUpdate(){
 		}
@@ -1204,7 +1204,6 @@
 				}
 			}
 		}
-
 
 		/**
 		 * Destructor

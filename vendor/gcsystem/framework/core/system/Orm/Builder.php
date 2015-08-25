@@ -498,10 +498,17 @@
 
 				/** @var $dataJoin \System\Orm\Entity\Entity */
 				foreach($datasJoin as $key2 => $dataJoin){
-					if($dataJoin->get($referenceField)->get($currentField) == $line->get($currentField)){
+					/**
+					 * The lines are ordered by reference entity ID, so when we find the first line, we have just to
+					 * get the following lines thanks to $count
+					*/
+					if($count > 0 && $dataJoin->get($referenceField)->get($currentField) == $line->get($currentField)){
 						$data = new Collection($datasJoin->getRange($key2, $count));
 						$datasJoin->deleteRange($key2, $count);
 						break;
+					}
+					else{
+						$data = new Collection();
 					}
 				}
 
