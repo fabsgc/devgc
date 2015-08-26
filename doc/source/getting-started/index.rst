@@ -6,11 +6,11 @@ Pour commencer
    :maxdepth: 2
    :glob:
 
-   install/*
+   install/index
    configuration
    request-response
    routing
    controller
    model
    view
-   orm/*
+   orm/index
