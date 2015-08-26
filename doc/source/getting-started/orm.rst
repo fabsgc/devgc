@@ -1,5 +1,5 @@
 ============
-Installation
+L'Orm
 ============
 
 Sommaire
@@ -8,4 +8,4 @@ Sommaire
 .. toctree::
    :maxdepth: 4
 
-   install/*
+   orm/*
