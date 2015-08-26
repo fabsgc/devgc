@@ -10,4 +10,4 @@ Sommaire
 .. toctree::
    :maxdepth: 4
 
-   getting-started
+   getting-started/index

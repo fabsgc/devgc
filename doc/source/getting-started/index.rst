@@ -8,6 +8,8 @@ Pour commencer
 
    install/*
    configuration
+   request-response
+   routing
    controller
    model
    view
