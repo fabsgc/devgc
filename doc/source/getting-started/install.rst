@@ -3,7 +3,7 @@ Installation
 ============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :glob:
 
    install-composer
