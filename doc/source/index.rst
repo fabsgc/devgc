@@ -12,3 +12,5 @@ Sommaire
 
     getting-started/index
     advanced/index
+    helper/index
+    other/index
