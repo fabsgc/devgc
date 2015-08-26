@@ -1,0 +1,13 @@
+============
+Installation
+============
+
+L'installation du GCsystel peut se faire de plusieurs façons. Elles sont toutes détaillées ici.
+
+Sommaire
+==================
+
+.. toctree::
+   :maxdepth: 2
+
+   install/*
