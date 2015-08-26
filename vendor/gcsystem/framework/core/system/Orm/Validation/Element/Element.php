@@ -778,7 +778,7 @@
 
 		public function custom($name){
 			if($this->_exist) {
-				$class = 'Controller\Entity\Custom\\' . ucfirst($name);
+				$class = '\Entity\Custom\\' . ucfirst($name);
 
 				if (class_exists($class)) {
 					array_push($this->_constraints, [

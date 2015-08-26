@@ -488,11 +488,8 @@
 
 			$data = null;
 
-			//echo $datasJoin->count().'<br />';
-
 			/** @var $line \System\Orm\Entity\Entity */
 			foreach($collection as $key => $line){
-				//echo $line->get($field->name).'<br />';
 				$count = $line->get($field->name);
 				$data = null;
 
@@ -512,12 +509,8 @@
 					}
 				}
 
-				//echo $datasJoin->count().'<br />';
-
 				$line->set($field->name, $data);
 			}
-
-			//echo $datasJoin->count().'<br />';
 
 			/** @var $line \System\Orm\Entity\Entity */
 			/*foreach($collection as $line){
