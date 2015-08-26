@@ -10,4 +10,4 @@ Sommaire
 .. toctree::
    :maxdepth: 2
 
-   install
+   getting-started
