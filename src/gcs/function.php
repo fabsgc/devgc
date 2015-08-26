@@ -37,9 +37,9 @@
 		return $data.')';
 	}
 
-	function getFunctionArgNames($function = array()) {
+	function getFunctionArgNames($function = []) {
 		$f = new \ReflectionFunction($function);
-		$result = array();
+		$result = [];
 		foreach ($f->getParameters() as $param) {
 			$result[] = $param->name;
 		}
