@@ -11,4 +11,3 @@ Sommaire
    :maxdepth: 2
 
    install
-
