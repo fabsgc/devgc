@@ -8,6 +8,7 @@ Sommaire
 ==================
 
 .. toctree::
-   :maxdepth: 4
+    :maxdepth: 4
 
-   getting-started/index
+    getting-started/index
+    advanced/index

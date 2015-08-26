@@ -3,8 +3,7 @@ Pour commencer
 ==============
 
 .. toctree::
-   :maxdepth: 2
-   :glob:
+   :maxdepth: 4
 
    install/index
    configuration
