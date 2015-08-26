@@ -1,5 +1,5 @@
 ==============
-Les helpers
+Helpers
 ==============
 
 .. toctree::
