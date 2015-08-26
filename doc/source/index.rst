@@ -11,7 +11,7 @@ Sommaire
     :maxdepth: 4
 
     getting-started/index
-    tutorial/index
     advanced/index
+    tutorial/index
     helper/index
     other/index
