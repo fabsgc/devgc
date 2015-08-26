@@ -1,22 +1,14 @@
-.. Documentation GCsystem documentation master file, created by
-   sphinx-quickstart on Wed Aug 26 06:16:49 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Documentation GCsystem's documentation!
+==================================================
+Bienvenue dans la documentation du GCsystem
 ==================================================
 
-Contents:
+L'apparition du GCsystem en tant que Framework PHP remonte à l'été 2011. A l'époque, il s'agissait seulement d'une organisation plus claire des codes sources ainsi que de l'existence de quelques fonctions constituant une sorte de librairie. Un an plus tard, le système a été entièrement recodé pour sa version 2.0, ne gardant comme point commun que le système de rubrique déjà existant et en introduisant le modèle MVC (Modèle Vue Contrôleur). Nous en sommes aujourd'hui à la troisième version qui apporte son lot de nouveautés
+
+Sommaire
+==================
 
 .. toctree::
    :maxdepth: 2
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   install
 
