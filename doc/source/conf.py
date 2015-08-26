@@ -17,6 +17,12 @@ import sys
 import os
 import shlex
 
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+# Don't import custom theme if this is a rtd's build
+if not on_rtd:
+    import sphinx_rtd_theme
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
