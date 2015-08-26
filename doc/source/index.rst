@@ -1,10 +1,22 @@
-L'apparition du GCsystem en tant que Framework PHP remonte à l'été 2011. A l'époque, il s'agissait seulement d'une organisation plus claire des codes sources ainsi que de l'existence de quelques fonctions constituant une sorte de librairie. Un an plus tard, le système a été entièrement recodé pour sa version 2.0, ne gardant comme point commun que le système de rubrique déjà existant et en introduisant le modèle MVC (Modèle Vue Contrôleur).
+.. Documentation GCsystem documentation master file, created by
+   sphinx-quickstart on Wed Aug 26 06:16:49 2015.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-================================
-Philosophie du GCsystem
-================================
+Welcome to Documentation GCsystem's documentation!
+==================================================
 
-Le premier but du GCsystem est d'être simple à comprendre d'un premier abord pour permettre d'aller rapidement au plus important : créer votre application web. Pour cela, le GCsystem est basé sur le principe des rubriques : une rubrique constitue un ensemble de fonctionnalités possédant un lien logique entre elles. Exemple : un forum, une espace membre.
-Cependant, le GCsystem est également - comme la plupart des framework aujourd'hui - d'un grande assistance pour tout ce qui concerne les tâches rébarbatives telles que : l'authentification, les droits d'accès, le routage, le cache, la sécurité etc.
-Le GCsystem inclue également de nombreux helpers aujourd'hui bien développés qui permettent de simplifier grandement des mécanismes tels que les formulaires, l'envoi de mail, l'upload, la gestion des fichiers compressés etc.
-En clair, le GCsystem se veut être un outil simple mais puissant qui sera à même de répondre à tous vos besoin.
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
