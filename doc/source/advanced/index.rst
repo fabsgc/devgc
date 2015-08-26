@@ -1,5 +1,5 @@
 ==============
-Notions avancées
+Notions avancÃ©es
 ==============
 
 .. toctree::
