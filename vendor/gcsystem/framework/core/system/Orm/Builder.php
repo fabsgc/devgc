@@ -561,7 +561,7 @@
 
 			/** @var $line \System\Orm\Entity\Entity */
 			foreach($collection as $line){
-				/** we get all the lines from the relation table */
+				/** we get all the lines from the relation table  */
 				$where = $currentEntity.'.'.$currentField.' = '.$line->get($line->primary());
 				$data = $entity->find()->where($where)->fetch();
 
