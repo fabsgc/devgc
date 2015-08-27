@@ -39,7 +39,7 @@
       <file leaf-file-name="Field.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/system/Orm/Entity/Field.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="69" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-2.7525084" vertical-offset="4053" max-vertical-offset="4950">
+            <state line="134" column="21" selection-start="2117" selection-end="2117" vertical-scroll-proportion="0.33333334" vertical-offset="1969" max-vertical-offset="4950">
               <folding />
             </state>
           </provider>
@@ -1723,7 +1723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/system/Orm/Entity/Field.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="69" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-2.7525084" vertical-offset="4053" max-vertical-offset="4950">
+        <state line="134" column="21" selection-start="2117" selection-end="2117" vertical-scroll-proportion="0.33333334" vertical-offset="1969" max-vertical-offset="4950">
           <folding />
         </state>
       </provider>
