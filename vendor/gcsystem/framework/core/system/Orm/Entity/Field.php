@@ -94,7 +94,7 @@
 		public $beNull = true;
 
 		/**
-		 * @var mixed string, \System\Orm\Entity\Field, \System\Orm\Entity\Field[] \System\Orm\Entity\Type
+		 * @var mixed string|\System\Orm\Entity\Field|\System\Orm\Entity\Field[]|\System\Orm\Entity\Type
 		*/
 
 		public $value = null;

@@ -39,7 +39,7 @@
       <file leaf-file-name="Field.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/system/Orm/Entity/Field.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="30" selection-start="646" selection-end="646" vertical-scroll-proportion="0.38127092" vertical-offset="0" max-vertical-offset="4950">
+            <state line="96" column="69" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-2.7525084" vertical-offset="4053" max-vertical-offset="4950">
               <folding />
             </state>
           </provider>
@@ -51,18 +51,6 @@
             <state line="26" column="18" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="1296">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/log/sql.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="57" selection-start="3573" selection-end="3573" vertical-scroll-proportion="-11.52" vertical-offset="0" max-vertical-offset="49068">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -136,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/gcs/resource/template/main.tpl" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/system/Form/Validation/Elements/Input.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/system/Form/Validation/Element/Input.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/system/Facade/Facade.php" />
@@ -187,6 +174,7 @@
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/system/Event/EventManager.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/system/Facade/FacadeEntity.php" />
         <option value="$PROJECT_DIR$/web/gcs/css/profiler.css" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/system/Orm/Entity/Field.php" />
       </list>
     </option>
   </component>
@@ -1251,6 +1239,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1687,16 +1676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/log/sql.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="57" selection-start="3573" selection-end="3573" vertical-scroll-proportion="-11.52" vertical-offset="0" max-vertical-offset="49068">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/resource/template/system/default.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="52" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
@@ -1744,7 +1723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/system/Orm/Entity/Field.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="646" selection-end="646" vertical-scroll-proportion="0.38127092" vertical-offset="0" max-vertical-offset="4950">
+        <state line="96" column="69" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-2.7525084" vertical-offset="4053" max-vertical-offset="4950">
           <folding />
         </state>
       </provider>
