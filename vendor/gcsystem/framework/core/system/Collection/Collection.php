@@ -10,15 +10,13 @@
 
 	namespace System\Collection;
 
-	use System\Exception\Exception;
-
 	class Collection implements \IteratorAggregate {
 
 		/**
 		 * @var array[]
 		*/
 
-		private $_datas = array();
+		private $_datas = [];
 
 		/**
 		 * Constructor
@@ -27,7 +25,7 @@
 		 * @package System\Orm
 		*/
 
-		public function __construct($data = array()) {
+		public function __construct($data = []) {
 			$this->_datas = $data;
 		}
 

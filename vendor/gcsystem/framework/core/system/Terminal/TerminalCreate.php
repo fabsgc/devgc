@@ -16,7 +16,7 @@
 	class TerminalCreate extends TerminalCommand{
 		public function module(){
 			$src = '';
-			$controllers = array();
+			$controllers = [];
 
 			//choose the module name
 			while(1==1){
@@ -147,7 +147,7 @@
 
 		public function controller(){
 			$src = '';
-			$controllers = array();
+			$controllers = [];
 
 			//choose the module name
 			while(1==1){
@@ -442,7 +442,7 @@
 								/** We generate the linking table name */
 								$current   = ucfirst($entity->name()).ucfirst($field->foreign->field());
 								$reference = ucfirst($referencedEntity->name()).ucfirst($field->foreign->referenceField());
-								$tableNames = array($current, $reference);
+								$tableNames = [$current, $reference];
 								sort($tableNames, SORT_STRING);
 								$tableName = $tableNames[0].$tableNames[1];
 

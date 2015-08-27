@@ -32,16 +32,16 @@
 			}
 		}
 
-		$data = preg_replace('#,$#isU', '', $data);
-
-		return $data.')';
+		return trim($data, ',');
 	}
 
 	function getFunctionArgNames($function = []) {
 		$f = new \ReflectionFunction($function);
 		$result = [];
+
 		foreach ($f->getParameters() as $param) {
 			$result[] = $param->name;
 		}
+
 		return $result;
 	}

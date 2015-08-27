@@ -57,7 +57,7 @@
 		*/
 
 		public function check(){
-			$this->_errors = array();
+			$this->_errors = [];
 
 			/** @var $element \System\Orm\Validation\Element\Element */
 			foreach($this->_elements as $element){

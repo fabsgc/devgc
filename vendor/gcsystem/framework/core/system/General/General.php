@@ -42,7 +42,7 @@
 					$src = $request->src;
 				}
 
-				return array($config->config[$type][$src], $data);
+				return [$config->config[$type][$src], $data];
 			}
 			else{
 				if(preg_match('#^((\.)([^(\/)]+)([(\/)]*)(.*))#', $data, $matches)){
@@ -134,10 +134,10 @@
 		 * @package system
 		*/
 
-		public function __call($name, $arguments = array()){
+		public function __call($name, $arguments = []){
 			$trace = debug_backtrace(0);
 
-			$params = array();
+			$params = [];
 
 			foreach ($arguments as $value) {
 				array_push($params, $value);
@@ -233,13 +233,13 @@
 		 * @since 2.4
 		*/
 
-		final public function ormToEntity($data = array(), $entity = ''){
-			$entities = array();
+		final public function ormToEntity($data = [], $entity = ''){
+			$entities = [];
 
 			foreach($data as $value){
 				if($entity != ''){
 					$entityName = '\entity\\'.$entity;
-					$entityObject = new $entityName($this->db);
+					$entityObject = new $entityName(self::Database()->db);
 
 					foreach($value as $key => $value2){
 						$entityObject->$key = $value2;
@@ -312,7 +312,7 @@
 		 * @since 3.0
 		 */
 
-		final public function useLang($lang, $vars = array(), $template = Lang::USE_NOT_TPL){
+		final public function useLang($lang, $vars = [], $template = Lang::USE_NOT_TPL){
 			return $this->langInstance->lang($lang, $vars, $template);
 		}
 
@@ -330,7 +330,7 @@
 
 	trait url{
 
-		private $_routeAttribute = array();
+		private $_routeAttribute = [];
 
 		/**
 		 * get an url
@@ -343,7 +343,7 @@
 		 * @since 3.0
 		*/
 
-		public function getUrl($name, $var = array(), $absolute = false){
+		public function getUrl($name, $var = [], $absolute = false){
 			$routes = $this->resolve(RESOLVE_ROUTE, $name);
 
 			if(isset($routes[0][''.$routes[1].''])){

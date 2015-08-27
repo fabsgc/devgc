@@ -23,7 +23,7 @@
 		 * @var array
 		*/
 
-		protected $_argv = array();
+		protected $_argv = [];
 
 		/**
 		 * init terminal
@@ -63,7 +63,7 @@
 							$data .= $argv[$i].' ';
 
 							if(preg_match('#\]#', $argv[$i])){
-								$data = str_replace(array('[', ']'), array('', ''), $data);
+								$data = str_replace(array('[', ']'), ['', ''], $data);
 								array_push($this->_argv, trim($data));
 								break;
 							}

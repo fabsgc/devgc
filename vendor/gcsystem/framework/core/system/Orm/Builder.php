@@ -65,7 +65,7 @@
 		 * @var string[]
 		*/
 
-		protected $_entities = array();
+		protected $_entities = [];
 
 		/**
 		 * the type (SELECT, SELECT DISTINCT)
@@ -124,7 +124,7 @@
 
 			else if(func_num_args() == 3){
 				$args = func_get_args();
-				$this->_vars[$args[0]] = array($args[1], $args[2]);
+				$this->_vars[$args[0]] = [$args[1], $args[2]];
 			}
 
 			return $this;
@@ -330,8 +330,8 @@
 			$limit = rand(0,50);
 			$this->_query .=' LIMIT :limit_offset_'.$limit.', :limit_number_'.$limit;
 
-			$this->vars('limit_offset_'.$limit, array($offset, Sql::PARAM_INT));
-			$this->vars('limit_number_'.$limit, array($number, Sql::PARAM_INT));
+			$this->vars('limit_offset_'.$limit, [$offset, Sql::PARAM_INT]);
+			$this->vars('limit_number_'.$limit, [$number, Sql::PARAM_INT]);
 
 			return $this;
 		}
@@ -360,7 +360,7 @@
 		*/
 
 		protected function _detectEntity($query){
-			preg_replace_callback('`([a-zA-Z]+)\.([a-zA-Z]+)`sU', array('System\Orm\Builder', '_detectEntityCallback'), $query);
+			preg_replace_callback('`([a-zA-Z]+)\.([a-zA-Z]+)`sU', ['System\Orm\Builder', '_detectEntityCallback'], $query);
 		}
 
 		/**
@@ -408,7 +408,7 @@
 			$collection = $sql->data($this->_getTableName($this->_entity->name())->name());
 
 			/** We can do SELECT OR SELECT DISTINCT OR SELECT RAW */
-			if(in_array($this->_type, array(self::QUERY_DISTINCT, self::QUERY_RAW))){
+			if(in_array($this->_type, [self::QUERY_DISTINCT, self::QUERY_RAW])){
 				$nLines = $collection->count();
 				$in = '';
 
@@ -427,7 +427,7 @@
 
 			/** If we have fields with a relation ONE TO MANY OR MANY TO MANY */
 			foreach($this->_entity->fields() as $field){
-				if($field->foreign != null && in_array($field->foreign->type(), array(ForeignKey::ONE_TO_MANY, ForeignKey::MANY_TO_MANY))){
+				if($field->foreign != null && in_array($field->foreign->type(), [ForeignKey::ONE_TO_MANY, ForeignKey::MANY_TO_MANY])){
 					/** we loop through the results to add each time */
 					switch($field->foreign->type()){
 						case ForeignKey::ONE_TO_MANY :
@@ -489,7 +489,7 @@
 			$data = null;
 
 			/** @var $line \System\Orm\Entity\Entity */
-			foreach($collection as $key => $line){
+			foreach($collection as $line){
 				$count = $line->get($field->name);
 				$data = null;
 
@@ -537,38 +537,71 @@
 		*/
 
 		protected function _dataManyToMany($field, $collection){
+			self::Profiler()->addTime('test-many');
+			/**
+			 * Instead of making only one query by line, we assemble all the lines IDs and we make a big query (time saving)
+			 * First, we make the query, using IN()
+			 * Then, we loop through the query lines and we add to each line her data from join
+			*/
+
+			$in = '';
+			$inVars = [];
+
 			/** we built the relation table name : $table */
 			$currentEntity = $field->foreign->entity();
 			$currentField  = $field->foreign->field();
 			$referenceEntity  = $field->foreign->referenceEntity();
 			$referenceField  = $field->foreign->referenceField();
+			$fieldFormName = lcfirst($referenceEntity).'_'.lcfirst($referenceField);
+			$fieldRelation = $this->_getTableName($referenceEntity)->name().'_'.$referenceField;
 
+			/** We must know the join table name */
 			$current   = strtolower($currentEntity.$currentField);
 			$reference = strtolower($referenceEntity.$referenceField);
-			$table = array($current, $reference);
+			$table = [$current, $reference];
 			sort($table, SORT_STRING);
 			$table = ucfirst($table[0].$table[1]);
 
-			/** @var $entity \System\Orm\Entity\Entity */
-			$entity = self::Entity()->$table();
+			/** @var $line \System\Orm\Entity\Entity */
+			foreach($collection as $key => $line){
+				$in .= ' :join'.$key.',';
+				$inVars['join'.$key] = $line->get($currentField);
+			}
+
+			$in = trim($in, ',');
+
+			/** @var $datasJoin \System\Collection\Collection */
+			$datasJoin = self::Entity()->$table()->find()
+				->where($fieldFormName.' IN('.$in.')')
+				->orderBy($fieldFormName.' ASC')
+				->vars($inVars)
+				->fetch();
+
+			$data = null;
 
 			/** @var $line \System\Orm\Entity\Entity */
 			foreach($collection as $line){
-				/** we get all the lines from the relation table  */
-				$where = $currentEntity.'.'.$currentField.' = '.$line->get($line->primary());
-				$data = $entity->find()->where($where)->fetch();
+				$count = $line->get($field->name);
+				$data = new Collection();
 
-				$result = new Collection();
+				/** @var $dataJoin \System\Orm\Entity\Entity */
+				foreach($datasJoin as $key2 => $dataJoin){
 
-				/** @var $lineRelation \System\Orm\Entity\Entity */
-				foreach($data as $lineRelation){
-					/** we get the column needed for example : student_id (one to one relation) in the relation table */
-					$fieldRelation = $this->_getTableName($field->foreign->referenceEntity())->name().'_'.$field->foreign->referenceField();
-					$result->add($lineRelation->get($fieldRelation));
+					/**
+					 * The lines are ordered by reference entity ID, so when we find the first line, we have just to
+					 * get the following lines thanks to $count
+					*/
+					if($count > 0 && $dataJoin->get($fieldRelation)->get($currentField) == $line->get($currentField)){
+
+						$data->add($dataJoin->get($fieldRelation));
+						$datasJoin->delete($key2);
+					}
 				}
 
-				$line->set($field->name, $result);
+				$line->set($field->name, $data);
 			}
+
+			self::Profiler()->addTime('test-many', \System\Profiler\Profiler::USER_END);
 
 			return $collection;
 		}
@@ -594,7 +627,7 @@
 					//We add all fields to the select
 					foreach($fields as $value){
 						//We mustn't add fields which don't exist in the SQL table
-						if($value->foreign == null || in_array($value->foreign->type(), array(ForeignKey::ONE_TO_ONE, ForeignKey::MANY_TO_ONE))){
+						if($value->foreign == null || in_array($value->foreign->type(), [ForeignKey::ONE_TO_ONE, ForeignKey::MANY_TO_ONE])){
 							$this->_query.= $this->_entity->name().'.'.$value->name. ' AS '.$this->_entity->name().'_'.$value->name;
 
 							if($i < $nFields - 1){
@@ -608,7 +641,25 @@
 							$referenceEntity = $value->foreign->referenceEntity();
 							$referenceField = $value->foreign->referenceField();
 
-							$this->_query.= '(SELECT COUNT(*) FROM '.$referenceEntity.' WHERE '.$referenceEntity.'.'.$referenceField.' = '.$currentEntity.'.'.$currentField.') AS count_'.$this->_entity->name().'_'.$value->name;
+							$this->_query.= '(SELECT COUNT(*) FROM '.$referenceEntity.' WHERE '.$referenceEntity.'.'.$referenceField.' = '.$currentEntity.'.'.$currentField.') AS count_one_'.$this->_entity->name().'_'.$value->name;
+
+							if($i < $nFields - 1){
+								$this->_query .= ', ';
+							}
+						}
+						//To optimize the relation MANY TO MANY, we replace the join value by the number of element in this join
+						else if($value->foreign != null && $value->foreign->type() == ForeignKey::MANY_TO_MANY){
+							$currentEntity  = $value->foreign->entity();
+							$currentField  = $value->foreign->field();
+							$referenceEntity = $value->foreign->referenceEntity();
+							$referenceField = $value->foreign->referenceField();
+							$current   = strtolower($currentEntity.$currentField);
+							$reference = strtolower($referenceEntity.$referenceField);
+							$table = [$current, $reference];
+							sort($table, SORT_STRING);
+							$table = ucfirst($table[0].$table[1]);
+
+							$this->_query.= '(SELECT COUNT(*) FROM '.$table.' WHERE '.$referenceEntity.'_'.$referenceField.' = '.$currentEntity.'.'.$currentField.') AS count_many_'.$this->_entity->name().'_'.$value->name;
 
 							if($i < $nFields - 1){
 								$this->_query .= ', ';
@@ -622,7 +673,7 @@
 
 					//if some fields have a relation one to one or many to one, we had a join
 					foreach($fields as $value){
-						if($value->foreign != null && in_array($value->foreign->type(), array(ForeignKey::ONE_TO_ONE, ForeignKey::MANY_TO_ONE))){
+						if($value->foreign != null && in_array($value->foreign->type(), [ForeignKey::ONE_TO_ONE, ForeignKey::MANY_TO_ONE])){
 							$this->_query .= ', ';
 
 							$class = $this->_getTableName($value->foreign->referenceEntity());
@@ -632,7 +683,7 @@
 							$i = 0;
 
 							foreach($fieldsRelation as $relation){
-								if($relation->foreign == null || in_array($relation->foreign->type(), array(ForeignKey::ONE_TO_ONE, ForeignKey::MANY_TO_ONE))){
+								if($relation->foreign == null || in_array($relation->foreign->type(), [ForeignKey::ONE_TO_ONE, ForeignKey::MANY_TO_ONE])){
 									$this->_query.= $class->name().'.'.$relation->name. ' AS '.$class->name().'_'.$relation->name;
 
 									if($i < $nFieldsRelation - 1){
@@ -666,14 +717,14 @@
 
 			/** If there are relations like one to one, many_to_one or many to many */
 			foreach($fields as $value){
-				if($value->foreign != null &&  in_array($value->foreign->type(), array(ForeignKey::ONE_TO_ONE, ForeignKey::MANY_TO_ONE))){
+				if($value->foreign != null &&  in_array($value->foreign->type(), [ForeignKey::ONE_TO_ONE, ForeignKey::MANY_TO_ONE])){
 					$entity = $value->foreign->entity();
 					$field  = $value->foreign->field();
 					$referenceEntity = $value->foreign->referenceEntity();
 					$referenceField  = $value->foreign->referenceField();
 					$this->join($value->foreign->join(), $referenceEntity, $entity.'.'.$field.' = '.$referenceEntity.'.'.$referenceField);
 				}
-				else if($value->foreign != null && in_array($value->foreign->type(), array(ForeignKey::MANY_TO_MANY))){
+				else if($value->foreign != null && in_array($value->foreign->type(), [ForeignKey::MANY_TO_MANY])){
 					//We add here two join (relation table and table linked)
 					$currentEntity    = $value->foreign->entity();
 					$currentField     = $value->foreign->field();
@@ -682,7 +733,7 @@
 
 					$current   = strtolower($currentEntity.$currentField);
 					$reference = strtolower($referenceEntity.$referenceField);
-					$table = array($current, $reference);
+					$table = [$current, $reference];
 					sort($table, SORT_STRING);
 					$table = ucfirst($table[0].$table[1]);
 

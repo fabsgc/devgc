@@ -75,7 +75,7 @@
 			$this->name        = preg_replace('#^([^\|]*)\|([^|]+)\|([^\|]+)$#', '$2', $field);
 			$this->contentType = preg_replace('#^([^\|]*)\|([^\|]+)\|([^\|]+)$#', '$3', $field);
 
-			if(!in_array(substr($this->path, strlen($this->path)-1, strlen($this->path)), array('/', '\\')) && $this->path != ''){
+			if(!in_array(substr($this->path, strlen($this->path)-1, strlen($this->path)), ['/', '\\']) && $this->path != ''){
 				$this->path .= '/';
 			}
 

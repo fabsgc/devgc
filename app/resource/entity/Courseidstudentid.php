@@ -21,5 +21,8 @@
 				->type(Field::INT)
 				->beNull(false)
 				->foreign(['type' => ForeignKey::MANY_TO_ONE, 'reference' => ['course', 'id']]);
+			$this->field('count')
+				->type(Field::INT)
+				->beNull(false);
 		}
 	}

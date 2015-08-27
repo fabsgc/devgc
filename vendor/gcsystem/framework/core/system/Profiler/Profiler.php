@@ -23,21 +23,21 @@
 		 * @var string[]
 		*/
 
-		protected $_sql = array();
+		protected $_sql = [];
 
 		/**
 		 * templates
 		 * @var string[]
 		*/
 
-		protected $_template = array();
+		protected $_template = [];
 
 		/**
 		 * errors
 		 * @var string[]
 		*/
 
-		protected $_error = array();
+		protected $_error = [];
 
 		/**
 		 * //profiler activated ?
@@ -65,7 +65,7 @@
 		 * @var boolean
 		*/
 
-		protected $_timeUser = array();
+		protected $_timeUser = [];
 
 		const SQL_START = 0;
 		const SQL_END   = 1;
@@ -114,7 +114,7 @@
 			$this->_stopTime();
 
 			if($this->_enabled == true){
-				$dataProfiler = array();
+				$dataProfiler = [];
 
 				$dataProfiler['time'] = round($this->_time,2);
 				$dataProfiler['timeUser'] = $this->_timeUser;
@@ -171,7 +171,7 @@
 			if($this->_enabled == true){
 				switch ($type) {
 					case self::TEMPLATE_START:
-						$this->_template[$file] = array();
+						$this->_template[$file] = [];
 						$this->_template[$file]['name'] = $name;
 						$this->_template[$file]['time'] = microtime(true);
 					break;
@@ -203,7 +203,7 @@
 						else
 							$this->_lastSql = $name.rand(0,10);
 
-						$this->_sql[$this->_lastSql] = array();
+						$this->_sql[$this->_lastSql] = [];
 						$this->_sql[$this->_lastSql]['time'] = microtime(true);
 					break;
 					

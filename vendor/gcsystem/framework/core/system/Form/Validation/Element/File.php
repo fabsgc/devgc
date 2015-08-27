@@ -58,7 +58,7 @@
 					switch ($constraint['type']) {
 						case self::ACCEPT:
 							if(!is_array($this->_data[$this->_field]['type'])){
-								$this->_data[$this->_field]['type'] = array($this->_data[$this->_field]['type']);
+								$this->_data[$this->_field]['type'] = [$this->_data[$this->_field]['type']];
 							}
 
 							foreach($this->_data[$this->_field]['type'] as $value){
@@ -75,7 +75,7 @@
 
 						case self::EXTENSION:
 							if(!is_array($this->_data[$this->_field]['name'])){
-								$this->_data[$this->_field]['name'] = array($this->_data[$this->_field]['name']);
+								$this->_data[$this->_field]['name'] = [$this->_data[$this->_field]['name']];
 							}
 
 							foreach($this->_data[$this->_field]['name'] as $value){
@@ -92,7 +92,7 @@
 
 						case self::SIZEMIN:
 							if(!is_array($this->_data[$this->_field]['size'])){
-								$this->_data[$this->_field]['size'] = array($this->_data[$this->_field]['size']);
+								$this->_data[$this->_field]['size'] = [$this->_data[$this->_field]['size']];
 							}
 
 							foreach($this->_data[$this->_field]['size'] as $value){
@@ -109,7 +109,7 @@
 
 						case self::SIZEMAX:
 							if(!is_array($this->_data[$this->_field]['size'])){
-								$this->_data[$this->_field]['size'] = array($this->_data[$this->_field]['size']);
+								$this->_data[$this->_field]['size'] = [$this->_data[$this->_field]['size']];
 							}
 
 							foreach($this->_data[$this->_field]['size'] as $value){
@@ -126,7 +126,7 @@
 
 						case self::SIZEBETWEEN:
 							if(!is_array($this->_data[$this->_field]['size'])){
-								$this->_data[$this->_field]['size'] = array($this->_data[$this->_field]['size']);
+								$this->_data[$this->_field]['size'] = [$this->_data[$this->_field]['size']];
 							}
 
 							foreach($this->_data[$this->_field]['size'] as $value){
@@ -143,7 +143,7 @@
 
 						case self::COUNT:
 							if(!is_array($this->_data[$this->_field]['name'])){
-								$this->_data[$this->_field]['name'] = array($this->_data[$this->_field]['name']);
+								$this->_data[$this->_field]['name'] = [$this->_data[$this->_field]['name']];
 							}
 
 							if (count($this->_data[$this->_field]['name']) != $constraint['value']) {
@@ -156,7 +156,7 @@
 
 						case self::COUNTMIN:
 							if(!is_array($this->_data[$this->_field]['name'])){
-								$this->_data[$this->_field]['name'] = array($this->_data[$this->_field]['name']);
+								$this->_data[$this->_field]['name'] = [$this->_data[$this->_field]['name']];
 							}
 
 							if (count($this->_data[$this->_field]['name']) < $constraint['value']) {
@@ -169,7 +169,7 @@
 
 						case self::COUNTMAX:
 							if(!is_array($this->_data[$this->_field]['name'])){
-								$this->_data[$this->_field]['name'] = array($this->_data[$this->_field]['name']);
+								$this->_data[$this->_field]['name'] = [$this->_data[$this->_field]['name']];
 							}
 
 							if (count($this->_data[$this->_field]['name']) > $constraint['value']) {
@@ -182,7 +182,7 @@
 
 						case self::COUNTIN:
 							if(!is_array($this->_data[$this->_field]['name'])){
-								$this->_data[$this->_field]['name'] = array($this->_data[$this->_field]['name']);
+								$this->_data[$this->_field]['name'] = [$this->_data[$this->_field]['name']];
 							}
 
 							if (!in_array(count($this->_data[$this->_field]['name']), $constraint['value'])) {

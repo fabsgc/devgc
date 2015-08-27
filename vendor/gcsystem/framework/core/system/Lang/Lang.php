@@ -57,7 +57,7 @@
 		 * @package System\Lang
 		*/
 		
-		public function lang($name, $vars = array(), $template = self::USE_NOT_TPL){
+		public function lang($name, $vars = [], $template = self::USE_NOT_TPL){
 			$request = self::Request();
 			$config = $this->resolve(RESOLVE_LANG, $name);
 			$name = $config[1];

@@ -61,22 +61,22 @@
 
 			switch($request->data->method){
 				case 'get' :
-					$class->hydrate($request->data->get);
+					$class->hydrate();
 					$class->beforeInsert();
 				break;
 
 				case 'post' :
-					$class->hydrate($request->data->post);
+					$class->hydrate();
 					$class->beforeInsert();
 				break;
 
 				case 'put' :
-					$class->hydrate($request->data->post);
+					$class->hydrate();
 					$class->beforeUpdate();
 				break;
 
 				case 'delete' :
-					$class->hydrate($request->data->post);
+					$class->hydrate();
 					$class->beforeDelete();
 				break;
 			}

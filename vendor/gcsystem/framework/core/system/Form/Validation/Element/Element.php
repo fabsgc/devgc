@@ -96,13 +96,13 @@
 		 * @var $_errors array[]
 		*/
 
-		protected $_errors = array();
+		protected $_errors = [];
 
 		/**
 		 * @var $_constraints array[]
 		*/
 
-		protected $_constraints = array();
+		protected $_constraints = [];
 
 		/**
 		 * constructor
@@ -147,15 +147,15 @@
 		*/
 
 		public function check(){
-			$this->_errors = array();
+			$this->_errors = [];
 
 			foreach($this->_constraints as $constraints){
 				if(!isset($this->_data[$this->_field])){
-					$this->_data[$this->_field] = array();
+					$this->_data[$this->_field] = [];
 				}
 
 				if(!is_array($this->_data[$this->_field])){
-					$this->_data[$this->_field] = array($this->_data[$this->_field]);
+					$this->_data[$this->_field] = [$this->_data[$this->_field]];
 				}
 
 				foreach($this->_data[$this->_field] as $value) {

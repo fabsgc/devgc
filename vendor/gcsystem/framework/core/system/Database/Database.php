@@ -44,7 +44,7 @@
 		 * @package System\Request
 		*/
 
-		public static function getInstance($db = array()){
+		public static function getInstance($db = []){
 			if (is_null(self::$_instance)){;
 				if(DATABASE == true)
 					self::$_instance = new Database($db[0]);
@@ -70,7 +70,7 @@
 				switch ($db['driver']){
 					case 'pdo' :
 						$options = [
-							Pdo::ATTR_STATEMENT_CLASS => array('\System\Pdo\PdoStatement', array())
+							Pdo::ATTR_STATEMENT_CLASS => ['\System\Pdo\PdoStatement', []]
 						];
 
 						switch ($db['type']){

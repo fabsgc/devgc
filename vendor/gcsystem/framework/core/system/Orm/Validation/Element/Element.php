@@ -94,13 +94,13 @@
 		 * @var $_errors array[]
 		*/
 
-		protected $_errors = array();
+		protected $_errors = [];
 
 		/**
 		 * @var $_constraints array[]
 		*/
 
-		protected $_constraints = array();
+		protected $_constraints = [];
 
 		/**
 		 * constructor
@@ -127,7 +127,7 @@
 		*/
 
 		public function check(){
-			$this->_errors = array();
+			$this->_errors = [];
 		}
 
 		/**
@@ -158,13 +158,6 @@
 		}
 
 		/**
-		 * destructor
-		 * @access public
-		 * @since 3.0
-		 * @package System\Form\Validation\Element
-		*/
-
-		/**
 		 * the field must be equal to
 		 * @access public
 		 * @param $equal string
@@ -172,7 +165,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function equal($equal, $error){
 			if($this->_exist){
@@ -194,7 +187,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function different($different, $error){
 			if($this->_exist){
@@ -216,7 +209,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function moreThan($moreThan, $error){
 			if($this->_exist){
@@ -238,7 +231,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function lessThan($lessThan, $error){
 			if($this->_exist){
@@ -260,7 +253,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function between($between, $error){
 			if($this->_exist){
@@ -282,7 +275,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function in($in, $error){
 			if($this->_exist){
@@ -304,7 +297,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function notIn($notIn, $error){
 			if($this->_exist){
@@ -326,7 +319,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function length($length, $error){
 			if($this->_exist){
@@ -348,7 +341,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function lengthMin($lengthMin, $error){
 			if($this->_exist){
@@ -370,7 +363,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function lengthMax($lengthMax, $error){
 			if($this->_exist){
@@ -392,7 +385,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function lengthIn($lengthIn, $error){
 			if($this->_exist){
@@ -414,7 +407,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function lengthBetween($lengthBetween, $error){
 			if($this->_exist){
@@ -436,7 +429,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function regex($regex, $error){
 			if($this->_exist){
@@ -457,7 +450,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function mail($error){
 			if($this->_exist){
@@ -477,7 +470,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function int($error){
 			if($this->_exist){
@@ -497,7 +490,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function float($error){
 			if($this->_exist){
@@ -517,7 +510,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function alpha($error){
 			if($this->_exist){
@@ -537,7 +530,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function alphaNum($error){
 			if($this->_exist){
@@ -557,7 +550,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function alphaDash($error){
 			if($this->_exist){
@@ -577,7 +570,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function ip($error){
 			if($this->_exist){
@@ -602,7 +595,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function sql($sql, $error){
 			if($this->_exist){
@@ -624,7 +617,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function count($count, $error){
 			if($this->_exist){
@@ -646,7 +639,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function countMin($countMin, $error){
 			if($this->_exist){
@@ -668,7 +661,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function countMax($countMax, $error){
 			if($this->_exist){
@@ -690,7 +683,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function countIn($countIn, $error){
 			if($this->_exist){
@@ -712,7 +705,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function countBetween($countBetween, $error){
 			if($this->_exist){
@@ -733,7 +726,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function exist($error){
 			if($this->_exist){
@@ -753,7 +746,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function notExist($error){
 			if($this->_exist){
@@ -774,7 +767,7 @@
 		 * @return \System\Orm\Validation\Element\Element
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
-		 */
+		*/
 
 		public function custom($name){
 			if($this->_exist) {
@@ -792,6 +785,13 @@
 
 			return $this;
 		}
+
+		/**
+		 * destructor
+		 * @access public
+		 * @since 3.0
+		 * @package System\Form\Validation\Element
+		*/
 
 		public function __destruct(){
 		}

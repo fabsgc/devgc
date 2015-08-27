@@ -28,14 +28,14 @@
 		 * @var array
 		*/
 
-		public $param = array(
+		public $param = [
 			'method'  => '',
 			'get'     => [],
 			'post'    => [],
 			'cookie'  => [],
 			'file'    => [],
 			'session' => []
-		);
+		];
 
 		/**
 		 * constructor

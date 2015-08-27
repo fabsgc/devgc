@@ -540,7 +540,7 @@
 
 		private function _setEvent($src = null){
 			if(empty($GLOBALS['eventListeners'])){
-				$GLOBALS['eventListeners'] = array();
+				$GLOBALS['eventListeners'] = [];
 			}
 
 			if($src != null){
@@ -645,8 +645,8 @@
 		*/
 
 		private function _minifyHtml($buffer) {
-			$search = array('/\>[^\S ]+/s', '/[^\S ]+\</s', '/\>(\s)+/s', '/(\s)+\</s');
-			$replace = array('> ', ' <', '> ', ' <');
+			$search = ['/\>[^\S ]+/s', '/[^\S ]+\</s', '/\>(\s)+/s', '/(\s)+\</s'];
+			$replace = ['> ', ' <', '> ', ' <'];
 			$buffer = preg_replace($search, $replace, $buffer);
 
 			return $buffer;

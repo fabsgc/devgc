@@ -30,14 +30,14 @@
 		 * @var string[]
 		*/
 
-		protected $_files = array();
+		protected $_files = [];
 
 		/**
 		 * cache file
 		 * @var string[]
 		*/
 
-		protected $_data = array();
+		protected $_data = [];
 
 		/**
 		 * cache file
@@ -84,7 +84,7 @@
 		 * @package System\AssetManager
 		*/
 
-		public function __construct($data = array()){
+		public function __construct($data = []){
 			foreach ($data as $key => $value) {
 				switch ($key) {
 					case 'files':
@@ -135,7 +135,7 @@
 		 * @package System\AssetManager
 		*/
 
-		protected function _setFiles($data = array()){
+		protected function _setFiles($data = []){
 			foreach ($data as $value) {
 				$value = preg_replace('#\\n#isU', '', $value);
 				$value = preg_replace('#\\r#isU', '', $value);
@@ -174,8 +174,8 @@
 
 			if($this->_type == 'css'){
 				$this->_currentPath = dirname($path).'/';
-				$this->_data[''.$path.''] = preg_replace_callback('`url\((.*)\)`isU', array('System\AssetManager\AssetManager', '_parseRelativePathCssUrl'), $this->_data[''.$path.'']);
-				$this->_data[''.$path.''] = preg_replace_callback('`src=\'(.*)\'`isU', array('System\AssetManager\AssetManager', '_parseRelativePathCssSrc'), $this->_data[''.$path.'']);
+				$this->_data[''.$path.''] = preg_replace_callback('`url\((.*)\)`isU', ['System\AssetManager\AssetManager', '_parseRelativePathCssUrl'], $this->_data[''.$path.'']);
+				$this->_data[''.$path.''] = preg_replace_callback('`src=\'(.*)\'`isU', ['System\AssetManager\AssetManager', '_parseRelativePathCssSrc'], $this->_data[''.$path.'']);
 			}
 		}
 
@@ -290,9 +290,9 @@
 		*/
 
 		protected function _compress(){
-			$before = '(?<=[:(, ])';
-			$after = '(?=[ ,);}])';
-			$units = '(em|ex|%|px|cm|mm|in|pt|pc|ch|rem|vh|vw|vmin|vmax|vm)';
+			//$before = '(?<=[:(, ])';
+			//$after = '(?=[ ,);}])';
+			//$units = '(em|ex|%|px|cm|mm|in|pt|pc|ch|rem|vh|vw|vmin|vmax|vm)';
 
 			foreach ($this->_data as $value) {
 				$this->_concatenedContent .= $value;

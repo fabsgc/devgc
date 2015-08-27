@@ -31,7 +31,7 @@
 		 * @var \System\Orm\Entity\Field[]
 		*/
 
-		protected $_fields = array();
+		protected $_fields = [];
 
 		/**
 		 * @var string
@@ -386,14 +386,14 @@
 				self::Database()->db()->beginTransaction();
 
 			/** @var $fieldsInsertOneToMany \System\Orm\Entity\Entity[] */
-			$fieldsInsertOneToMany = array();
+			$fieldsInsertOneToMany = [];
 			/** @var $fieldsUpdateOneToMany \System\Orm\Entity\Entity[] */
-			$fieldsUpdateOneToMany = array();
+			$fieldsUpdateOneToMany = [];
 
 			/** @var $fieldsInsertOneToMany \System\Orm\Entity\Entity[] */
-			$fieldsInsertManyToMany = array();
+			$fieldsInsertManyToMany = [];
 			/** @var $fieldsUpdateOneToMany \System\Orm\Entity\Entity[] */
-			$fieldsUpdateManyToMany = array();
+			$fieldsUpdateManyToMany = [];
 
 			/** @var $field \System\Orm\Entity\Field */
 			foreach($this->_fields as $field){
@@ -522,20 +522,20 @@
 						}
 
 						if(gettype($field->value) != 'object'){
-							if(in_array($field->type, array(Field::INCREMENT, Field::INT, Field::FLOAT))){
-								$sql->vars($field->name, array($field->value, sql::PARAM_INT));
+							if(in_array($field->type, [Field::INCREMENT, Field::INT, Field::FLOAT])){
+								$sql->vars($field->name, [$field->value, sql::PARAM_INT]);
 							}
-							else if(in_array($field->type, array(Field::CHAR, Field::TEXT, Field::STRING, Field::DATE, Field::DATETIME, Field::TIME, Field::TIMESTAMP))){
-								$sql->vars($field->name, array($field->value, sql::PARAM_STR));
+							else if(in_array($field->type, [Field::CHAR, Field::TEXT, Field::STRING, Field::DATE, Field::DATETIME, Field::TIME, Field::TIMESTAMP])){
+								$sql->vars($field->name, [$field->value, sql::PARAM_STR]);
 							}
-							else if(in_array($field->type, array(Field::BOOL))){
-								$sql->vars($field->name, array($field->value, sql::PARAM_BOOL));
+							else if(in_array($field->type, [Field::BOOL])){
+								$sql->vars($field->name, [$field->value, sql::PARAM_BOOL]);
 							}
 							else{
 								$sql->vars($field->name, $field->value);
 							}
 						}
-						else if(in_array($field->type, array(Field::FILE))){
+						else if(in_array($field->type, [Field::FILE])){
 							$sql->vars($field->name, $field->value->value());
 							$field->value->save();
 						}
@@ -547,8 +547,8 @@
 			}
 
 			/** Execution of the query */
-			$queryFields = preg_replace('#, $#isU', '', $queryFields);
-			$queryValues = preg_replace('#, $#isU', '', $queryValues);
+			$queryFields = trim($queryFields, ',');
+			$queryValues = trim($queryValues, ',');
 
 			$query = 'INSERT INTO '.$this->_name.'('.$queryFields.') VALUES('.$queryValues.')';
 
@@ -602,7 +602,7 @@
 
 				$current   = strtolower($currentEntity.$currentField);
 				$reference = strtolower($referenceEntity.$referenceField);
-				$table = array($current, $reference);
+				$table = [$current, $reference];
 				sort($table, SORT_STRING);
 				$table = ucfirst($table[0].$table[1]);
 
@@ -657,14 +657,14 @@
 				self::Database()->db()->beginTransaction();
 
 			/** @var $fieldsInsertOneToMany \System\Orm\Entity\Entity[] */
-			$fieldsInsertOneToMany = array();
+			$fieldsInsertOneToMany = [];
 			/** @var $fieldsUpdateOneToMany \System\Orm\Entity\Entity[] */
-			$fieldsUpdateOneToMany = array();
+			$fieldsUpdateOneToMany = [];
 
 			/** @var $fieldsInsertOneToMany \System\Orm\Entity\Entity[] */
-			$fieldsInsertManyToMany = array();
+			$fieldsInsertManyToMany = [];
 			/** @var $fieldsUpdateOneToMany \System\Orm\Entity\Entity[] */
-			$fieldsUpdateManyToMany = array();
+			$fieldsUpdateManyToMany = [];
 
 			/** @var $field \System\Orm\Entity\Field */
 			foreach($this->_fields as $field){
@@ -791,20 +791,20 @@
 						}
 
 						if(gettype($field->value) != 'object'){
-							if(in_array($field->type, array(Field::INCREMENT, Field::INT, Field::FLOAT))){
-								$sql->vars($field->name, array($field->value, sql::PARAM_INT));
+							if(in_array($field->type, [Field::INCREMENT, Field::INT, Field::FLOAT])){
+								$sql->vars($field->name, [$field->value, sql::PARAM_INT]);
 							}
-							else if(in_array($field->type, array(Field::CHAR, Field::TEXT, Field::STRING, Field::DATE, Field::DATETIME, Field::TIME, Field::TIMESTAMP))){
-								$sql->vars($field->name, array($field->value, sql::PARAM_STR));
+							else if(in_array($field->type, [Field::CHAR, Field::TEXT, Field::STRING, Field::DATE, Field::DATETIME, Field::TIME, Field::TIMESTAMP])){
+								$sql->vars($field->name, [$field->value, sql::PARAM_STR]);
 							}
-							else if(in_array($field->type, array(Field::BOOL))){
-								$sql->vars($field->name, array($field->value, sql::PARAM_BOOL));
+							else if(in_array($field->type, [Field::BOOL])){
+								$sql->vars($field->name, [$field->value, sql::PARAM_BOOL]);
 							}
 							else{
 								$sql->vars($field->name, $field->value);
 							}
 						}
-						else if(in_array($field->type, array(Field::FILE))){
+						else if(in_array($field->type, [Field::FILE])){
 							$sql->vars($field->name, $field->value->value());
 							$field->value->save();
 						}
@@ -814,7 +814,7 @@
 				}
 			}
 
-			$queryFields = preg_replace('#, $#isU', '', $queryFields);
+			$queryFields = trim($queryFields, ',');
 
 			$query = 'UPDATE '.$this->_name.' SET '.$queryFields.' WHERE '.$this->_fields[$this->_primary]->name.' = '.$this->_fields[$this->_primary]->value;
 
@@ -865,7 +865,7 @@
 
 				$current   = strtolower($currentEntity.$currentField);
 				$reference = strtolower($referenceEntity.$referenceField);
-				$table = array($current, $reference);
+				$table = [$current, $reference];
 				sort($table, SORT_STRING);
 				$table = ucfirst($table[0].$table[1]);
 
@@ -984,7 +984,7 @@
 
 										$current   = strtolower($currentEntity.$currentField);
 										$reference = strtolower($referenceEntity.$referenceField);
-										$table = array($current, $reference);
+										$table = [$current, $reference];
 										sort($table, SORT_STRING);
 										$table = ucfirst($table[0].$table[1]);
 
@@ -1096,19 +1096,18 @@
 		/**
 		 * Before validation, we must inserting all the data
 		 * @access public
-		 * @param $data array
 		 * @return void
 		 * @since 3.0
 		 * @package System\Request
 		*/
 
-		public function hydrate($data){
+		public function hydrate(){
 			$table = strtolower($this->_name);
 
 			foreach($this->_fields as $field){
 				if($field->foreign != null){
 					$in = '';
-					$inVars = array();
+					$inVars = [];
 					$entityName = '\Orm\Entity\\'.$field->foreign->referenceEntity();
 					$fieldName = lcfirst($field->foreign->entity()).'_'.lcfirst($field->foreign->referenceEntity());
 					$fieldFormName = lcfirst($field->foreign->referenceEntity()).'.'.lcfirst($field->foreign->referenceField());
@@ -1164,25 +1163,25 @@
 						break;
 					}
 				}
-				else if(in_array($field->type, array(Field::INCREMENT, Field::INT, Field::FLOAT))){
+				else if(in_array($field->type, [Field::INCREMENT, Field::INT, Field::FLOAT])){
 					if(isset($this->_data[$table.'_'.$field->name]))
 						$field->value = $this->_data[$table.'_'.$field->name];
 					else
 						$field->value = null;
 				}
-				else if(in_array($field->type, array(Field::CHAR, Field::TEXT, Field::STRING, Field::DATE, Field::DATETIME, Field::TIME, Field::TIMESTAMP))){
+				else if(in_array($field->type, [Field::CHAR, Field::TEXT, Field::STRING, Field::DATE, Field::DATETIME, Field::TIME, Field::TIMESTAMP])){
 					if(isset($this->_data[$table.'_'.$field->name]))
 						$field->value = $this->_data[$table.'_'.$field->name];
 					else
 						$field->value = null;
 				}
-				else if(in_array($field->type, array(Field::BOOL))){
+				else if(in_array($field->type, [Field::BOOL])){
 					if(isset($this->_data[$table.'_'.$field->name]))
 						$field->value = true;
 					else
 						$field->value = false;
 				}
-				else if(in_array($field->type, array(Field::FILE))){
+				else if(in_array($field->type, [Field::FILE])){
 					$data = Data::getInstance()->file;
 
 					if(isset($data[$table.'_'.$field->name])){

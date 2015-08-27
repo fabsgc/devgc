@@ -23,7 +23,7 @@ class Iterator implements \Iterator{
 	 * @var object[]
 	*/
 
-	private $_datas = array();
+	private $_datas = [];
 
 	/**
 	 * Constructor
