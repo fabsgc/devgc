@@ -44,3 +44,11 @@
 #################### END OF EXECUTION OF http://www.gcsystem.dev:82/gcs/profiler ####################
 26/08/2015 17:55:17 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 305 / Action "Gcs/AssetManager/actionDefault" called successfully
 #################### END OF EXECUTION OF http://www.gcsystem.dev:82/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+26/08/2015 20:39:25 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 305 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev:82/ ####################
+26/08/2015 20:39:26 : [WARNING] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 355 / routing failed : http://www.gcsystem.dev:82/favicon.ico
+#################### END OF EXECUTION OF http://www.gcsystem.dev:82/favicon.ico ####################
+26/08/2015 20:39:27 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 305 / Action "Gcs/Profiler/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev:82/gcs/profiler ####################
+26/08/2015 20:39:28 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\system\Engine\Engine.php / line 305 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://www.gcsystem.dev:82/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
