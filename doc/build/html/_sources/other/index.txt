@@ -1,6 +1,6 @@
 =====
-L'Orm
+Autre
 =====
 
 .. toctree::
-   :maxdepth: 4
+    :maxdepth: 4
