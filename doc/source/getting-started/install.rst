@@ -2,7 +2,15 @@
 Installation
 ============
 
-Actuellement, il existe deux manière différentes d'installer le framework.
+Actuellement, il existe deux manières différentes d'installer le framework.
+
+.. attention::
+   Pour pouvoir utiliser le GCsystem, vous devez absolument remplir les conditions suivantes :
+
+   - PHP 5.4 minimum
+   - Réécriture d'URL activée (Apache, Nginx ou autre)
+   - Chmod 755 sur les situés dans app/
+   - Composer
 
 Installation avec Composer
 ==========================

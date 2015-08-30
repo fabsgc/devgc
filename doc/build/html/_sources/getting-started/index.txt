@@ -8,8 +8,8 @@ Pour commencer
    architecture
    install
    configuration
-   request-response
    routing
+   request-response
    controller
    model
    view

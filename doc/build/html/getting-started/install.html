@@ -84,7 +84,10 @@
 <li class="toctree-l3"><a class="reference internal" href="#installation-avec-github-et-composer">Installation avec Github et Composer</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html">Configuration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="configuration.html#connexion-a-la-base-de-donnees">Connexion à la base de données</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="request-response.html">Les objets Request et Response</a></li>
 <li class="toctree-l2"><a class="reference internal" href="routing.html">Le routing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="controller.html">Les contrôleurs</a></li>
@@ -149,7 +152,17 @@
             
   <div class="section" id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Actuellement, il existe deux manière différentes d&#8217;installer le framework.</p>
+<p>Actuellement, il existe deux manières différentes d&#8217;installer le framework.</p>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p>Pour pouvoir utiliser le GCsystem, vous devez absolument remplir les conditions suivantes :</p>
+<ul class="last simple">
+<li>PHP 5.4 minimum</li>
+<li>Réécriture d&#8217;URL activée (Apache, Nginx ou autre)</li>
+<li>Chmod 755 sur les situés dans app/</li>
+<li>Composer</li>
+</ul>
+</div>
 <div class="section" id="installation-avec-composer">
 <h2>Installation avec Composer<a class="headerlink" href="#installation-avec-composer" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Le GCsystem dispose d&#8217;un petit programme séparé qui va se charger de l&#8217;installation. Tout d&#8217;abord, téléchargez ce petit programme en mode global depuis composer.Par la suite, exécutez la commande Composer <code class="docutils literal"><span class="pre">gcsystem</span></code> nouvellement créée dans le répertoire de votre choix, et enfin faites un simple <code class="docutils literal"><span class="pre">composer</span> <span class="pre">update</span></code></p>
