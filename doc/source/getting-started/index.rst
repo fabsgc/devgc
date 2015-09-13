@@ -8,6 +8,8 @@ Pour commencer
    architecture
    install
    configuration
+   spam
+   firewall
    routing
    request-response
    controller

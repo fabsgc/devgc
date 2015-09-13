@@ -232,6 +232,7 @@
 							$data[$attributeType] = '';
 					}
 
+					/** @var array $data */
 					$data = $this->_parseParent($value, $data, $this->_routeAttribute);
 
 					if(empty($data['logged']) || $data['logged'] == '')

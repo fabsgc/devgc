@@ -1,4 +1,17 @@
 <gc:extends file="main"/>
+<style>
+  label{
+    display:inline-block;
+    width: 200px;
+  }
+
+  select  {
+    width: 500px;
+    padding: 8px;
+    outline:none;
+    margin-bottom: 8px;
+  }
+</style>
 <form action="{{url:get}}" method="post" enctype="multipart/form-data">
 	<input type="hidden" name="request-put"/>
 	<input type="text" name="text" placeholder="texte" /><br />

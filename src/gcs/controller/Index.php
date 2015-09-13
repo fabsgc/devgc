@@ -9,6 +9,7 @@
 	use System\Controller\Controller;
 	use System\Orm\Entity;
 	use System\Collection\Collection;
+	use System\Template\Template;
 
 	class Index extends Controller{
 		public function init(){
@@ -17,7 +18,7 @@
 		}
 		
 		public function actionDefault(){
-			//$lines = $this->getFileLineDir('vendor/gcsystem/framework/core/system/Orm/Entity/');
+			//$lines = $this->getFileLineDir('vendor/gcsystem/framework/');
 			//$lines += $this->getFileLineDir('app/');
 			//$lines += $this->getFileLineDir('src/');
 			//echo $lines;
@@ -29,7 +30,7 @@
 			//Article::find()->fetch();
 			//Article::find()->limit(0,200)->fetch();
 			//print_r(Student::find()->fetch()->first());
-			print_r(Student::find()->where('Student.id = 75')->fetch());
+			print_r(Student::find()->where('Student.id = 1')->fetch()->first());
 
 			//print_r(Article::find()->fetch());
 
@@ -64,25 +65,25 @@
 		}
 
 		public function actionGet(){
-			return self::Template('index/formPost', 'formDefault')
+			return (new Template('index/formPost', 'formDefault'))
 				->assign('title', 'Injection Formulaire')
 				->assign('articles', Article::find()->fetch())
 				->show();
 		}
 
 		public function actionPost(Post $post){
-			return self::Template('index/formPost', 'formDefault')
+			return (new Template('index/form', 'formDefault'))
 				->assign('title', 'Injection Formulaire')
 				->assign('post', $post)
 				->assign('articles', Article::find()->fetch())
 				->show();
 		}
 
-		public function actionPut(FormRequest $request, Article $article){
-			return self::Template('index/form', 'formDefault')
+		public function actionPut(Post $post){
+			return (new Template('index/formPost', 'formDefault'))
 				->assign('title', 'Injection Formulaire')
-				->assign('request', $request)
-				->assign('article', $article)
+				->assign('post', $post)
+				->assign('articles', Article::find()->fetch())
 				->show();
 		}
 

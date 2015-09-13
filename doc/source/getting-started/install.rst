@@ -19,17 +19,17 @@ Le GCsystem dispose d'un petit programme séparé qui va se charger de l'install
 
 .. sourcecode:: bash
 
-	composer global require "gcsystem/installer=dev-master"
-	composer gcsystem
-	composer update
+    composer global require "gcsystem/installer=dev-master"
+    composer gcsystem
+    composer update
 
 Vous pouvez également utiliser la commande ``create-project`` de Composer : 
 
 .. sourcecode:: bash
-	
-	composer create-project "gcsystem/gcsystem=dev-master"
-	cd gcsystem
-	composer update
+    
+    composer create-project "gcsystem/gcsystem=dev-master"
+    cd gcsystem
+    composer update
 
 Installation avec Github et Composer
 ====================================
@@ -38,10 +38,10 @@ Tout d'abord, Récupérer le framework (sans son coeur), depuis le dépôt Githu
 
 .. sourcecode:: bash
 
-	git clone https://github.com/fabsgc/gcsystem.git
+    git clone https://github.com/fabsgc/gcsystem.git
 
 Ensuite, il vous suffit d'exécuter la commande ``update`` de Composer pour mettre à jour toutes les dépendances (le coeur du framework :
 
 .. sourcecode:: bash
-	
-	composer update
+    
+    composer update

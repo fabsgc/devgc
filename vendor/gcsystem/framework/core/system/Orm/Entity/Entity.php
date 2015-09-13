@@ -12,7 +12,7 @@
 
 	use System\Exception\MissingEntityException;
 	use System\Orm\Entity\Type\File;
-	use \System\Orm\Validation\Validation;
+	use System\Orm\Validation\Validation;
 	use System\General\facades;
 	use System\Orm\Builder;
 	use System\Request\Data;
@@ -1104,6 +1104,24 @@
 		public function hydrate(){
 			$table = strtolower($this->_name);
 
+			/** First, we check if the primary key is specified or not */
+
+			if(isset($this->_data[$table.'_'.$this->primary()])){
+				$entityName = '\Orm\Entity\\'.lcfirst($table);
+				$field = lcfirst($table).'.'.$this->primary();
+
+				/** @var \System\Orm\Entity\Entity $entityName */
+				$data = $entityName::find()
+					->where($field. ' = :id')
+					->vars(array('id' => $this->_data[$table.'_'.$this->primary()]))
+					->fetch()
+					->first();
+
+				if($data != null){
+					$this->_fields = $data->fields();
+				}
+			}
+
 			foreach($this->_fields as $field){
 				if($field->foreign != null){
 					$in = '';
@@ -1113,54 +1131,60 @@
 					$fieldFormName = lcfirst($field->foreign->referenceEntity()).'.'.lcfirst($field->foreign->referenceField());
 					$entityJoin = new $entityName();
 
-					switch($field->foreign->type()){
-						case ForeignKey::ONE_TO_ONE :
-							$builder = new Builder($entityJoin);
-							$field->value = $field->value = $builder->find()
-								->where($fieldFormName.' = :id')
-								->vars(array('id' => $this->_data[$fieldName]))
-								->fetch()
-								->first();
-						break;
+					if(isset($this->_data[$fieldName])){
+						switch($field->foreign->type()){
+							case ForeignKey::ONE_TO_ONE :
+								$builder = new Builder($entityJoin);
+								$field->value = $builder->find()
+									->where($fieldFormName.' = :id')
+									->vars(array('id' => $this->_data[$fieldName]))
+									->fetch()
+									->first();
+							break;
 
-						case ForeignKey::MANY_TO_ONE :
-							$builder = new Builder($entityJoin);
-							$field->value = $field->value = $builder->find()
-								->where($fieldFormName.' = :id')
-								->vars(array('id' => $this->_data[$fieldName]))
-								->fetch()
-								->first();
-						break;
+							case ForeignKey::MANY_TO_ONE :
+								$builder = new Builder($entityJoin);
+								$field->value = $builder->find()
+									->where($fieldFormName.' = :id')
+									->vars(array('id' => $this->_data[$fieldName]))
+									->fetch()
+									->first();
+							break;
 
-						case ForeignKey::ONE_TO_MANY :
-							foreach($this->_data[$fieldName] as $key => $manyJoin){
-								$in .= ' :join'.$key.',';
-								$inVars['join'.$key] = $manyJoin;
-							}
+							case ForeignKey::ONE_TO_MANY :
+								if(isset($this->_data[$fieldName])){
+									foreach($this->_data[$fieldName] as $key => $manyJoin){
+										$in .= ' :join'.$key.',';
+										$inVars['join'.$key] = $manyJoin;
+									}
 
-							$in = trim($in, ',');
+									$in = trim($in, ',');
 
-							$builder = new Builder($entityJoin);
-							$field->value = $field->value = $builder->find()
-								->where($fieldFormName.' IN('.$in.')')
-								->vars($inVars)
-								->fetch();
-						break;
+									$builder = new Builder($entityJoin);
+									$field->value = $field->value = $builder->find()
+										->where($fieldFormName.' IN('.$in.')')
+										->vars($inVars)
+										->fetch();
+								}
+							break;
 
-						case ForeignKey::MANY_TO_MANY :
-							foreach($this->_data[$fieldName] as $key => $manyJoin){
-								$in .= ' :join'.$key.',';
-								$inVars['join'.$key] = $manyJoin;
-							}
+							case ForeignKey::MANY_TO_MANY :
+								if(isset($this->_data[$fieldName])){
+									foreach($this->_data[$fieldName] as $key => $manyJoin){
+										$in .= ' :join'.$key.',';
+										$inVars['join'.$key] = $manyJoin;
+									}
 
-							$in = trim($in, ',');
+									$in = trim($in, ',');
 
-							$builder = new Builder($entityJoin);
-							$field->value = $field->value = $builder->find()
-								->where($fieldFormName.' IN('.$in.')')
-								->vars($inVars)
-								->fetch();
-						break;
+									$builder = new Builder($entityJoin);
+									$field->value = $field->value = $builder->find()
+										->where($fieldFormName.' IN('.$in.')')
+										->vars($inVars)
+										->fetch();
+								}
+							break;
+						}
 					}
 				}
 				else if(in_array($field->type, [Field::INCREMENT, Field::INT, Field::FLOAT])){

@@ -385,7 +385,7 @@
 	trait singleton{
 		/**
 		 * singleton instance
-		 * @var array Response
+		 * @var object
 		*/
 
 		public static $_instance = null;

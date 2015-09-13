@@ -13,7 +13,7 @@
   }
 </style>
 <form action="{{url:get}}" method="post" enctype="multipart/form-data">
-	<input type="hidden" name="request-post"/>
+	<input type="hidden" name="request-put"/>
 	<label>Identifiant </label>
 	<input type="text" name="post.id" value=""/><br />
 	<label>Contenu </label>
@@ -24,7 +24,7 @@
 			<option value="{$article->id}">{$article->title}</option>
 		</gc:foreach>
 	</select><br />
-	<label>Fichier </label><input type="file" name="post.file" /><br />
+	<label>Fichier </label><input type="file" name="post.file" /><br /><br />
 	<input type="submit" id="submit" value="envoyer"/><br />
 </form>
 <p>

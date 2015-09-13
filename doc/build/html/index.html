@@ -102,7 +102,38 @@
 <li class="toctree-l3"><a class="reference internal" href="getting-started/configuration.html#chemins-vers-les-ressources-web">Chemins vers les ressources web</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="getting-started/routing.html">Le routing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="getting-started/spam.html">L&#8217;anti spam</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/spam.html#configuration">Configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/spam.html#page-d-erreur">Page d&#8217;erreur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/spam.html#exceptions">Exceptions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="getting-started/firewall.html">Le parefeu</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/firewall.html#les-roles">Les rôles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/firewall.html#les-redirections">Les redirections</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/firewall.html#page-de-connexion">Page de connexion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/firewall.html#page-par-defaut">Page par défaut</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/firewall.html#les-pages-d-erreur">Les pages d&#8217;erreur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/firewall.html#la-faille-csrf">La faille CSRF</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="getting-started/routing.html">Le routing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/routing.html#introduction">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/routing.html#creation-de-routes">Création de routes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/routing.html#creation-d-une-route-simple">Création d&#8217;une route simple</a></li>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/routing.html#gestion-des-routes-a-parametres-variables">Gestion des routes à paramètres variables</a></li>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/routing.html#gestion-des-groupes-de-routes">Gestion des groupes de routes</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/routing.html#restreindre-l-acces-a-une-url">Restreindre l&#8217;accès à une url</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/routing.html#connexion-de-l-utilisateur">Connexion de l&#8217;utilisateur</a></li>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/routing.html#statut-de-l-utilisateur">Statut de l&#8217;utilisateur</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="getting-started/request-response.html">Les objets Request et Response</a></li>
 <li class="toctree-l2"><a class="reference internal" href="getting-started/controller.html">Les contrôleurs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="getting-started/model.html">Les modèles</a></li>
@@ -196,7 +227,7 @@ En clair, le GCsystem se veut être un outil simple mais puissant qui sera à m�
 
 <span class="k">class</span> <span class="nc">Article</span> <span class="k">extends</span> <span class="nx">Controller</span><span class="p">{</span>
     <span class="k">public</span> <span class="k">function</span> <span class="nf">actionNew</span><span class="p">(){</span>
-        <span class="k">return</span> <span class="k">new</span> <span class="nx">Template</span><span class="p">(</span><span class="s1">&#39;index/formPost&#39;</span><span class="p">,</span> <span class="s1">&#39;formDefault&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="k">new</span> <span class="nx">Template</span><span class="p">(</span><span class="s1">&#39;index/formPost&#39;</span><span class="p">,</span> <span class="s1">&#39;formDefault&#39;</span><span class="p">))</span>
             <span class="o">-&gt;</span><span class="na">assign</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;Création article&#39;</span><span class="p">)</span>
             <span class="o">-&gt;</span><span class="na">assign</span><span class="p">(</span><span class="s1">&#39;category&#39;</span><span class="p">,</span> <span class="nx">Category</span><span class="o">::</span><span class="na">find</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">fetch</span><span class="p">())</span>
             <span class="o">-&gt;</span><span class="na">show</span><span class="p">();</span>
@@ -207,7 +238,7 @@ En clair, le GCsystem se veut être un outil simple mais puissant qui sera à m�
             <span class="nv">$article</span><span class="o">-&gt;</span><span class="na">save</span><span class="p">();</span>
         <span class="p">}</span>
         <span class="k">else</span><span class="p">{</span>
-            <span class="k">return</span> <span class="k">new</span> <span class="nx">Template</span><span class="p">(</span><span class="s1">&#39;index/formPost&#39;</span><span class="p">,</span> <span class="s1">&#39;formDefault&#39;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="p">(</span><span class="k">new</span> <span class="nx">Template</span><span class="p">(</span><span class="s1">&#39;index/formPost&#39;</span><span class="p">,</span> <span class="s1">&#39;formDefault&#39;</span><span class="p">))</span>
                 <span class="o">-&gt;</span><span class="na">assign</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">,</span> <span class="s1">&#39;Création article&#39;</span><span class="p">)</span>
                 <span class="o">-&gt;</span><span class="na">assign</span><span class="p">(</span><span class="s1">&#39;article&#39;</span><span class="p">,</span> <span class="nv">$article</span><span class="p">)</span>
                 <span class="o">-&gt;</span><span class="na">assign</span><span class="p">(</span><span class="s1">&#39;category&#39;</span><span class="p">,</span> <span class="nx">Category</span><span class="o">::</span><span class="na">find</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">fetch</span><span class="p">())</span>
@@ -260,7 +291,38 @@ En clair, le GCsystem se veut être un outil simple mais puissant qui sera à m�
 <li class="toctree-l3"><a class="reference internal" href="getting-started/configuration.html#chemins-vers-les-ressources-web">Chemins vers les ressources web</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="getting-started/routing.html">Le routing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="getting-started/spam.html">L&#8217;anti spam</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/spam.html#configuration">Configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/spam.html#page-d-erreur">Page d&#8217;erreur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/spam.html#exceptions">Exceptions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="getting-started/firewall.html">Le parefeu</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/firewall.html#les-roles">Les rôles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/firewall.html#les-redirections">Les redirections</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/firewall.html#page-de-connexion">Page de connexion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/firewall.html#page-par-defaut">Page par défaut</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/firewall.html#les-pages-d-erreur">Les pages d&#8217;erreur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/firewall.html#la-faille-csrf">La faille CSRF</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="getting-started/routing.html">Le routing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/routing.html#introduction">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/routing.html#creation-de-routes">Création de routes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/routing.html#creation-d-une-route-simple">Création d&#8217;une route simple</a></li>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/routing.html#gestion-des-routes-a-parametres-variables">Gestion des routes à paramètres variables</a></li>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/routing.html#gestion-des-groupes-de-routes">Gestion des groupes de routes</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="getting-started/routing.html#restreindre-l-acces-a-une-url">Restreindre l&#8217;accès à une url</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/routing.html#connexion-de-l-utilisateur">Connexion de l&#8217;utilisateur</a></li>
+<li class="toctree-l4"><a class="reference internal" href="getting-started/routing.html#statut-de-l-utilisateur">Statut de l&#8217;utilisateur</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="getting-started/request-response.html">Les objets Request et Response</a></li>
 <li class="toctree-l2"><a class="reference internal" href="getting-started/controller.html">Les contrôleurs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="getting-started/model.html">Les modèles</a></li>

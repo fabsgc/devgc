@@ -41,7 +41,7 @@ Aperçu
 
     class Article extends Controller{
         public function actionNew(){
-            return new Template('index/formPost', 'formDefault')
+            return (new Template('index/formPost', 'formDefault'))
                 ->assign('title', 'Création article')
                 ->assign('category', Category::find()->fetch())
                 ->show();
@@ -52,7 +52,7 @@ Aperçu
                 $article->save();
             }
             else{
-                return new Template('index/formPost', 'formDefault')
+                return (new Template('index/formPost', 'formDefault'))
                     ->assign('title', 'Création article')
                     ->assign('article', $article)
                     ->assign('category', Category::find()->fetch())
