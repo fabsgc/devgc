@@ -132,7 +132,7 @@ define('SPAM', true);
 define('CHARSET', 'UTF-8');
 
 // where the framework is placed. If it's the root, keep empty, otherwise : /projet
-define('FOLDER', '');
+define('FOLDER', 'gcsystem/gcs-dev/');
 
 // default language
 define('LANG', 'fr');
@@ -162,7 +162,7 @@ define('CACHE_SHA1', false);
 define('LOG_ENABLED', true);
 
 // minify html output
-define('MINIFY_OUTPUT_HTML', true);
+define('MINIFY_OUTPUT_HTML', false);
 
 // display in the page fatal and exception error
 define('DISPLAY_ERROR_FATAL', true);

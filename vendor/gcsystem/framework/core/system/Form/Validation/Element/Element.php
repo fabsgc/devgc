@@ -352,7 +352,7 @@
 						case self::SQL:
 							$sql = new Sql();
 							$sql->query('query-form-validation', $constraints['value']['query']);
-							$sql->vars($value);
+							$sql->vars('value', $value);
 							$sql->vars($constraints['value']['query']);
 							$data = $sql->fetch('query-form-validation', Sql::PARAM_FETCHCOLUMN);
 

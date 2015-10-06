@@ -18,10 +18,10 @@
 		}
 		
 		public function actionDefault(){
-			//$lines = $this->getFileLineDir('vendor/gcsystem/framework/');
-			//$lines += $this->getFileLineDir('app/');
-			//$lines += $this->getFileLineDir('src/');
-			//echo $lines;
+			$lines = $this->getFileLineDir('vendor/gcsystem/framework/');
+			$lines += $this->getFileLineDir('app/');
+			$lines += $this->getFileLineDir('src/');
+			echo $lines;
 			/*return self::Template('index/default', 'gcsDefault')
 				->assign('title', 'GCsystem V'.VERSION)
 				->show();*/
@@ -72,7 +72,7 @@
 		}
 
 		public function actionPost(Post $post){
-			return (new Template('index/form', 'formDefault'))
+			return (new Template('index/formPost', 'formDefault'))
 				->assign('title', 'Injection Formulaire')
 				->assign('post', $post)
 				->assign('articles', Article::find()->fetch())
@@ -97,12 +97,20 @@
 			if (is_dir($dir)) {
 				if ($dh = opendir($dir)) {
 					while (($file = readdir($dh)) !== false) {
+						if(is_array(pathinfo($dir . $file)))
+							$extension = pathinfo($dir . $file);
+						else
+							$extension = '';
+
+						if(isset($extension['extension']))
+							$extension = $extension['extension'];
+
 						if(is_dir($dir . $file)){
 							if(strlen($file) > 2){
 								$line += $this->getFileLineDir($dir . $file.'/');
 							}
 						}
-						else if(pathinfo($dir . $file)['extension'] == 'php' || pathinfo($dir . $file)['extension'] == 'xml' || pathinfo($dir . $file)['extension'] == 'tpl'){
+						else if($extension == 'php' || $extension == 'xml' || $extension == 'tpl'){
 							echo $dir . $file.'<br />';
 							$line += $this->countLines($dir . $file);
 						}

@@ -13,7 +13,7 @@
   }
 </style>
 <form action="{{url:get}}" method="post" enctype="multipart/form-data">
-	<input type="hidden" name="request-put"/>
+	<input type="hidden" name="request-post"/>
 	<label>Identifiant </label>
 	<input type="text" name="post.id" value=""/><br />
 	<label>Contenu </label>
@@ -28,6 +28,9 @@
 	<input type="submit" id="submit" value="envoyer"/><br />
 </form>
 <p>
+<gc:if condition="isset($post)">
+    <?php var_dump($post->errors()); ?>
+</gc:if>
 <gc:if condition="isset($post)">
 	<?php //print_r($post->fields()); ?>
 </gc:if>

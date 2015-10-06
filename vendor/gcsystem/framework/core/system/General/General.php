@@ -374,10 +374,18 @@
 
 				$result = preg_replace('#\\\.#U', '.', $result);
 
-				if($absolute == false)
-					return FOLDER.$result;
-				else
-					return 'http://'.$_SERVER['HTTP_HOST'].FOLDER.$result;
+				if(FOLDER != ''){
+					if($absolute == false)
+						return '/'.substr(FOLDER, 0, strlen(FOLDER)-1).$result;
+					else
+						return 'http://'.$_SERVER['HTTP_HOST'].FOLDER.$result;
+				}
+				else{
+					if($absolute == false)
+						return $result;
+					else
+						return 'http://'.$_SERVER['HTTP_HOST'].$result;
+				}
 			}
 		}
 	}
