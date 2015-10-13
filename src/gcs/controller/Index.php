@@ -18,50 +18,16 @@
 		}
 		
 		public function actionDefault(){
-			$lines = $this->getFileLineDir('vendor/gcsystem/framework/');
-			$lines += $this->getFileLineDir('app/');
-			$lines += $this->getFileLineDir('src/');
-			echo $lines;
-			/*return self::Template('index/default', 'gcsDefault')
+			print_r(
+				Student::find()
+					->where('Student.id = 1')
+					->fetch()
+					->first()
+			);
+
+			return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V'.VERSION)
-				->show();*/
-
-			//Article::find()->fetch();
-			//Article::find()->fetch();
-			//Article::find()->limit(0,200)->fetch();
-			//print_r(Student::find()->fetch()->first());
-			print_r(Student::find()->where('Student.id = 1')->fetch()->first());
-
-			//print_r(Article::find()->fetch());
-
-			/*for($i = 0; $i < 10; $i++){
-				$article = new Article();
-				$article->title = 'titre article'.$i;
-				$article->content = 'contenu article';
-				$article->insert();
-
-				$entity = new Post();
-				$entity->content = 'post'.$i;
-				$entity->article = $article;
-				$entity->article->title = 'test';
-				$entity->article->content = 'content';
-				$entity->file = new Entity\Type\File('README.md', file_get_contents('README.md'), 'text/plain');
-				$entity->insert();
-			}*/
-
-			/*for($i = 0; $i < 25; $i++){
-				$course = new Course();
-				$course->name = 'mon cours';
-
-				$student = new Student();
-				$student->name = 'eleve 1';
-
-				$collection = new Collection();
-				$collection->add($student);
-
-				$course->students = $collection;
-				$course->insert();
-			}*/
+				->show();
 		}
 
 		public function actionGet(){

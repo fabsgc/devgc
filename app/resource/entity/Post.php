@@ -31,10 +31,10 @@
 		}
 
 		public function beforeInsert(){
-			/*$this->validation->text('post.content', 'contenu')
+			$this->validation->text('post.content', 'contenu')
 				->different('', 'vous devez écrire quelque chose');
 
-			$this->validation->file('post.file', 'fichier')
+			/*$this->validation->file('post.file', 'fichier')
 				->accept(['image/png'], 'le fichier doit être une image')
 				->extension(['png'], 'le fichier n\'a pas la bonne extension');
 
