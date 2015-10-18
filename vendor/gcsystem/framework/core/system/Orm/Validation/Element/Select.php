@@ -1,16 +1,16 @@
 <?php
 	/*\
 	 | ------------------------------------------------------
-	 | @file : Date.php
+	 | @file : Select.php
 	 | @author : fab@c++
-	 | @description : date validation
+	 | @description : select field validation
 	 | @version : 3.0 Bêta
 	 | ------------------------------------------------------
 	\*/
 
 	namespace System\Orm\Validation\Element;
 
-	class Date extends Element{
+	class Select extends Element{
 
 		/**
 		 * constructor
@@ -18,7 +18,7 @@
 		 * @param $entity \System\Orm\Entity\Entity
 		 * @param $field string
 		 * @param $label string
-		 * @return \System\Orm\Validation\Element\Date
+		 * @return \System\Orm\Validation\Element\Select
 		 * @since 3.0
 		 * @package System\Orm\Validation\Element
 		*/

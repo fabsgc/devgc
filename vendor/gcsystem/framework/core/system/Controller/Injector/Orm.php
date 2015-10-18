@@ -55,32 +55,33 @@
 
 			/** @var \System\Orm\Entity\Entity $class */
 			$class = new $class();
+			$class->hydrate();
 
 			$request = Request::getInstance();
 
-			switch($request->data->method){
-				case 'get' :
-					$class->hydrate();
-					$class->beforeInsert();
-				break;
+			if(($class->getForm() == '' && $request->data->form == true) || ($request->data->method == 'post' && isset($request->data->post[$class->getForm()]) ||
+					$request->data->method == 'get' && isset($request->data->get[$class->getForm()]))){
 
-				case 'post' :
-					$class->hydrate();
-					$class->beforeInsert();
-				break;
+				switch($request->data->method){
+					case 'get' :
+						$class->beforeInsert();
+					break;
 
-				case 'put' :
-					$class->hydrate();
-					$class->beforeUpdate();
-				break;
+					case 'post' :
+						$class->beforeInsert();
+					break;
 
-				case 'delete' :
-					$class->hydrate();
-					$class->beforeDelete();
-				break;
+					case 'put' :
+						$class->beforeUpdate();
+					break;
+
+					case 'delete' :
+						$class->beforeDelete();
+					break;
+				}
+
+				$class->check();
 			}
-
-			$class->check();
 
 			return $class;
 		}

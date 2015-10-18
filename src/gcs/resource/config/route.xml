@@ -4,6 +4,7 @@
 	<route name="get" url="/form(/*)" action="index.get" method="get"/>
 	<route name="post" url="/form(/*)" action="index.post" method="post"/>
 	<route name="put" url="/form(/*)" action="index.put" method="put"/>
+	<route name="hydrate" url="/form/hydrate(/*)" action="index.hydrate" method="*"/>
 	<group name="gcs" url="/gcs">
 		<route name="lang.default" url="/lang(/*)" action="lang.default"/>
 		<route name="profiler.default" url="/profiler(/*)" action="profiler.default"/>

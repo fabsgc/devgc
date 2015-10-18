@@ -21,6 +21,7 @@
 		/**
 		 * Constructor
 		 * @access public
+		 * @param $data array
 		 * @since 3.0
 		 * @package System\Orm
 		*/

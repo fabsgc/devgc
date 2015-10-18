@@ -1,16 +1,16 @@
 <?php
 	/*\
 	 | ------------------------------------------------------
-	 | @file : Timestamp.php
+	 | @file : Checkbox.php
 	 | @author : fab@c++
-	 | @description : timestamp validation
+	 | @description : checkbox validation
 	 | @version : 3.0 Bêta
 	 | ------------------------------------------------------
 	\*/
 
 	namespace System\Orm\Validation\Element;
 
-	class Timestamp extends Element{
+	class Checkbox extends Element{
 
 		/**
 		 * constructor
@@ -18,7 +18,7 @@
 		 * @param $entity \System\Orm\Entity\Entity
 		 * @param $field string
 		 * @param $label string
-		 * @return \System\Orm\Validation\Element\Timestamp
+		 * @return \System\Orm\Validation\Element\Checkbox
 		 * @since 3.0
 		 * @package System\Orm\Validation\Element
 		*/

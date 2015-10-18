@@ -14,6 +14,7 @@
 	use System\General\error;
 	use System\General\langs;
 	use System\General\facades;
+	use System\Cache\Cache;
 
 	class AssetManager{
 		use error, langs, facades;
@@ -76,7 +77,7 @@
 		/**
 		 * Constructor
 		 * @access public
-		 * @param $data array :
+		 * @param $data[]
 		 *   files array
 		 * 	 cache int
 		 * 	 type string
@@ -151,7 +152,7 @@
 				}
 			}
 
-			$this->_cache = self::Cache(sha1($this->_name).'.'.$this->_type, "", $this->_time);
+			$this->_cache = new Cache(sha1($this->_name).'.'.$this->_type, $this->_time);
 
 			if($this->_cache->isDie()){
 				$this->_compress();

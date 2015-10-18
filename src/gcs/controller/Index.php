@@ -5,10 +5,8 @@
 	use Orm\Entity\Article;
 	use Orm\Entity\Post;
 	use Orm\Entity\Student;
-	use Orm\Entity\Course;
 	use System\Controller\Controller;
 	use System\Orm\Entity;
-	use System\Collection\Collection;
 	use System\Template\Template;
 
 	class Index extends Controller{
@@ -18,12 +16,10 @@
 		}
 		
 		public function actionDefault(){
-			print_r(
-				Student::find()
-					->where('Student.id = 1')
-					->fetch()
-					->first()
-			);
+			Student::find()
+				->where('Student.id = 1')
+				->fetch()
+				->first();
 
 			return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V'.VERSION)
@@ -50,6 +46,13 @@
 				->assign('title', 'Injection Formulaire')
 				->assign('post', $post)
 				->assign('articles', Article::find()->fetch())
+				->show();
+		}
+
+		public function actionHydrate(Post $post){
+			return (new Template('index/hydrate', 'formDefault'))
+				->assign('title', 'Injection Formulaire - hydrate')
+				->assign('post', $post)
 				->show();
 		}
 

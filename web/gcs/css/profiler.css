@@ -57,6 +57,9 @@ input[type='text']  {
     outline:none;
     margin-bottom: 8px;
 }
+input[type='file']  {
+    margin-left: 4px;
+}
 header .content{
     width: 100%;
     margin: auto;

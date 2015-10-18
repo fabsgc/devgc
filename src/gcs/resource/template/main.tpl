@@ -5,9 +5,9 @@
     <meta charset="utf-8" />
     <link rel="icon" type="image/png" href="/{{path:IMAGE}}logo.png" />
     <gc:if condition="self::Request()->controller == 'index' and self::Request()->action == 'default'">
-		<gc:asset type="css" files="web/gcs/css/default.css,web/gcs/css/index.css" cache="3600"/>
+		<gc:asset type="css" files="web/gcs/css/default.css,web/gcs/css/index.css" cache="5"/>
 	<gc:else/>
-		<gc:asset type="css" files="web/gcs/css/default.css,web/gcs/css/profiler.css" cache="3600"/>
+		<gc:asset type="css" files="web/gcs/css/default.css,web/gcs/css/profiler.css" cache="5"/>
 	</gc:if>
 </head>
 <body id="body">

@@ -10,10 +10,11 @@
 
 	namespace System\Orm\Validation;
 
-	use System\Orm\Validation\Element\Date;
+	use System\Orm\Validation\Element\Checkbox;
 	use System\Orm\Validation\Element\File;
+	use System\Orm\Validation\Element\Radio;
+	use System\Orm\Validation\Element\Select;
 	use System\Orm\Validation\Element\Text;
-	use System\Orm\Validation\Element\Timestamp;
 
 	class Validation{
 
@@ -31,7 +32,7 @@
 		protected $_errors = [];
 
 		/**
-		 * @var  \System\Orm\Validation\Element\Element[]
+		 * @var \System\Orm\Validation\Element\Element[]
 		*/
 
 		protected $_elements = [];
@@ -97,51 +98,67 @@
 		}
 
 		/**
-		 * add default element (all except custom elements like File)
+		 * add text element
 		 * @access public
 		 * @param $field string
 		 * @param $label string
-		 * @return \System\Orm\Validation\Element\Element
+		 * @return \System\Orm\Validation\Element\Text
 		 * @since 3.0
 		 * @package System\Form\Validation
 		*/
 
-		public function element($field, $label){
+		public function text($field, $label){
 			$element = new Text($this->_entity, $field, $label);
 			array_push($this->_elements, $element);
 			return $element;
 		}
 
 		/**
-		 * add date element
+		 * add checkbox element
 		 * @access public
 		 * @param $field string
 		 * @param $label string
-		 * @return \System\Orm\Validation\Element\Element
+		 * @return \System\Form\Validation\Element\Checkbox
 		 * @since 3.0
 		 * @package System\Form\Validation
-		*/
+		 */
 
-		public function date($field, $label){
-			$date = new Date($this->_entity, $field, $label);
-			array_push($this->_elements, $date);
-			return $date;
+		public function checkbox($field, $label){
+			$checkbox = new Checkbox($this->_entity, $field, $label);
+			array_push($this->_elements, $checkbox);
+			return $checkbox;
 		}
 
 		/**
-		 * add timestamp element
+		 * add radio element
 		 * @access public
 		 * @param $field string
 		 * @param $label string
-		 * @return \System\Orm\Validation\Element\Element
+		 * @return \System\Form\Validation\Element\Radio
 		 * @since 3.0
 		 * @package System\Form\Validation
 		*/
 
-		public function timestamp($field, $label){
-			$timestamp = new Timestamp($this->_entity, $field, $label);
-			array_push($this->_elements, $timestamp);
-			return $timestamp;
+		public function radio($field, $label){
+			$radio = new Radio($this->_entity, $field, $label);
+			array_push($this->_elements, $radio);
+			return $radio;
+		}
+
+		/**
+		 * add select element
+		 * @access public
+		 * @param $field string
+		 * @param $label string
+		 * @return \System\Form\Validation\Element\Select
+		 * @since 3.0
+		 * @package System\Form\Validation
+		*/
+
+		public function select($field, $label){
+			$select = new Select($this->_entity, $field, $label);
+			array_push($this->_elements, $select);
+			return $select;
 		}
 
 		/**
@@ -149,7 +166,7 @@
 		 * @access public
 		 * @param $field string
 		 * @param $label string
-		 * @return \System\Orm\Validation\Element\Element
+		 * @return \System\Orm\Validation\Element\File
 		 * @since 3.0
 		 * @package System\Form\Validation
 		*/

@@ -7,6 +7,10 @@
 	class FormRequest extends Form{
 		use captcha;
 
+		public function init(){
+			$this->form = 'form-request';
+		}
+
 		public function post(){
 			$this->captcha();
 			$this->validation->text('text', 'champs de texte')

@@ -10,8 +10,10 @@
 
 	namespace System\Orm\Validation\Element;
 
+	use System\Collection\Collection;
 	use System\Exception\MissingClassException;
-	use System\General\facades;
+	use System\Exception\MissingEntityException;
+	use System\Orm\Entity\ForeignKey;
 
 	abstract class Element{
 
@@ -57,6 +59,12 @@
 		const NOTEXIST      = 34;
 
 		const CUSTOM        = 35;
+
+		const DATEMORETHAN  = 36;
+		const DATELESSTHAN  = 37;
+		const DATEEQUALTO   = 38;
+		const DATEBETWEEN   = 39;
+		const DATEDIFFERENT = 40;
 
 		/**
 		 * entity name
@@ -119,15 +127,106 @@
 		}
 
 		/**
-		 * constructor
+		 * Before validating the field, we need to get the correct field from the current entity or a linked entity
 		 * @access public
+		 * @throws MissingEntityException
+		 * @return mixed array
+		 * @since 3.0
+		 * @package System\Form\Validation\Element
+		*/
+
+		protected function _getField(){
+			//We can access to a field of the current entity or a linked entity (foreign key)
+			//If the field name contain a "." it's the second case
+			$fields = [];
+			$fieldsData = $this->_entity->fields();
+
+			//We are to analyze a classic field without linked entity
+			if(!preg_match('#\.#isU', $this->_field)){
+				if(isset($fieldsData[$this->_field])) {
+					$fields = [$fieldsData[$this->_field]];
+				}
+				else {
+					throw new MissingEntityException('The field "' . $this->_field . '" in the entity "' . $this->_entity->name() . '" does\'nt exist');
+				}
+			}
+			else{
+
+			}
+
+			return $fields;
+		}
+
+		/**
+		 * check the validity of the field
+		 * @access public
+		 * @throws MissingEntityException
 		 * @return void
 		 * @since 3.0
 		 * @package System\Form\Validation\Element
 		*/
 
 		public function check(){
+			$field = null;
 			$this->_errors = [];
+			$fields = $this->_getField();
+
+			foreach ($fields as $field) {
+				foreach($this->_constraints as $constraints){
+					//If the field is a classic field, we get the value and we put it in an array
+					//If the field value is a Collection we get the array with Collection::data()
+					//If the value is a relation One to One or Many to One, we get field object and then we get field value
+					//If the value is a relation One to Many or Many to Many, we loop trough the Collection and we store each value for the desired field in an array
+					//By this way, each time, we have an array to analyse and the code below is the same
+
+					if($field->foreign == null){
+						if(gettype($field->value) != 'object' && !is_array($field->value)){
+							$field->value = [$field->value];
+						}
+						else if(gettype($field->value) == 'object' && get_class($field->value) == 'System\Collection\Collection'){
+							$field->value = $field->value->data();
+						}
+					}
+					else{
+						$field->value = [''];
+
+						switch($field->foreign->type()){
+							case ForeignKey::ONE_TO_ONE:
+
+							break;
+
+							case ForeignKey::MANY_TO_ONE:
+
+							break;
+
+							case ForeignKey::ONE_TO_MANY:
+
+							break;
+
+							case ForeignKey::MANY_TO_MANY:
+
+							break;
+						}
+					}
+
+					if(!is_array($field->value)){
+						$field->value = [$field->value];
+					}
+
+					foreach($field->value as $value) {
+						switch ($constraints['type']) {
+							case self::EQUAL:
+								if($value != $constraints['value']){
+									array_push($this->_errors, [
+										'field' => $this->_label,
+										'message' => $constraints['message']
+									]);
+								}
+							break;
+						}
+					}
+				}
+			}
 		}
 
 		/**

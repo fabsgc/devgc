@@ -55,10 +55,24 @@
 
 		/**
 		 * post, put, get data
-		 * @var $_data array
+		 * @var $_data []
 		*/
 
 		protected $_data;
+
+		/**
+		 * name of the form
+		 * @var string
+		*/
+
+		protected $form = '';
+
+		/**
+		 * the form is already sent and checked
+		 * @var bool
+		*/
+
+		protected $sent = false;
 
 		/**
 		 * Constructor
@@ -110,6 +124,31 @@
 		*/
 
 		public function tableDefinition(){
+		}
+
+		/**
+		 * Set form name
+		 * @access public
+		 * @param $form string
+		 * @return void
+		 * @since 3.0
+		 * @package System\Request
+		*/
+
+		public function form($form = ''){
+			$this->form = $form;
+		}
+
+		/**
+		 * Get form name
+		 * @access public
+		 * @return string
+		 * @since 3.0
+		 * @package System\Request
+		*/
+
+		public function getForm(){
+			return $this->form;
 		}
 
 		/**
@@ -1067,6 +1106,7 @@
 
 		public function check(){
 			$this->validation->check();
+			$this->sent = true;
 		}
 
 		/**
@@ -1079,6 +1119,18 @@
 
 		public function valid(){
 			return $this->validation->valid();
+		}
+
+		/**
+		 * Is the form sent ?
+		 * @access public
+		 * @return boolean
+		 * @since 3.0
+		 * @package System\Request
+		*/
+
+		public function sent(){
+			return $this->sent;
 		}
 
 		/**
@@ -1096,12 +1148,13 @@
 		/**
 		 * Before validation, we must inserting all the data
 		 * @access public
+		 * @param $prefix string : If we want to hydrate a sub Entity (from a relation), we need to know the name of the parent
 		 * @return void
 		 * @since 3.0
 		 * @package System\Request
 		*/
 
-		public function hydrate(){
+		public function hydrate($prefix = ''){
 			$table = strtolower($this->_name);
 
 			/** First, we check if the primary key is specified or not */
@@ -1127,80 +1180,100 @@
 					$in = '';
 					$inVars = [];
 					$entityName = '\Orm\Entity\\'.$field->foreign->referenceEntity();
-					$fieldName = lcfirst($field->foreign->entity()).'_'.lcfirst($field->foreign->referenceEntity());
+					$fieldName = $prefix.lcfirst($field->foreign->entity()).'_'.lcfirst($field->foreign->referenceEntity());
 					$fieldFormName = lcfirst($field->foreign->referenceEntity()).'.'.lcfirst($field->foreign->referenceField());
 					$entityJoin = new $entityName();
 
-					if(isset($this->_data[$fieldName])){
-						switch($field->foreign->type()){
-							case ForeignKey::ONE_TO_ONE :
+					switch($field->foreign->type()){
+						case ForeignKey::ONE_TO_ONE :
+							//If the primary key exists, we get it in the database
+							if(isset($this->_data[$fieldName])) {
 								$builder = new Builder($entityJoin);
 								$field->value = $builder->find()
-									->where($fieldFormName.' = :id')
+									->where($fieldFormName . ' = :id')
 									->vars(array('id' => $this->_data[$fieldName]))
 									->fetch()
 									->first();
-							break;
+							}
+							else{ //if it doesn't exist, we try to get data from the form
+								$entity = $field->foreign->referenceEntity();
 
-							case ForeignKey::MANY_TO_ONE :
+								/** @var $entity \System\Orm\Entity\Entity */
+								$entity = new $entity();
+								$entity->hydrate($field->foreign->entity().'_');
+								$field->value = $entity;
+							}
+						break;
+
+						case ForeignKey::MANY_TO_ONE :
+							//If the primary key exists, we get it in the database
+							if(isset($this->_data[$fieldName])) {
 								$builder = new Builder($entityJoin);
 								$field->value = $builder->find()
-									->where($fieldFormName.' = :id')
+									->where($fieldFormName . ' = :id')
 									->vars(array('id' => $this->_data[$fieldName]))
 									->fetch()
 									->first();
-							break;
+							}
+							else{ //if it doesn't exist, we try to get data from the form
+								$entity = 'Orm\Entity\\'.$field->foreign->referenceEntity();
 
-							case ForeignKey::ONE_TO_MANY :
-								if(isset($this->_data[$fieldName])){
-									foreach($this->_data[$fieldName] as $key => $manyJoin){
-										$in .= ' :join'.$key.',';
-										$inVars['join'.$key] = $manyJoin;
-									}
+								/** @var $entity \System\Orm\Entity\Entity */
+								$entity = new $entity();
+								$entity->hydrate($field->foreign->entity().'_');
+								$field->value = $entity;
+							}
+						break;
 
-									$in = trim($in, ',');
-
-									$builder = new Builder($entityJoin);
-									$field->value = $field->value = $builder->find()
-										->where($fieldFormName.' IN('.$in.')')
-										->vars($inVars)
-										->fetch();
+						case ForeignKey::ONE_TO_MANY :
+							if(isset($this->_data[$fieldName])){
+								foreach($this->_data[$fieldName] as $key => $manyJoin){
+									$in .= ' :join'.$key.',';
+									$inVars['join'.$key] = $manyJoin;
 								}
-							break;
 
-							case ForeignKey::MANY_TO_MANY :
-								if(isset($this->_data[$fieldName])){
-									foreach($this->_data[$fieldName] as $key => $manyJoin){
-										$in .= ' :join'.$key.',';
-										$inVars['join'.$key] = $manyJoin;
-									}
+								$in = trim($in, ',');
 
-									$in = trim($in, ',');
+								$builder = new Builder($entityJoin);
+								$field->value = $field->value = $builder->find()
+									->where($fieldFormName.' IN('.$in.')')
+									->vars($inVars)
+									->fetch();
+							}
+						break;
 
-									$builder = new Builder($entityJoin);
-									$field->value = $field->value = $builder->find()
-										->where($fieldFormName.' IN('.$in.')')
-										->vars($inVars)
-										->fetch();
+						case ForeignKey::MANY_TO_MANY :
+							if(isset($this->_data[$fieldName])){
+								foreach($this->_data[$fieldName] as $key => $manyJoin){
+									$in .= ' :join'.$key.',';
+									$inVars['join'.$key] = $manyJoin;
 								}
-							break;
-						}
+
+								$in = trim($in, ',');
+
+								$builder = new Builder($entityJoin);
+								$field->value = $field->value = $builder->find()
+									->where($fieldFormName.' IN('.$in.')')
+									->vars($inVars)
+									->fetch();
+							}
+						break;
 					}
 				}
 				else if(in_array($field->type, [Field::INCREMENT, Field::INT, Field::FLOAT])){
-					if(isset($this->_data[$table.'_'.$field->name]))
-						$field->value = $this->_data[$table.'_'.$field->name];
+					if(isset($this->_data[$prefix.$table.'_'.$field->name]))
+						$field->value = $this->_data[$prefix.$table.'_'.$field->name];
 					else
 						$field->value = null;
 				}
 				else if(in_array($field->type, [Field::CHAR, Field::TEXT, Field::STRING, Field::DATE, Field::DATETIME, Field::TIME, Field::TIMESTAMP])){
-					if(isset($this->_data[$table.'_'.$field->name]))
-						$field->value = $this->_data[$table.'_'.$field->name];
+					if(isset($this->_data[$prefix.$table.'_'.$field->name]))
+						$field->value = $this->_data[$prefix.$table.'_'.$field->name];
 					else
 						$field->value = null;
 				}
 				else if(in_array($field->type, [Field::BOOL])){
-					if(isset($this->_data[$table.'_'.$field->name]))
+					if(isset($this->_data[$prefix.$table.'_'.$field->name]))
 						$field->value = true;
 					else
 						$field->value = false;
@@ -1208,9 +1281,9 @@
 				else if(in_array($field->type, [Field::FILE])){
 					$data = Data::getInstance()->file;
 
-					if(isset($data[$table.'_'.$field->name])){
-						if(isset($data[$table.'_'.$field->name]) && $data[$table.'_'.$field->name]['error'] != 4){
-							$tmp = $data[$table.'_'.$field->name];
+					if(isset($data[$prefix.$table.'_'.$field->name])){
+						if(isset($data[$prefix.$table.'_'.$field->name]) && $data[$prefix.$table.'_'.$field->name]['error'] != 4){
+							$tmp = $data[$prefix.$table.'_'.$field->name];
 							$file = new File($tmp['name'], file_get_contents($tmp['tmp_name']), $tmp['type']);
 							$field->value = $file;
 						}

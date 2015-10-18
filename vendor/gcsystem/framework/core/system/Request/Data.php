@@ -19,6 +19,7 @@
 	 * @property array post
 	 * @property array put
 	 * @property array file
+	 * @property bool  form
 	*/
 	class Data{
 		use singleton;
@@ -29,12 +30,13 @@
 		*/
 
 		public $param = [
-			'method'  => '',
-			'get'     => [],
-			'post'    => [],
-			'cookie'  => [],
-			'file'    => [],
-			'session' => []
+			'form'    => false,
+			'method'  =>    '',
+			'get'     =>    [],
+			'post'    =>    [],
+			'cookie'  =>    [],
+			'file'    =>    [],
+			'session' =>    []
 		];
 
 		/**

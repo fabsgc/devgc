@@ -14,6 +14,7 @@
 	use System\General\facades;
 	use System\General\langs;
 	use System\General\singleton;
+	use System\Cache\Cache;
 
 	class Profiler{
 		use error, facades, langs, singleton;
@@ -132,12 +133,12 @@
 				$dataProfiler['url'] = $_SERVER['REQUEST_URI'];
 
 				if($request->controller != 'assetManager' && $request->controller != 'profiler'){
-					$cache = self::Cache('gcsProfiler', 0);
+					$cache = new Cache('gcsProfiler', 0);
 					$cache->setContent($dataProfiler);
 					$cache->setCache();
 				}
 
-				$cacheId = self::Cache('gcsProfiler_'.$request->src.'.'.$request->controller.'.'.$request->action, 0);
+				$cacheId = new Cache('gcsProfiler_'.$request->src.'.'.$request->controller.'.'.$request->action, 0);
 				$cacheId->setContent($dataProfiler);
 				$cacheId->setCache();
 			}

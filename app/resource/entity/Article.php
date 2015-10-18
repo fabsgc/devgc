@@ -9,6 +9,7 @@
 	class Article extends Entity{
 		public function tableDefinition(){
 			$this->name('article');
+			$this->form('form-article');
 			$this->field('id')
 				->primary(true)
 				->type(Field::INCREMENT);

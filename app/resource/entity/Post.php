@@ -15,6 +15,7 @@
 	class Post extends Entity{
 		public function tableDefinition(){
 			$this->name('post');
+			$this->form('form-post');
 			$this->field('id')
 				->primary(true)
 				->type(Field::INCREMENT);
@@ -31,8 +32,11 @@
 		}
 
 		public function beforeInsert(){
-			$this->validation->text('post.content', 'contenu')
-				->different('', 'vous devez écrire quelque chose');
+			$this->validation->text('content', 'contenu')
+				->equal('content', 'vous devez écrire "content"');
+
+			$this->validation->text('article.content', 'article')
+				->equal('content', 'vous devez écrire "content"');
 
 			/*$this->validation->file('post.file', 'fichier')
 				->accept(['image/png'], 'le fichier doit être une image')

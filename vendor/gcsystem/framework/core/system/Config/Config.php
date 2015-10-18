@@ -106,7 +106,7 @@
 		/**
 		 * put config in array
 		 * @access protected
-		 * @throws exception
+		 * @throws Exception
 		 * @return void
 		 * @since 3.0
 		 * @package System\Config
