@@ -16,35 +16,36 @@
 		}
 		
 		public function actionDefault(){
-			Student::find()
+			$students = Student::find()
 				->where('Student.id = 1')
 				->fetch()
 				->first();
 
 			return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V'.VERSION)
+				->assign('students', $students)
 				->show();
 		}
 
 		public function actionGet(){
-			return (new Template('index/formPost', 'formDefault'))
+			return (new Template('index/form', 'formDefault'))
 				->assign('title', 'Injection Formulaire')
 				->assign('articles', Article::find()->fetch())
 				->show();
 		}
 
-		public function actionPost(Post $post){
-			return (new Template('index/formPost', 'formDefault'))
+		public function actionPost(FormRequest $request){
+			return (new Template('index/form', 'formDefault'))
 				->assign('title', 'Injection Formulaire')
-				->assign('post', $post)
+				->assign('request', $request)
 				->assign('articles', Article::find()->fetch())
 				->show();
 		}
 
-		public function actionPut(Post $post){
-			return (new Template('index/formPost', 'formDefault'))
+		public function actionPut(FormRequest $request){
+			return (new Template('index/form', 'formDefault'))
 				->assign('title', 'Injection Formulaire')
-				->assign('post', $post)
+				->assign('request', $request)
 				->assign('articles', Article::find()->fetch())
 				->show();
 		}

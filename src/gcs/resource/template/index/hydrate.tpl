@@ -13,25 +13,24 @@
   }
 </style>
 <form action="{{url:hydrate}}" method="post" enctype="multipart/form-data">
-	<input type="hidden" name="form-post"/>
 	<input type="hidden" name="request-post"/>
 	<!--<label>Identifiant </label>
 	<input type="text" name="post.id" value=""/><br />-->
-	<label>Contenu </label>
+	<label>Post content </label>
 	<input type="text" name="post.content" value="contenu"/><br />
-	<hr />
+	<br />
 	<label>Article nom</label>
 	<input type="text" name="post.article.title" value="titre"/><br />
 	<label>Article content</label>
     <input type="text" name="post.article.content" value="contenu"/><br />
 	<label>Fichier </label><input type="file" name="post.file" /><br /><br />
-	<input type="submit" id="submit" value="envoyer"/><br />
+	<input type="submit" id="submit" name="form-post" value="envoyer"/><br />
 </form>
 <p>
 <gc:if condition="isset($post)">
     <?php var_dump($post->errors()); ?>
 </gc:if>
 <gc:if condition="isset($post)">
-	<pre><?php print_r($post->fields()['file']); ?></pre>
+	<!--<pre><?php print_r($post->fields()['file']); ?></pre>-->
 </gc:if>
 </p>

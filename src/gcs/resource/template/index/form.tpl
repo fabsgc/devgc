@@ -11,9 +11,15 @@
     outline:none;
     margin-bottom: 8px;
   }
+
+  input[type="file"]{
+    margin-bottom: 8px;
+    margin-left: -1px;
+  }
 </style>
 <form action="{{url:get}}" method="post" enctype="multipart/form-data">
 	<input type="hidden" name="request-put"/>
+	<input type="hidden" name="form-request"/>
 	<input type="text" name="text" placeholder="texte" /><br />
 	<input type="text" name="captcha" placeholder="captcha" /><br />
 	<input type="file" name="form[]" multiple="multiple" /><br />
@@ -34,6 +40,7 @@
 					<li><strong>{$errors['field']}</strong> : {$errors['message']}</li>
 				</gc:foreach>
 			</ul>
+			{{php: var_dump($request->errors()) }}
 		<gc:else/>
 			<strong>Validé !</strong>
 		</gc:if>

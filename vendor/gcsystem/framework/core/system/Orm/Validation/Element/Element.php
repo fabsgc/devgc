@@ -10,10 +10,10 @@
 
 	namespace System\Orm\Validation\Element;
 
-	use System\Collection\Collection;
 	use System\Exception\MissingClassException;
 	use System\Exception\MissingEntityException;
 	use System\Orm\Entity\ForeignKey;
+	use System\Sql\Sql;
 
 	abstract class Element{
 
@@ -141,17 +141,70 @@
 			$fields = [];
 			$fieldsData = $this->_entity->fields();
 
-			//We are to analyze a classic field without linked entity
+			//We have to analyze a classic field without linked entity
 			if(!preg_match('#\.#isU', $this->_field)){
 				if(isset($fieldsData[$this->_field])) {
-					$fields = [$fieldsData[$this->_field]];
+					$fields = [$fieldsData[$this->_field]->value];
 				}
 				else {
 					throw new MissingEntityException('The field "' . $this->_field . '" in the entity "' . $this->_entity->name() . '" does\'nt exist');
 				}
 			}
 			else{
+				//Here it's sure that we have a linked entity. But we don't compute "One to One and One to Many" in the same way than the 2 other
+				//because in the two first the field value is an Entity object and in the two other, the field value is a Collection
+				//To know which type of linked entity it's, we just split the name on the "." and we take the index 0 of the generated array
 
+				$entityName = explode('.', $this->_field);
+
+				if(array_key_exists($entityName[0], $fieldsData) && $fieldsData[$entityName[0]]->foreign != null){
+					/** @var int $foreignType : the type of the foreign key */
+					$foreignType = $fieldsData[$entityName[0]]->foreign->type();
+					/** @var mixed $fieldValue : the value of the sub-field from the entity (post.article.content->value) */
+					$fieldValue = $fieldsData[$entityName[0]]->value->fields()[$entityName[1]];
+
+					if($foreignType == ForeignKey::ONE_TO_MANY || $foreignType == ForeignKey::MANY_TO_ONE){
+						$fields = $this->_getForeignKeyFieldValue($fieldValue);
+					}
+					else{ //We must get all the sub entities as an array an then loop through this array to get the field values
+						foreach($fieldValue->data() as $fieldValueCollection){
+							$fields = array_merge($fields, $this->_getForeignKeyFieldValue($fieldValueCollection));
+						}
+					}
+				}
+				else{
+					throw new MissingEntityException('The field "' . $this->_field . '" in the entity "' . $this->_entity->name() . '" does\'nt exist');
+				}
+			}
+
+			return $fields;
+		}
+
+		/**
+		 * The method _getField return the value of each field in the entity. This method is used to factorize the source code
+		 * @access public
+		 * @param $field \System\Orm\Entity\Field
+		 * @return mixed array
+		 * @since 3.0
+		 * @package System\Form\Validation\Element
+		*/
+
+		private function _getForeignKeyFieldValue($field){
+			$fields = null;
+
+			if(gettype($field->value) != 'object'){
+				if(is_array($field->value)){
+					$fields = $field->value;
+				}
+				else{
+					$fields = [$field->value];
+				}
+			}
+			else if(get_class($field->value) != 'System\Collection\Collection'){
+				$fields = $field->value->data();
+			}
+			else if(get_class($field->value) != 'System\Orm\Entity\Type\File'){
+				$fields = [$field->value];
 			}
 
 			return $fields;
@@ -171,60 +224,309 @@
 			$this->_errors = [];
 			$fields = $this->_getField();
 
-			foreach ($fields as $field) {
-				foreach($this->_constraints as $constraints){
-					//If the field is a classic field, we get the value and we put it in an array
-					//If the field value is a Collection we get the array with Collection::data()
-					//If the value is a relation One to One or Many to One, we get field object and then we get field value
-					//If the value is a relation One to Many or Many to Many, we loop trough the Collection and we store each value for the desired field in an array
-					//By this way, each time, we have an array to analyse and the code below is the same
+			foreach($this->_constraints as $constraints){
+				foreach($fields as $value) {
+					switch ($constraints['type']) {
+						case self::EQUAL:
+							if($value != $constraints['value']){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
 
-					if($field->foreign == null){
-						if(gettype($field->value) != 'object' && !is_array($field->value)){
-							$field->value = [$field->value];
-						}
-						else if(gettype($field->value) == 'object' && get_class($field->value) == 'System\Collection\Collection'){
-							$field->value = $field->value->data();
-						}
+						case self::DIFFERENT:
+							if($value == $constraints['value']){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::MORETHAN:
+							if($value <= $constraints['value']){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::LESSTHAN:
+							if($value >= $constraints['value']){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::BETWEEN:
+							if($value < $constraints['value'][0] || $value > $constraints['value'][1]){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::IN:
+							if(!in_array($value, $constraints['value'])){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::NOTIN:
+							if(in_array($value, $constraints['value'])){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::LENGTH:
+							if(strlen($value) != $constraints['value']){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::LENGTHMIN:
+							if(strlen($value) < $constraints['value']){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::LENGTHMAX:
+							if(strlen($value) > $constraints['value']){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::LENGTHIN:
+							if(!in_array(strlen($value), $constraints['value'])){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::LENGTHBETWEEN:
+							if(strlen($value) < $constraints['value'][0] || strlen($value) > $constraints['value'][1]){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::REGEX:
+							if(!preg_match($constraints['value'], $value)){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::URL:
+							if(!filter_var($value, FILTER_VALIDATE_URL)){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::MAIL:
+							if(!filter_var($value, FILTER_VALIDATE_EMAIL)){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::INT:
+							if(!filter_var($value, FILTER_VALIDATE_INT)){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::FLOAT:
+							if(!filter_var($value, FILTER_VALIDATE_FLOAT)){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::ALPHA:
+							if(!preg_match('#^([a-zA-Z]+)$#', $value)){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::ALPHANUM:
+							if(!preg_match('#^([a-zA-Z0-9]+)$#', $value)){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::ALPHADASH:
+							if(!preg_match('#^([a-zA-Z0-9_-]+)$#', $value)){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::IP:
+							if(!filter_var($value, FILTER_VALIDATE_IP)){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::SQL:
+							/** @var $value \System\Orm\Entity\Entity */
+
+							$sql = new Sql();
+							$sql->query('query-form-validation', $constraints['value']['query']);
+							$sql->vars('value', $value);
+
+							if(count($constraints['value']['vars']) > 0)
+								$sql->vars($constraints['value']['vars']);
+
+							$data = $sql->fetch('query-form-validation', Sql::PARAM_FETCHCOLUMN);
+
+							$querySuccess = true;
+
+							switch($constraints['value']['constraint']){
+								case '==':
+									if($data != $constraints['value']['value'])
+										$querySuccess = false;
+								break;
+
+								case '!=':
+									if($data == $constraints['value']['value'])
+										$querySuccess = false;
+								break;
+
+								case '>':
+									if($data <= $constraints['value']['value'])
+										$querySuccess = false;
+								break;
+
+								case '<':
+									if($data >= $constraints['value']['value'])
+										$querySuccess = false;
+								break;
+							}
+
+							if(!$querySuccess){
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['message']
+								]);
+							}
+						break;
+
+						case self::CUSTOM:
+							/** @var object[] $constraints */
+							if ($constraints['value']->filter() == false) {
+								array_push($this->_errors, [
+									'field' => $this->_label,
+									'message' => $constraints['value']->error()
+								]);
+							}
+						break;
 					}
-					else{
-						$field->value = [''];
+				}
 
-						switch($field->foreign->type()){
-							case ForeignKey::ONE_TO_ONE:
-
-							break;
-
-							case ForeignKey::MANY_TO_ONE:
-
-							break;
-
-							case ForeignKey::ONE_TO_MANY:
-
-							break;
-
-							case ForeignKey::MANY_TO_MANY:
-
-							break;
+				switch($constraints['type']){
+					case self::COUNT:
+						if(count($fields) != $constraints['value']){
+							array_push($this->_errors, [
+								'field' => $this->_label,
+								'message' => $constraints['message']
+							]);
 						}
-					}
+					break;
 
-					if(!is_array($field->value)){
-						$field->value = [$field->value];
-					}
-
-					foreach($field->value as $value) {
-						switch ($constraints['type']) {
-							case self::EQUAL:
-								if($value != $constraints['value']){
-									array_push($this->_errors, [
-										'field' => $this->_label,
-										'message' => $constraints['message']
-									]);
-								}
-							break;
+					case self::COUNTMIN:
+						if(count($fields) < $constraints['value']){
+							array_push($this->_errors, [
+								'field' => $this->_label,
+								'message' => $constraints['message']
+							]);
 						}
-					}
+					break;
+
+					case self::COUNTMAX:
+						if(count($fields) > $constraints['value']){
+							array_push($this->_errors, [
+								'field' => $this->_label,
+								'message' => $constraints['message']
+							]);
+						}
+					break;
+
+					case self::COUNTIN:
+						/** @var array $constraints */
+						if(!in_array(count($fields), $constraints['value'])){
+							array_push($this->_errors, [
+								'field' => $this->_label,
+								'message' => $constraints['message']
+							]);
+						}
+					break;
+
+					case self::EXIST:
+						if(count($fields) == 1 && $fields[0] == null){
+							array_push($this->_errors, [
+								'field' => $this->_label,
+								'message' => $constraints['message']
+							]);
+						}
+					break;
+
+					case self::NOTEXIST:
+						if(count($fields) == 1 && $fields[0] != null){
+							array_push($this->_errors, [
+								'field' => $this->_label,
+								'message' => $constraints['message']
+							]);
+						}
+					break;
 				}
 			}
 		}
@@ -875,7 +1177,7 @@
 				if (class_exists($class)) {
 					array_push($this->_constraints, [
 						'type' => self::CUSTOM,
-						'value' => new $class($this->_field, $this->_label, $this->_data[$this->_field])
+						'value' => new $class($this->_field, $this->_label, $this->_entity)
 					]);
 				} else {
 					throw new MissingClassException('The custom validation class "' . $class . '" was not found');

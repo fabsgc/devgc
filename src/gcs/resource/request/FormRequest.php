@@ -20,8 +20,8 @@
 		public function put(){
 			$this->captcha();
 			$this->validation->text('text', 'champs de texte')
-				//->equal('put', 'Le champs doit avoir la valeur "put"')
-				//->in(['un', 'deux', 'trois'], 'la valeur doit être un, deux ou trois')
+				->equal('put', 'Le champs doit avoir la valeur "put"')
+				->in(['un', 'deux', 'trois'], 'la valeur doit être un, deux ou trois')
 				->lengthBetween([10, 20], 'la taille doit être entre 10 et 20 caractères')
 				->alpha('la valeur ne doit contenir que des lettres')
 				->countIn([1,2], 'il y a trop peu de valeurs')

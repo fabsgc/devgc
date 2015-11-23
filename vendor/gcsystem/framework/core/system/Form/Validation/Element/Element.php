@@ -398,13 +398,6 @@
 							}
 						break;
 					}
-
-					/*
-					const COUNT         = 22;
-					const COUNTMIN      = 23;
-					const COUNTMAX      = 24;
-					const COUNTIN       = 25;
-					const COUNTBETWEEN  = 26;*/
 				}
 
 				switch($constraints['type']){

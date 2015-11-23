@@ -23,13 +23,13 @@
 </div>
 <footer id="footer">Gcsystem V{VERSION}</footer>
 <script type="text/javascript">
-    updateHeight();
+    height();
 
     window.onresize = function(event) {
-        updateHeight();
+        height();
     };
 
-    function updateHeight(){
+    function height(){
         document.getElementById('main').style.height = window.innerHeight - document.getElementById('header').offsetHeight - document.getElementById('footer').offsetHeight + "px";
 		if(document.getElementById('page'))
 			document.getElementById('page').style.width = window.innerWidth - document.getElementById('submit').offsetWidth - 50 + "px";

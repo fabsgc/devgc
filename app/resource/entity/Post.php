@@ -32,18 +32,23 @@
 		}
 
 		public function beforeInsert(){
-			$this->validation->text('content', 'contenu')
+			/*$this->validation->text('content', 'contenu')
+				->equal('content', 'vous devez écrire "content"');*/
+
+			$this->validation->text('article.content', 'content')
 				->equal('content', 'vous devez écrire "content"');
 
-			$this->validation->text('article.content', 'article')
-				->equal('content', 'vous devez écrire "content"');
+			$this->validation->text('article.title', 'article nom')
+				->sql([
+					'query' => 'SELECT COUNT(*) FROM article where title = :value',
+					'constraint' => '==', 
+					'value' => 0, 
+					'vars' => []
+				],
+				'cet article existe déjà');
 
-			/*$this->validation->file('post.file', 'fichier')
-				->accept(['image/png'], 'le fichier doit être une image')
+			$this->validation->file('file', 'fichier')
+				->accept(['image/png'], 'le fichier doit être une image png')
 				->extension(['png'], 'le fichier n\'a pas la bonne extension');
-
-			$this->validation->select('post.article', 'article')
-				->sql(['query' => 'SELECT COUNT(*) FROM article where id = :value', 'constraint' => 1], 'cet article n\'existe pas');
-			*/
 		}
 	}

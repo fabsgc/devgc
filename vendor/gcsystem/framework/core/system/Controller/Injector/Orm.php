@@ -59,9 +59,7 @@
 
 			$request = Request::getInstance();
 
-			if(($class->getForm() == '' && $request->data->form == true) || ($request->data->method == 'post' && isset($request->data->post[$class->getForm()]) ||
-					$request->data->method == 'get' && isset($request->data->get[$class->getForm()]))){
-
+			if(($class->getForm() == '' && $request->data->form == true) || isset($request->data->post[$class->getForm()])){
 				switch($request->data->method){
 					case 'get' :
 						$class->beforeInsert();

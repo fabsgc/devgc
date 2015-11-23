@@ -32,7 +32,7 @@
 			'Template'       =>                             '\System\Template\Template',
 			'Terminal'       =>                             '\System\Terminal\Terminal',
 			'AssetManager'   =>                     '\System\AssetManager\AssetManager',
-			'OrmValidation' =>                      '\System\Orm\Validation\Validation',
+			'OrmValidation'  =>                     '\System\Orm\Validation\Validation',
 			'EntityMultiple' =>                           '\System\Orm\Entity\Multiple',
 			'TemplateParser' =>                       '\System\Template\TemplateParser',
 			'FormValidation' =>                    '\System\Form\Validation\Validation',
