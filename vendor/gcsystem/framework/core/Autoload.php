@@ -53,6 +53,8 @@
 			}
 
 			if(file_exists(APP_RESOURCE_REQUEST_PATH.preg_replace('#Controller\/Request\/#isU', '', $class).'.php')){
+				echo APP_RESOURCE_REQUEST_PATH.preg_replace('#Controller\/Request\/#isU', '', $class).'.php'.'<br /><br />';
+
 				include_once(APP_RESOURCE_REQUEST_PATH.preg_replace('#Controller\/Request\/#isU', '', $class).'.php');
 				return;
 			}

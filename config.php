@@ -48,8 +48,8 @@ define('WEB_JS_PATH', 'js/');
 define('VENDOR_PATH', 'vendor/');
 define('SYSTEM_PATH', VENDOR_PATH.'gcsystem/framework/');
 define('SYSTEM_CORE_PATH', SYSTEM_PATH.'core/');
-define('SYSTEM_CORE_SYSTEM_PATH', SYSTEM_CORE_PATH.'system/');
-define('SYSTEM_CORE_HELPER_PATH', SYSTEM_CORE_PATH.'helper/');
+define('SYSTEM_CORE_SYSTEM_PATH', SYSTEM_CORE_PATH.'System/');
+define('SYSTEM_CORE_HELPER_PATH', SYSTEM_CORE_PATH.'Helper/');
 
 define('EXT_LANG', '.xml');
 define('EXT_TEMPLATE', '.tpl');

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title><?php echo ($title); ?></title>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="/<?php echo $this->path(RESOLVE_IMAGE); ?>logo.png" />
+    <?php if(self::Request()->controller == 'index' and self::Request()->action == 'default') { ?>
+		<link href="<?php echo $this->getUrl('.gcs.gcs.assetManager.default', array('a5c839bd03409b2a091a7358efc82010f94efd12','css')); ?>" rel="stylesheet" media="screen" type="text/css" />
+	<?php }else{ ?>
+		<link href="<?php echo $this->getUrl('.gcs.gcs.assetManager.default', array('2d047826415b8b7c4d9b0b13db7373c81b1aef92','css')); ?>" rel="stylesheet" media="screen" type="text/css" />
+	<?php } ?>
+</head>
+<body id="body">
+<header id="header">
+    <div class="content">
+        <h1><?php echo ($title); ?></h1>
+    </div>
+</header>
+<div id="main">
+    <div class="content">
+        
+<h1><?php echo $this->useLang('gcs.default.welcome',array()); ?></h1>
+<p><?php echo $this->useLang('gcs.default.content',array()); ?></p>
+<ul>
+	<li><a href="http://www.gcs-framework.dzv.me/fr/"><?php echo $this->useLang('gcs.default.website',array()); ?></a></li>
+	<li><a href="http://www.gcs-framework.dzv.me/fr/documentation"><?php echo $this->useLang('gcs.default.website-documentation',array()); ?></a></li>
+	<li><a href="http://www.gcs-framework.dzv.me/fr/tutorial"><?php echo $this->useLang('gcs.default.website-tutorial',array()); ?></a></li>
+</ul>
+    </div>
+</div>
+<footer id="footer">Gcsystem V<?php echo (VERSION); ?></footer>
+<script type="text/javascript">
+    height();
+
+    window.onresize = function(event) {
+        height();
+    };
+
+    function height(){
+        document.getElementById('main').style.height = window.innerHeight - document.getElementById('header').offsetHeight - document.getElementById('footer').offsetHeight + "px";
+		if(document.getElementById('page'))
+			document.getElementById('page').style.width = window.innerWidth - document.getElementById('submit').offsetWidth - 50 + "px";
+		if(document.getElementById('form'))
+			document.getElementById('form').style.width = window.innerWidth - document.getElementById('submit').offsetWidth - 30 + "px";
+	}
+</script>
+</body>
+</html>

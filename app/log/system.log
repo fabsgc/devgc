@@ -1,0 +1,16 @@
+28/12/2015 04:42:54 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System\Engine\Engine.php / line 315 / Action "Gcs/Index/actionDefault" called successfully
+#################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/ ####################
+28/12/2015 04:42:54 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System\Engine\Engine.php / line 315 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/gcs/asset/a5c839bd03409b2a091a7358efc82010f94efd12.css ####################
+28/12/2015 04:42:58 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System\Engine\Engine.php / line 315 / Action "Gcs/Index/actionGet" called successfully
+#################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/form ####################
+28/12/2015 04:42:58 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System\Engine\Engine.php / line 315 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+28/12/2015 04:42:59 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System\Engine\Engine.php / line 315 / Action "Gcs/Index/actionPut" called successfully
+#################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/form ####################
+28/12/2015 04:43:00 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System\Engine\Engine.php / line 315 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+28/12/2015 04:44:45 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System\Engine\Engine.php / line 315 / Action "Gcs/Index/actionPut" called successfully
+#################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/form ####################
+28/12/2015 04:44:45 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System\Engine\Engine.php / line 315 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
