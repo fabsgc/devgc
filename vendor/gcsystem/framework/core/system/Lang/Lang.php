@@ -85,8 +85,8 @@
 				}
 			}
 			else{
-				$this->addError('lang '.$name.'/'.$request->lang.' not found', __FILE__, __LINE__, ERROR_WARNING);
-				return 'lang not found ('.$name.','.$request->lang.')';
+				$this->addError('sentence '.$name.'/'.$request->lang.' not found', __FILE__, __LINE__, ERROR_WARNING);
+				return 'sentence not found ('.$name.','.$request->lang.')';
 			}
 		}
 

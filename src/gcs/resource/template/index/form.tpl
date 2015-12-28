@@ -40,7 +40,7 @@
 					<li><strong>{$errors['field']}</strong> : {$errors['message']}</li>
 				</gc:foreach>
 			</ul>
-			{{php: var_dump($request->errors()) }}
+			<pre>{{php: var_dump($request->errors()) }}</pre>
 		<gc:else/>
 			<strong>Validé !</strong>
 		</gc:if>

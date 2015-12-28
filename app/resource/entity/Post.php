@@ -32,8 +32,8 @@
 		}
 
 		public function beforeInsert(){
-			/*$this->validation->text('content', 'contenu')
-				->equal('content', 'vous devez écrire "content"');*/
+			$this->validation->text('content', 'contenu')
+				->equal('content', 'vous devez écrire "content"');
 
 			$this->validation->text('article.content', 'content')
 				->equal('content', 'vous devez écrire "content"');

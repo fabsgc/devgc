@@ -1,7 +1,7 @@
 <?php
 	namespace Controller\Request\Gcs;
 
-	use Controller\Request\Plugin\captcha;
+	use Controller\Request\Plugin\Captcha;
 	use \System\Request\Form;
 
 	class FormRequest extends Form{

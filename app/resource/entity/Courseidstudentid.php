@@ -7,7 +7,7 @@
 
 	class Courseidstudentid extends Entity{
 		public function tableDefinition(){
-			$this->name('CourseIdStudentId');
+			$this->name('courseidstudentid');
 			$this->field('id')
 				->primary(true)
 				->unique(true)

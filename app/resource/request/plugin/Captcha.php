@@ -5,7 +5,7 @@
 	 * @property \System\Form\Validation\Validation $validation
 	*/
 
-	trait captcha{
+	trait Captcha{
 		public function captcha(){
 			$this->validation->text('captcha', 'captcha')
 				->equal('coucou', 'Le captcha ne correspond pas à l\'image');

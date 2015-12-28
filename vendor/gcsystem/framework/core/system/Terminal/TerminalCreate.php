@@ -440,11 +440,11 @@
 								$referencedEntity = new $class();
 
 								/** We generate the linking table name */
-								$current   = ucfirst($entity->name()).ucfirst($field->foreign->field());
-								$reference = ucfirst($referencedEntity->name()).ucfirst($field->foreign->referenceField());
+								$current   = ucfirst($entity->name()).($field->foreign->field());
+								$reference = ucfirst($referencedEntity->name()).($field->foreign->referenceField());
 								$tableNames = [$current, $reference];
 								sort($tableNames, SORT_STRING);
-								$tableName = $tableNames[0].$tableNames[1];
+								$tableName = $tableNames[0].strtolower($tableNames[1]);
 
 								$t = self::Template('.app/system/module/orm/manytomany', 'gcsEntity_'.$table, '0');
 								$t->assign(array(

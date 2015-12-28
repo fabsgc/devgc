@@ -756,7 +756,8 @@
 		protected function _getTableName($entity = ''){
 			/** @var $class \System\Orm\Entity\Entity */
 
-			$className = '\Orm\Entity\\'.$entity;
+			$entity = ucfirst($entity);
+			$className = '\Orm\Entity\\'.ucfirst($entity);
 
 			if(class_exists($className)){
 				return  self::Entity()->$entity();
