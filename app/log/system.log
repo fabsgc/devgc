@@ -14,3 +14,7 @@
 #################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/form ####################
 28/12/2015 04:44:45 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System\Engine\Engine.php / line 315 / Action "Gcs/AssetManager/actionDefault" called successfully
 #################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
+28/12/2015 05:00:39 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System\Engine\Engine.php / line 315 / Action "Gcs/Index/actionPut" called successfully
+#################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/form ####################
+28/12/2015 05:00:39 : [INFORMATION] file C:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System\Engine\Engine.php / line 315 / Action "Gcs/AssetManager/actionDefault" called successfully
+#################### END OF EXECUTION OF http://localhost:82/gcsystem/gcs-dev/gcs/asset/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css ####################
