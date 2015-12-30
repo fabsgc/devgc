@@ -8,6 +8,7 @@
 	class '.$class.' extends Entity{
 		public function tableDefinition(){
 			$this->name(\''.$table.'\');
+			$this->form(\'form-'.strtolower($table).'\');
 '.$field.'		}
 	}';
 }}

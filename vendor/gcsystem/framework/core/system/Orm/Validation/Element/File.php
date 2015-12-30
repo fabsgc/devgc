@@ -47,7 +47,6 @@
 					if($value != null){
 						switch ($constraints['type']) {
 							case self::ACCEPT:
-								var_dump($value);
 								if(!in_array($value->contentType, $constraints['value'])){
 									array_push($this->_errors, [
 										'field' => $this->_label,

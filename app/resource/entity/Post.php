@@ -48,7 +48,7 @@
 				'cet article existe déjà');
 
 			$this->validation->file('file', 'fichier')
-				->accept(['image/png'], 'le fichier doit être une image png')
-				->extension(['png'], 'le fichier n\'a pas la bonne extension');
+				->accept(['image/png', 'image/jpeg'], 'le fichier doit être une image png')
+				->extension(['png', 'jpeg', 'jpg'], 'le fichier n\'a pas la bonne extension');
 		}
 	}

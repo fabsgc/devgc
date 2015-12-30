@@ -37,7 +37,7 @@
 		 * @package System\Form\Validation\Custom
 		*/
 
-		public function __construct($field, $label, $value){
+		final public function __construct($field, $label, $value){
 			$this->field = $field;
 			$this->label = $label;
 			$this->value = $value;

@@ -46,7 +46,7 @@
 		 * @package System\Orm\Validation\Custom
 		 */
 
-		public function __construct($field, $label, $entity){
+		final public function __construct($field, $label, $entity){
 			$this->field = $field;
 			$this->label = $label;
 			$this->entity = $entity;
