@@ -33,19 +33,21 @@
 
 		public function beforeInsert(){
 			$this->validation->text('content', 'contenu')
-				->equal('content', 'vous devez écrire "content"');
+				->equal('content', 'vous devez écrire "content"')
+				->custom('title');
 
 			$this->validation->text('article.content', 'content')
 				->equal('content', 'vous devez écrire "content"');
 
 			$this->validation->text('article.title', 'article nom')
 				->sql([
-					'query' => 'SELECT COUNT(*) FROM article where title = :value',
+					'query' => 'SELECT COUNT(*) FROM article WHERE title = :value',
 					'constraint' => '==', 
 					'value' => 0, 
 					'vars' => []
 				],
-				'cet article existe déjà');
+				'cet article existe déjà')
+				->custom('title');
 
 			$this->validation->file('file', 'fichier')
 				->accept(['image/png', 'image/jpeg'], 'le fichier doit être une image png')

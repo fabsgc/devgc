@@ -1172,12 +1172,12 @@
 
 		public function custom($name){
 			if($this->_exist) {
-				$class = '\Entity\Custom\\' . ucfirst($name);
+				$class = 'Orm\Entity\Custom\\' . ucfirst($name);
 
 				if (class_exists($class)) {
 					array_push($this->_constraints, [
 						'type' => self::CUSTOM,
-						'value' => new $class($this->_field, $this->_label, $this->_entity)
+						'value' => new $class($this->_field, $this->_label, $this->_entity, $this->_getField()[0])
 					]);
 				} else {
 					throw new MissingClassException('The custom validation class "' . $class . '" was not found');

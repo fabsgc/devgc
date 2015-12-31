@@ -31,7 +31,7 @@
 				include_once(SYSTEM_CORE_PATH.$class.'.php');
 				return;
 			}
-			
+
 			if(file_exists(APP_RESOURCE_PATH.lcfirst(str_replace('Orm/', '', $class)).EXT_ENTITY.'.php')){
 				include_once(APP_RESOURCE_PATH.lcfirst(str_replace('Orm/', '', $class)).EXT_ENTITY.'.php');
 				return;
