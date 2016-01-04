@@ -2,11 +2,12 @@
 	namespace Gcs;
 
 	use System\Controller\Controller;
+	use System\Response\Response;
 
 	class Lang extends Controller{
 		public function init(){
 			if(ENVIRONMENT != 'development')
-				self::Response()->status(404);
+				Response::getInstance()->status(404);
 		}
 		
 		public function actionDefault(){

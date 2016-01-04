@@ -1,9 +1,11 @@
 <?php
 	namespace Gcs;
 
+	use System\Response\Response;
+
 	class Scaffolding extends \Scaffolding\Scaffolding{
 		public function init(){
 			if(ENVIRONMENT != 'development')
-				self::Response()->status(404);
+				Response::getInstance()->status(404);
 		}
 	}

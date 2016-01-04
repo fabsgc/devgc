@@ -30,7 +30,7 @@
 				->custom('username');
 
 			$this->validation->file('form', 'fichiers')
-				->accept(['image/png'], 'le fichier doit être une image')
+				->accept(['image/png'], 'le fichier doit être une image png')
 				->extension(['png'], 'le fichier n\'a pas la bonne extension')
 				->countIn([2,2], 'il faut deux fichiers');
 

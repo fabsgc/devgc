@@ -10,13 +10,13 @@
 
 	namespace System\Request;
 
+	use System\Config\Config;
 	use System\General\error;
-	use System\General\facades;
 	use System\Exception\AttributeNotAllowedException;
 	use System\Exception\MissingConfigException;
 
 	class Auth{
-		use error, facades;
+		use error;
 
 		/**
 		 * parameters
@@ -61,7 +61,7 @@
 		*/
 
 		public function __construct ($src){
-			$this->_config = self::Config();
+			$this->_config = Config::getInstance();
 			$this->_src    =           $src;
 
 			$this->_path['logged'] = explode('.', $this->_config->config['firewall'][''.$src.'']['logged']['name']);
