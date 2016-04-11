@@ -62,7 +62,7 @@
 
 		public function __construct ($src){
 			$this->_config = Config::getInstance();
-			$this->_src    =           $src;
+			$this->_src    = $src;
 
 			$this->_path['logged'] = explode('.', $this->_config->config['firewall'][''.$src.'']['logged']['name']);
 			$this->_path['role'] = explode('.', $this->_config->config['firewall'][''.$src.'']['roles']['name']);

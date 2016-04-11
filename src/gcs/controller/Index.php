@@ -1,14 +1,14 @@
 <?php
 	namespace Gcs;
 
-	use Controller\Request\Gcs\FormRequest;
-	use Orm\Entity\Article;
 	use Orm\Entity\Post;
-	use Orm\Entity\Student;
-	use System\Controller\Controller;
 	use System\Orm\Entity;
+	use Orm\Entity\Student;
+	use Orm\Entity\Article;
 	use System\Response\Response;
 	use System\Template\Template;
+	use System\Controller\Controller;
+	use Controller\Request\Gcs\FormRequest;
 
 	class Index extends Controller{
 		public function init(){
@@ -19,8 +19,7 @@
 		public function actionDefault(){
 			$students = Student::find()
 				->where('Student.id = 1')
-				->fetch()
-				->first();
+				->fetch();
 
 			return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V'.VERSION)

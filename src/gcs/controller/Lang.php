@@ -1,8 +1,8 @@
 <?php
 	namespace Gcs;
 
-	use System\Controller\Controller;
 	use System\Response\Response;
+	use System\Controller\Controller;
 
 	class Lang extends Controller{
 		public function init(){

@@ -1,10 +1,10 @@
 <?php
 	namespace Gcs;
 
-	use System\Controller\Controller;
+	use System\Cache\Cache;
 	use System\Response\Response;
 	use System\Template\Template;
-	use System\Cache\Cache;
+	use System\Controller\Controller;
 
 	class Profiler extends Controller{
 		public function init(){
