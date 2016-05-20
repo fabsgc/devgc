@@ -1,4 +1,4 @@
-<gc:extends file="main"/>
+{gc:extends file="main"/}
 <style>
   label{
     display:inline-block;
@@ -20,18 +20,10 @@
 	<input type="text" name="post.content" value="contenu"/><br />
 	<label>Article </label>
 	<select name="post.article">
-		<gc:foreach var="$articles" as="$article">
+		{gc:foreach var="$articles" as="$article"}
 			<option value="{$article->id}">{$article->title}</option>
-		</gc:foreach>
+		{/gc:foreach}
 	</select><br />
 	<label>Fichier </label><input type="file" name="post.file" /><br /><br />
 	<input type="submit" id="submit" value="envoyer"/><br />
 </form>
-<p>
-<gc:if condition="isset($post)">
-    <?php var_dump($post->errors()); ?>
-</gc:if>
-<gc:if condition="isset($post)">
-	<?php //print_r($post->fields()); ?>
-</gc:if>
-</p>

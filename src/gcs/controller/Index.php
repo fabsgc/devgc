@@ -17,13 +17,8 @@
 		}
 		
 		public function actionDefault(){
-			$students = Student::find()
-				->where('Student.id = 1')
-				->fetch();
-
 			return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V'.VERSION)
-				->assign('students', $students)
 				->show();
 		}
 
