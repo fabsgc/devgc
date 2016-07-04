@@ -17,10 +17,6 @@
 		}
 
 		public function actionDefault() {
-			$lines = $this->getFileLineDir('app/') + $this->getFileLineDir('src/') + $this->getFileLineDir('vendor/gcsystem/');
-
-			var_dump($lines);
-
 			return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V' . VERSION)
 				->show();
