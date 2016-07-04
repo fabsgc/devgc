@@ -6,8 +6,8 @@
 	use System\Orm\Entity\Field;
 	use System\Orm\Entity\ForeignKey;
 
-	class Article extends Entity{
-		public function tableDefinition(){
+	class Article extends Entity {
+		public function tableDefinition() {
 			$this->name('article');
 			$this->form('form-article');
 			$this->field('id')
@@ -23,15 +23,19 @@
 				->beNull(false);
 			$this->field('posts')
 				->foreign([
-					'type' => ForeignKey::ONE_TO_MANY,
+					'type'      => ForeignKey::ONE_TO_MANY,
 					'reference' => ['Post', 'article'],
-					'current' => ['Article', 'id'],
-					'belong' => ForeignKey::COMPOSITION,
-					'join' => Builder::JOIN_LEFT
+					'current'   => ['Article', 'id'],
+					'belong'    => ForeignKey::COMPOSITION,
+					'join'      => Builder::JOIN_LEFT
 				]);
 		}
 
-		public function beforeUpdate(){
+		public function beforeUpdate() {
+			//echo 'test';
+		}
+
+		public function beforePatch() {
 			//echo 'test';
 		}
 	}

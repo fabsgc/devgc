@@ -3,6 +3,5 @@
 
 	use System\Event\Event;
 
-	class Cron extends Event{
-
+	class Cron extends Event {
 	}

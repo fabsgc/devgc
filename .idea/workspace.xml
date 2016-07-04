@@ -3,10 +3,136 @@
   <component name="AnalysisUIOptions">
     <option name="FILTER_RESOLVED_ITEMS" value="false" />
     <option name="ANALYZE_TEST_SOURCES" value="false" />
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="scope-inspection" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df19f089-e3ab-411d-86e7-26258934420b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/scaffolding" afterPath="$PROJECT_DIR$/vendor/gcsystem/scaffolding" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/resource/config/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Plugin/Plugin.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/FABIEN.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/FABIEN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Article.php" afterPath="$PROJECT_DIR$/app/resource/entity/Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Book.php" afterPath="$PROJECT_DIR$/app/resource/entity/Book.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Course.php" afterPath="$PROJECT_DIR$/app/resource/entity/Course.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Courseidstudentid.php" afterPath="$PROJECT_DIR$/app/resource/entity/Courseidstudentid.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Custom/Title.php" afterPath="$PROJECT_DIR$/app/resource/entity/Custom/Title.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Image.php" afterPath="$PROJECT_DIR$/app/resource/entity/Image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Page.php" afterPath="$PROJECT_DIR$/app/resource/entity/Page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Post.php" afterPath="$PROJECT_DIR$/app/resource/entity/Post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/entity/Student.php" afterPath="$PROJECT_DIR$/app/resource/entity/Student.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/event/Cron.php" afterPath="$PROJECT_DIR$/app/resource/event/Cron.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/request/Custom/Username.php" afterPath="$PROJECT_DIR$/app/resource/request/Custom/Username.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/resource/request/Plugin/Captcha.php" afterPath="$PROJECT_DIR$/app/resource/request/Plugin/Captcha.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console" afterPath="$PROJECT_DIR$/console" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/controller/AssetManager.php" afterPath="$PROJECT_DIR$/src/gcs/controller/AssetManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/controller/Index.php" afterPath="$PROJECT_DIR$/src/gcs/controller/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/controller/Lang.php" afterPath="$PROJECT_DIR$/src/gcs/controller/Lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/controller/Profiler.php" afterPath="$PROJECT_DIR$/src/gcs/controller/Profiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/controller/Scaffolding.php" afterPath="$PROJECT_DIR$/src/gcs/controller/Scaffolding.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/function.php" afterPath="$PROJECT_DIR$/src/gcs/function.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/model/AssetManager.php" afterPath="$PROJECT_DIR$/src/gcs/model/AssetManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/model/Index.php" afterPath="$PROJECT_DIR$/src/gcs/model/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/model/Lang.php" afterPath="$PROJECT_DIR$/src/gcs/model/Lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/model/Profiler.php" afterPath="$PROJECT_DIR$/src/gcs/model/Profiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/model/Scaffolding.php" afterPath="$PROJECT_DIR$/src/gcs/model/Scaffolding.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/resource/event/Mail.php" afterPath="$PROJECT_DIR$/src/gcs/resource/event/Mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/resource/request/FormRequest.php" afterPath="$PROJECT_DIR$/src/gcs/resource/request/FormRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/Autoload.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/Autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Alert/Alert.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Alert/Alert.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Mail/Mail.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Mail/Mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Pagination/Pagination.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Pagination/Pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/AssetManager/AssetManager.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/AssetManager/AssetManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cache/Cache.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cache/Cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Collection/Collection.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Collection/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Collection/Iterator.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Collection/Iterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Config/Config.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Config/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Controller.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Injector/Form.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Injector/Form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Injector/Injector.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Injector/Injector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Injector/Orm.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Injector/Orm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cron/Cron.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cron/Cron.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Database/Database.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Database/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Define/Define.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Define/Define.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Engine/Engine.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Engine/Engine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Event/Event.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Event/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Event/EventManager.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Event/EventManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/AttributeNotAllowedException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/AttributeNotAllowedException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/ErrorHandler.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/ErrorHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/Exception.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MethodNotAllowedException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MethodNotAllowedException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingActionException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingActionException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingClassException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingClassException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingConfigException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingConfigException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingControllerException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingControllerException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingDatabaseException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingDatabaseException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingEntityException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingEntityException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingFieldException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingFieldException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingHelperException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingHelperException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingLangException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingLangException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingLibraryException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingLibraryException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingModelException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingModelException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingSqlException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingSqlException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingTemplateException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingTemplateException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingTerminalException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/MissingTerminalException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/NotFoundException.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/NotFoundException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/Facade.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/Facade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/FacadeEntity.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/FacadeEntity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/FacadeHelper.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/FacadeHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Custom/Custom.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Custom/Custom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Checkbox.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Checkbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Element.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Element.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/File.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Radio.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Radio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Select.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Text.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Validation.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/General/General.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/General/General.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Helper/Helper.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Helper/Helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Lang/Lang.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Lang/Lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Library/Library.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Library/Library.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Mime/Mime.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Mime/Mime.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Model/Model.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Model/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Builder.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Entity.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Entity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Field.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/ForeignKey.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/ForeignKey.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Multiple.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Multiple.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Type/File.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Type/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Type/Type.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Type/Type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Custom/Custom.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Custom/Custom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Checkbox.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Checkbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Element.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Element.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/File.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Radio.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Radio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Select.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Text.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Validation.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Pdo/Pdo.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Pdo/Pdo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Pdo/PdoStatement.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Pdo/PdoStatement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Profiler/Profiler.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Profiler/Profiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Auth.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Data.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Form.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Request.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Response/Response.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Response/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Router/Route.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Router/Route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Router/Router.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Router/Router.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Security/Firewall.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Security/Firewall.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Security/Spam.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Security/Spam.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Sql/Sql.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Sql/Sql.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Template/Template.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Template/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Template/TemplateParser.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Template/TemplateParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/Terminal.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/Terminal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalClear.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalClear.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalCreate.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalCreate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalDelete.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalDelete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalHelp.php" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalHelp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/gcs/css/default.css" afterPath="$PROJECT_DIR$/web/gcs/css/default.css" />
     </list>
     <ignored path="GCsystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,73 +167,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Builder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Builder.php">
+      <file leaf-file-name="General.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/General/General.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
-                <marker date="1460428757745" expanded="true" signature="11953:11960" placeholder="..." />
+                <element signature="e#7#243#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="Alert.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Alert/Alert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="676">
+              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sql.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Sql/Sql.php">
+      <file leaf-file-name="Mail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Mail/Mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="410" column="0" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
+            <state relative-caret-position="658">
+              <caret line="448" column="26" selection-start-line="448" selection-start-column="26" selection-end-line="448" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gcs/controller/Index.php">
+      <file leaf-file-name="Cache.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cache/Cache.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4207317">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="firewall.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gcs/resource/config/firewall.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Database/Database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+            <state relative-caret-position="550">
+              <caret line="223" column="29" selection-start-line="223" selection-start-column="29" selection-end-line="223" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -126,64 +222,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Validation.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Custom/Custom.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Helper/Helper.php" />
-        <option value="$PROJECT_DIR$/src/gcs/controller/AssetManager.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cache/Cache.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Injector/Form.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/AssetManager/AssetManager.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Injector/Injector.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Injector/Orm.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cron/Cron.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Define/Define.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Engine/Engine.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Event/Event.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Event/EventManager.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/FacadeEntity.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/Exception.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/FacadeHelper.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Lang/Lang.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Library/Library.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Database/Database.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Mime/Mime.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Model/Model.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Type/File.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Type/Type.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Entity.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Field.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/ForeignKey.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Multiple.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Custom/Custom.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Checkbox.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Element.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/File.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Radio.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Select.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Text.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Validation.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Builder.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Pdo/Pdo.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Pdo/PdoStatement.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Profiler/Profiler.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Auth.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Data.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Form.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Request.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Response/Response.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Router/Route.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Router/Router.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Security/Firewall.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Security/Spam.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Sql/Sql.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Template/Template.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Template/TemplateParser.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/Terminal.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalClear.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalCreate.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalDelete.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Checkbox.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/File.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Radio.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Element/Select.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Form/Validation/Custom/Custom.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Entity.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Custom/Custom.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Config/Config.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/ErrorHandler.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalHelp.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/Url/Url.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Controller.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/Facade.php" />
+        <option value="$PROJECT_DIR$/app/cache/template/9acb7c6e19_template_gcsProfiler.tpl.compil.php.cache" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/Autoload.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Template/TemplateParser.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Url/Url.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/General/General.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Model/Model.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Multiple.php" />
-        <option value="$PROJECT_DIR$/src/gcs/controller/Scaffolding.php" />
-        <option value="$PROJECT_DIR$/src/gcs/controller/Lang.php" />
-        <option value="$PROJECT_DIR$/src/gcs/controller/Profiler.php" />
-        <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Auth.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Builder.php" />
-        <option value="$PROJECT_DIR$/src/gcs/controller/Index.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Alert/Alert.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Mail/Mail.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cache/Cache.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="scope-inspection" pattern="file[GCsystem]:app//*||file[GCsystem]:src//*||file[GCsystem]:web//*||file[GCsystem]:vendor/gcsystem//*||file:config.php||file:index.php||file:console" />
   </component>
   <component name="PhpDebugGeneral" break_at_first_line="true" max_simultaneous_connections="4" />
   <component name="PhpServers">
@@ -191,12 +291,12 @@
       <server host="localhost" id="a783cd08-60c3-4dca-9a84-d01c24c5a58f" name="gcs-dev" port="82" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1046" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -205,10 +305,13 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>Spelling</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>PHP</id>
+            <id>SpellCheckingInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -242,8 +345,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,8 +353,782 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cron" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cache" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AssetManager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pagination" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mail" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Alert" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagination" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alert" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="error" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,25 +1140,25 @@
     <property name="SearchEverywhereHistory" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../kryptonite" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\wamp\www\GCsystem\app\resource\template\system\module\orm" />
-      <recent name="F:\wamp\www\GCsystem\system\core\system\Iterator" />
-      <recent name="F:\softwares\wamp\www\GCsystem\system\core\system\Trait" />
-      <recent name="F:\softwares\wamp\www\GCsystem\system\core\system\Terminal" />
-      <recent name="F:\softwares\wamp\www\GCsystem\system\core\system\Template" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\wamp\www\gcsystem\gcs-dev\app\resource\request\plugin" />
       <recent name="F:\wamp\www\gcsystem\gcs-dev\app\resource\request\custom" />
       <recent name="F:\wamp\www\gcsystem\gcs-dev\app\resource\entity\custom" />
       <recent name="F:\wamp\www\gcsystem\gcs-dev\app\resource\entity\plugin" />
       <recent name="F:\softwares\wamp\www\GCsystem\system\core\system\Exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\wamp\www\gcsystem\gcs-dev\vendor\gcsystem\framework\core\System" />
+      <recent name="F:\wamp\www\GCsystem\app\resource\template\system\module\orm" />
+      <recent name="F:\wamp\www\GCsystem\system\core\system\Iterator" />
+      <recent name="F:\softwares\wamp\www\GCsystem\system\core\system\Trait" />
+      <recent name="F:\softwares\wamp\www\GCsystem\system\core\system\Terminal" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Application.gcs-dv">
@@ -352,12 +1227,14 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
       <envs />
       <force value="false" />
       <verbose value="false" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -369,6 +1246,7 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -381,7 +1259,9 @@
       <item index="0" class="java.lang.String" itemvalue="PHP Web Application.gcs-dv" />
     </list>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration" myUseAcceleration="nothing">
     <configuration />
   </component>
@@ -390,19 +1270,27 @@
       <changelist id="df19f089-e3ab-411d-86e7-26258934420b" name="Default" comment="" />
       <created>1411146491031</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1411146491031</updated>
+      <workItem from="1467655666445" duration="7033000" />
+      <workItem from="1467663514868" duration="32000" />
+      <workItem from="1467663559986" duration="3308000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10373000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1046" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.50208336" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.500528" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -418,11 +1306,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1016" y="527" width="667" height="267" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39894736" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39809927" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32865497" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5005624" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -442,13 +1329,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/gcs/controller/Index.php</url>
-          <line>23</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -477,371 +1357,440 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Type/Type.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Entity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.75">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Field.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.46875">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/ForeignKey.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Custom/Custom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="31.15625">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Checkbox.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Element.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/File.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Radio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Select.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Element/Text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Validation/Validation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="77.625">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Config/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.65625">
-          <caret line="594" column="33" selection-start-line="594" selection-start-column="33" selection-end-line="594" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Exception/ErrorHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.277311">
-          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/General/General.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.21875">
-          <caret line="136" column="34" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Model/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Entity/Multiple.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/template/system/module/model.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/template/system/module/controller.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/cache/default/2d047826415b8b7c4d9b0b13db7373c81b1aef92.css.cache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/cache/default/a5c839bd03409b2a091a7358efc82010f94efd12.css.cache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/scaffolding/src/Scaffolding.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64512193">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/log/error.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/log/history.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/log/system.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.294601">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/log/sql.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2136151">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gcs/controller/Profiler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08414634">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36463416">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/entity/Image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/entity/Student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53292686">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gcs/controller/Scaffolding.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22439024">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gcs/controller/AssetManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7292683">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/entity/Custom/Title.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39268294">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resource/request/Custom/Username.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39268294">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gcs/resource/event/Mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gcs/controller/Lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.78125">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../bin/php/php5.5.12/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47524753">
-          <caret line="884" column="28" selection-start-line="884" selection-start-column="28" selection-end-line="884" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gcs/resource/template/main.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Database/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gcs/resource/config/firewall.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.78125">
-          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Engine/Engine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.125">
-          <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/scaffolding/src/template/insert.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gcs/resource/config/route.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../apps/phpmyadmin4.1.14/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29262087">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Sql/Sql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="410" column="0" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Orm/Builder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Pdo/Pdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Pdo/PdoStatement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Profiler/Profiler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4112">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
-            <marker date="1460428757745" expanded="true" signature="11953:11960" placeholder="..." />
+            <element signature="e#264#287#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="162">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gcs/controller/Index.php">
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4207317">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Response/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Router/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Router/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Security/Firewall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/Terminal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalHelp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalDelete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalCreate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="449" column="11" selection-start-line="449" selection-start-column="11" selection-end-line="449" selection-end-column="11" />
+          <folding>
+            <marker date="1467664493117" expanded="true" signature="10185:10274" ph="SELECT * FRO... COLUMNS" />
+            <marker date="1467664493117" expanded="true" signature="15139:15367" ph="SELECT COLUM... KEY_COLUMN_USAGE" />
+            <marker date="1467664493117" expanded="true" signature="15688:15954" ph="SELECT COLUM... KEY_COLUMN_USAGE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Terminal/TerminalClear.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Security/Spam.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Lang/Lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Helper/Helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cache/template/9acb7c6e19_template_gcsProfiler.tpl.compil.php.cache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/Facade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Url/Url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Template/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="358" column="27" selection-start-line="358" selection-start-column="27" selection-end-line="358" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Template/TemplateParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="537" column="60" selection-start-line="537" selection-start-column="44" selection-end-line="537" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gcs/model/Scaffolding.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gcs/model/Profiler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gcs/model/Lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gcs/model/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gcs/model/AssetManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/log/history.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/log/system.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3149">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/log/error.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/Autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cron/Cron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/template/system/module/controller.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/template/error/spam.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/template/error/http.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/template/error/firewall.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/config/define.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gcs/resource/config/cron.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/template/system/module/routeGroup.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/template/system/module/lang.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/template/system/module/firewall.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/resource/template/system/module/cron.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="14" selection-start-line="2" selection-start-column="4" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/General/General.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#7#243#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Alert/Alert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Mail/Mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="448" column="26" selection-start-line="448" selection-start-column="26" selection-end-line="448" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cache/Cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="223" column="29" selection-start-line="223" selection-start-column="29" selection-end-line="223" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>scope-inspection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.12551916" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="scope-inspection" />
+          </order>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

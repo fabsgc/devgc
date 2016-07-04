@@ -6,14 +6,13 @@
 	use System\Orm\Entity\ForeignKey;
 
 	/**
-	 * @property integer id
-	 * @property string content
-	 * @property integer article
+	 * @property integer                      id
+	 * @property string                       content
+	 * @property integer                      article
 	 * @property \System\Orm\Entity\Type\File file
-	*/
-
-	class Post extends Entity{
-		public function tableDefinition(){
+	 */
+	class Post extends Entity {
+		public function tableDefinition() {
 			$this->name('post');
 			$this->form('form-post');
 			$this->field('id')
@@ -31,7 +30,7 @@
 				->beNull(false);
 		}
 
-		public function beforeInsert(){
+		public function beforeInsert() {
 			$this->validation->text('content', 'contenu')
 				->equal('content', 'vous devez écrire "content"')
 				->custom('title');
@@ -41,12 +40,12 @@
 
 			$this->validation->text('article.title', 'article nom')
 				->sql([
-					'query' => 'SELECT COUNT(*) FROM article WHERE title = :value',
-					'constraint' => '==', 
-					'value' => 0, 
-					'vars' => []
+					'query'      => 'SELECT COUNT(*) FROM article WHERE title = :value',
+					'constraint' => '==',
+					'value'      => 0,
+					'vars'       => []
 				],
-				'cet article existe déjà')
+					'cet article existe déjà')
 				->custom('title');
 
 			$this->validation->file('file', 'fichier')

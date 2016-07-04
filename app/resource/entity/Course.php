@@ -5,8 +5,8 @@
 	use System\Orm\Entity\Field;
 	use System\Orm\Entity\ForeignKey;
 
-	class Course extends Entity{
-		public function tableDefinition(){
+	class Course extends Entity {
+		public function tableDefinition() {
 			$this->name('course');
 			$this->field('id')
 				->primary(true)

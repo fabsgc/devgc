@@ -3,10 +3,9 @@
 
 	use System\Orm\Entity\Entity;
 	use System\Orm\Entity\Field;
-	use System\Orm\Entity\ForeignKey;
 
-	class Book extends Entity{
-		public function tableDefinition(){
+	class Book extends Entity {
+		public function tableDefinition() {
 			$this->name('book');
 			$this->field('id')
 				->primary(true)
