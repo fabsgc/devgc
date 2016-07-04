@@ -14,7 +14,7 @@
 		}
 
 		public function actionDefault() {
-			self::Profiler()->enable(false);
+			\System\Profiler\Profiler::getInstance()->enable(false);
 
 			if (isset($_POST['id'])) {
 				if ($_POST['id'] == '') {
@@ -37,7 +37,7 @@
 					->show();
 			}
 			else {
-				self::Response()->status(404);
+				Response::getInstance()->status(404);
 			}
 		}
 	}
