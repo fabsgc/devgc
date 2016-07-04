@@ -15,7 +15,7 @@
 			if(ENVIRONMENT != 'development')
 				Response::getInstance()->status(404);
 		}
-		
+
 		public function actionDefault(){
 			return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V'.VERSION)
