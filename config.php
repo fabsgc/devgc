@@ -30,7 +30,6 @@
 	define('SRC_PATH', 'src/');
 	define('SRC_CONTROLLER_PATH', 'controller/');
 	define('SRC_CONTROLLER_FUNCTION_PATH', 'function.php');
-	define('SRC_MODEL_PATH', 'model/');
 	define('SRC_RESOURCE_PATH', 'resource/');
 	define('SRC_RESOURCE_CONFIG_PATH', SRC_RESOURCE_PATH . 'config/');
 	define('SRC_RESOURCE_EVENT_PATH', SRC_RESOURCE_PATH . 'event/');
@@ -51,15 +50,6 @@
 	define('SYSTEM_CORE_SYSTEM_PATH', SYSTEM_CORE_PATH . 'System/');
 	define('SYSTEM_CORE_HELPER_PATH', SYSTEM_CORE_PATH . 'Helper/');
 
-	define('EXT_LANG', '.xml');
-	define('EXT_TEMPLATE', '.tpl');
-	define('EXT_COMPILED_TEMPLATE', '.tpl.compil.php.cache');
-	define('EXT_LOG', '.log');
-	define('EXT_CONTROLLER', '');
-	define('EXT_MODEL', '');
-	define('EXT_EVENT', '');
-	define('EXT_ENTITY', '');
-
 	define('LOG_SYSTEM', 'system');
 	define('LOG_HISTORY', 'history');
 	define('LOG_SQL', 'sql');
@@ -70,7 +60,6 @@
 	define('APP_FUNCTION', APP_PATH . 'function.php');
 	define('SRC_FUNCTION', SRC_CONTROLLER_PATH . 'function.php');
 
-	define('APP_CONFIG_SRC', APP_RESOURCE_CONFIG_PATH . 'src.xml');
 	define('APP_CONFIG_CRON', APP_RESOURCE_CONFIG_PATH . 'cron.xml');
 	define('APP_CONFIG_DEFINE', APP_RESOURCE_CONFIG_PATH . 'define.xml');
 	define('APP_CONFIG_LIBRARY', APP_RESOURCE_CONFIG_PATH . 'library.xml');
@@ -105,94 +94,4 @@
 
 	define('DOCUMENT_ROOT', str_replace('\\', '/', __DIR__) . '/');
 
-	/* ############### DATABASE ############### */
-
-	$db['hostname'] = "localhost";
-	$db['username'] = "root";
-	$db['password'] = "";
-	$db['database'] = "test";
-	$db['driver'] = "pdo";
-	$db['type'] = "mysql";
-	$db['charset'] = "utf8";
-	$db['collation'] = "utf8_unicode_ci";
-
-	/* ############### USER ############### */
-
-	/*  open database connection */
-	define('DATABASE', true);
-
-	/*  use firewall */
-	define('SECURITY', true);
-
-	/*  use spam filter */
-	define('SPAM', true);
-
-	/*  charset */
-	define('CHARSET', 'UTF-8');
-
-	/*  where the framework is placed. If it's the root, keep empty, otherwise : project/ */
-	define('FOLDER', '');
-
-	/*  default language */
-	define('LANG', 'fr');
-
-	/* Define the environment  of the application :
-	 * development : errors + logs + profiler + terminal
-	 * production : nothing */
-	define('ENVIRONMENT', 'development');
-
-	/*  application in maintenance */
-	define('MAINTENANCE', false);
-
-	/*  profiler */
-	define('PROFILER', true);
-
-	/*  escape GET and POST */
-	define('SECURE_GET', true);
-	define('SECURE_POST', true);
-
-	/*  define prefix (define.xml) */
-	define('DEFINE_PREFIX', 'USER_');
-
-	/*  hash cache file name */
-	define('CACHE_SHA1', false);
-
-	/*  enable the log */
-	define('LOG_ENABLED', true);
-
-	/*  minify html output */
-	define('MINIFY_OUTPUT_HTML', false);
-
-	/*  display in the page fatal and exception error */
-	define('DISPLAY_ERROR_FATAL', true);
-	define('DISPLAY_ERROR_EXCEPTION', true);
-	define('DISPLAY_ERROR_ERROR', true);
-
-	/*  enable asset manager */
-	define('ASSET_MANAGER', true);
-
-	/*  enable config cache */
-	define('CACHE_CONFIG', false);
-
-	/*  enable cache */
-	define('CACHE_ENABLED', true);
-
-	/* send mail */
-	define('MAIL', false);
-
-	/*  don't modify */
-	define('HTML_WEB_PATH', FOLDER . '/' . WEB_PATH);
-	define('PHP_WEB_PATH', WEB_PATH);
-
-	define('IMAGE_PATH_PHP', WEB_PATH . 'img/');
-	define('CSS_PATH_PHP', WEB_PATH . 'css/');
-	define('JS_PATH_PHP', WEB_PATH . 'js/');
-	define('FILE_PATH_PHP', WEB_PATH . 'file/');
-
-	define('ERROR_TEMPLATE', '.app/error/http');
-	define('ERROR_403_TEMPLATE', '.app/error/http');
-	define('ERROR_404_TEMPLATE', '.app/error/http');
-	define('ERROR_500_TEMPLATE', '.app/error/http');
-
-	/*  timezone */
-	define('TIMEZONE', 'Europe/Paris');
+	return require_once('app/config.php');

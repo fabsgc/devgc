@@ -4,6 +4,7 @@
 	use Controller\Request\Gcs\FormRequest;
 	use Orm\Entity\Article;
 	use Orm\Entity\Post;
+	use System\Config\Config;
 	use System\Controller\Controller;
 	use System\Orm\Entity;
 	use System\Response\Response;
@@ -11,8 +12,8 @@
 
 	class Index extends Controller {
 		public function init() {
-			if (ENVIRONMENT != 'development') {
-				Response::getInstance()->status(404);
+			if (Config::config()['user']['debug']['environment'] != 'development') {
+				Response::instance()->status(404);
 			}
 		}
 
