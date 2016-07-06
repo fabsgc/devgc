@@ -8,24 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df19f089-e3ab-411d-86e7-26258934420b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/resource/config/src.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/resource/template/system/module/model.tpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gcs/model/AssetManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gcs/model/Index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gcs/model/Lang.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gcs/model/Profiler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gcs/model/Scaffolding.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/console" afterPath="$PROJECT_DIR$/console" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config.php" afterPath="$PROJECT_DIR$/app/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/controller/AssetManager.php" afterPath="$PROJECT_DIR$/src/gcs/controller/AssetManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/controller/Index.php" afterPath="$PROJECT_DIR$/src/gcs/controller/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/controller/Lang.php" afterPath="$PROJECT_DIR$/src/gcs/controller/Lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/controller/Profiler.php" afterPath="$PROJECT_DIR$/src/gcs/controller/Profiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gcs/controller/Scaffolding.php" afterPath="$PROJECT_DIR$/src/gcs/controller/Scaffolding.php" />
     </list>
     <ignored path="GCsystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,23 +79,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+            <state relative-caret-position="460">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
               <folding>
-                <element signature="e#9#261#0#PHP" expanded="true" />
+                <element signature="e#8#260#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Response.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AssetManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gcs/controller/AssetManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+              <folding>
+                <element signature="e#24#47#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssetManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/AssetManager/AssetManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="285" column="33" selection-start-line="285" selection-start-column="33" selection-end-line="285" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Response.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Response/Response.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
               <folding>
                 <element signature="e#313#338#0#PHP" expanded="true" />
               </folding>
@@ -182,16 +189,16 @@
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/General/General.php" />
         <option value="$PROJECT_DIR$/user.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Request/Request.php" />
-        <option value="$PROJECT_DIR$/src/gcs/controller/AssetManager.php" />
         <option value="$PROJECT_DIR$/console" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Engine/Engine.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Config/Config.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/app/app.php" />
-        <option value="$PROJECT_DIR$/app/config.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cache/Cache.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Response/Response.php" />
+        <option value="$PROJECT_DIR$/src/gcs/controller/AssetManager.php" />
+        <option value="$PROJECT_DIR$/app/config.php" />
       </list>
     </option>
   </component>
@@ -758,6 +765,40 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcsystem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="System" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AssetManager" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GCsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs-dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -1015,12 +1056,12 @@
       <workItem from="1467663514868" duration="32000" />
       <workItem from="1467663559986" duration="4288000" />
       <workItem from="1467668607614" duration="749000" />
-      <workItem from="1467826604668" duration="13038000" />
+      <workItem from="1467826604668" duration="14039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25140000" />
+    <option name="totallyTimeSpent" value="26141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1098,13 +1139,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../gcsystem/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/Helper/Alert/Alert.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
@@ -1307,17 +1341,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="362" column="38" selection-start-line="362" selection-start-column="38" selection-end-line="362" selection-end-column="38" />
-          <folding>
-            <marker date="1467841351049" expanded="true" signature="16228:16311" ph="INSERT INTO ${$this-&gt;_name}... " />
-            <marker date="1467841351049" expanded="true" signature="18449:18553" ph="DELETE FROM " />
-            <marker date="1467841351049" expanded="true" signature="18848:19127" ph="INSERT INTO ${$table}... " />
-            <marker date="1467841351049" expanded="true" signature="19313:19592" ph="INSERT INTO ${$table}... " />
-            <marker date="1467841351049" expanded="true" signature="29662:29766" ph="DELETE FROM " />
-            <marker date="1467841351049" expanded="true" signature="30061:30340" ph="INSERT INTO ${$table}... " />
-            <marker date="1467841351049" expanded="true" signature="30526:30805" ph="INSERT INTO ${$table}... " />
-            <marker date="1467841351049" expanded="true" signature="34730:34829" ph="DELETE FROM " />
-            <marker date="1467841351049" expanded="true" signature="35355:35442" ph="DELETE FROM " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1429,16 +1453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gcs/controller/AssetManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#24#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/console">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1481,12 +1495,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config.php">
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cache/Cache.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        <state relative-caret-position="11">
+          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Response/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
           <folding>
-            <element signature="e#9#261#0#PHP" expanded="true" />
+            <element signature="e#313#338#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1501,20 +1523,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Cache/Cache.php">
+    <entry file="file://$PROJECT_DIR$/src/gcs/controller/AssetManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+        <state relative-caret-position="180">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+          <folding>
+            <element signature="e#24#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/AssetManager/AssetManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="285" column="33" selection-start-line="285" selection-start-column="33" selection-end-line="285" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Response/Response.php">
+    <entry file="file://$PROJECT_DIR$/app/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state relative-caret-position="460">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
           <folding>
-            <element signature="e#313#338#0#PHP" expanded="true" />
+            <element signature="e#8#260#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
