@@ -7,12 +7,6 @@
 	use System\Response\Response;
 
 	class AssetManager extends Controller {
-		public function init() {
-			if (Config::config()['user']['debug']['environment'] != 'development') {
-				Response::instance()->status(404);
-			}
-		}
-
 		public function actionDefault() {
 			if ($_GET['type'] == 'js' || $_GET['type'] == 'css') {
 				Response::instance()->contentType("text/" . $_GET['type']);
