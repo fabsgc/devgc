@@ -18,9 +18,11 @@
 		}
 
 		public function actionDefault() {
-			return (new Template('index/default', 'gcsDefault'))
+			print_r(Config::config());
+
+			/*return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V' . VERSION)
-				->show();
+				->show();*/
 		}
 
 		public function actionGet() {
