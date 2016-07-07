@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df19f089-e3ab-411d-86e7-26258934420b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/gcsystem/framework" afterPath="$PROJECT_DIR$/vendor/gcsystem/framework" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GCsystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,14 +78,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="37" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="6" />
-              <folding>
-                <element signature="e#8#260#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="64">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Database/Database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,10 +101,12 @@
       <file leaf-file-name="AssetManager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gcs/controller/AssetManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+            <state relative-caret-position="54">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding>
-                <element signature="e#24#47#0#PHP" expanded="true" />
+                <marker date="1467849596127" expanded="true" signature="218:667" ph="..." />
+                <marker date="1467849596127" expanded="true" signature="276:609" ph="..." />
+                <marker date="1467849596127" expanded="true" signature="620:663" ph="..." />
               </folding>
             </state>
           </provider>
@@ -178,7 +189,6 @@
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Controller/Controller.php" />
         <option value="$PROJECT_DIR$/config-2.php" />
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Facade/Facade.php" />
-        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Database/Database.php" />
         <option value="$PROJECT_DIR$/src/gcs/controller/Index.php" />
         <option value="$PROJECT_DIR$/src/gcs/controller/Lang.php" />
         <option value="$PROJECT_DIR$/src/gcs/controller/Scaffolding.php" />
@@ -197,6 +207,7 @@
         <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Response/Response.php" />
         <option value="$PROJECT_DIR$/src/gcs/controller/AssetManager.php" />
         <option value="$PROJECT_DIR$/app/config.php" />
+        <option value="$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Database/Database.php" />
       </list>
     </option>
   </component>
@@ -1054,12 +1065,12 @@
       <workItem from="1467663514868" duration="32000" />
       <workItem from="1467663559986" duration="4288000" />
       <workItem from="1467668607614" duration="749000" />
-      <workItem from="1467826604668" duration="14578000" />
+      <workItem from="1467826604668" duration="15491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26680000" />
+    <option name="totallyTimeSpent" value="27593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1459,14 +1470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Database/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Engine/Engine.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1523,10 +1526,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gcs/controller/AssetManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        <state relative-caret-position="54">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding>
-            <element signature="e#24#47#0#PHP" expanded="true" />
+            <marker date="1467849596127" expanded="true" signature="218:667" ph="..." />
+            <marker date="1467849596127" expanded="true" signature="276:609" ph="..." />
+            <marker date="1467849596127" expanded="true" signature="620:663" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1541,11 +1546,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="37" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="90" selection-end-column="6" />
-          <folding>
-            <element signature="e#8#260#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="64">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/gcsystem/framework/core/System/Database/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
