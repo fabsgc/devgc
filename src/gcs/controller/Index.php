@@ -4,6 +4,7 @@
 	use Controller\Request\Gcs\FormRequest;
 	use Orm\Entity\Article;
 	use Orm\Entity\Post;
+	use System\Annotation\Annotation;
 	use System\Config\Config;
 	use System\Controller\Controller;
 	use System\Orm\Entity;
@@ -12,38 +13,33 @@
 	use System\Response\Response;
 	use System\Template\Template;
 
+	/**
+	 * Class Index
+	 * @package Gcs
+	 * @Before(class="\Gcs\Index", method="init")
+	 */
+
 	class Index extends Controller {
+
 		public function init() {
 			if (Config::config()['user']['debug']['environment'] != 'development') {
 				Response::instance()->status(404);
 			}
 		}
 
+		/**
+		 * @Routing(name="index", url="(/*)", method="get,post,put")
+		 */
+
 		public function actionDefault() {
-			/*return (new Template('index/default', 'gcsDefault'))
+			return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V' . VERSION)
-				->show();*/
-
-			//print_r(Data::instance()->param);
-			print_r(new Auth('gcs'));
-
-			//$this->getClassAnnotations('\System\Response\Response');
+				->show();
 		}
 
-		function getClassAnnotations($className) {
-			/** @var \ReflectionClass $r */
-			$class = new \ReflectionClass($className);
-
-			$propertiesNames = $class->getProperties();
-
-			foreach ($propertiesNames as $propertyName){
-				$property = new \ReflectionProperty($className, $propertyName->getName());
-
-				$doc = $property->getDocComment();
-				preg_match_all('#@(.*?)\n#s', $doc, $annotations);
-				print_r($annotations[1]);
-			}
-		}
+		/**
+		 * @Routing(name="get", url="/form(/*)", method="get")
+		 */
 
 		public function actionGet() {
 			return (new Template('index/form', 'formDefault'))
@@ -52,6 +48,12 @@
 				->show();
 		}
 
+		/**
+		 * @Routing(name="post", url="/form(/*)", method="post")
+		 * @param FormRequest $request
+		 * @return mixed
+		 */
+
 		public function actionPost(FormRequest $request) {
 			return (new Template('index/form', 'formDefault'))
 				->assign('title', 'Injection Formulaire')
@@ -59,6 +61,13 @@
 				->assign('articles', Article::find()->fetch())
 				->show();
 		}
+
+		/**
+		 * @Routing(name="put", url="/form(/*)", method="put")
+		 * @param FormRequest $request
+		 * @return mixed
+		 */
+
 		public function actionPut(FormRequest $request) {
 			return (new Template('index/form', 'formDefault'))
 				->assign('title', 'Injection Formulaire')
@@ -66,6 +75,12 @@
 				->assign('articles', Article::find()->fetch())
 				->show();
 		}
+
+		/**
+		 * @Routing(name="hydrate", url="/form/hydrate(/*)")
+		 * @param Post $post
+		 * @return mixed
+		 */
 
 		public function actionHydrate(Post $post) {
 			return (new Template('index/hydrate', 'formDefault'))

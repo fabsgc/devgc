@@ -114,7 +114,7 @@
 			'timezone'    => 'Europe/Paris',
 			'cache'       => [
 				'enabled' => true,
-				'config'  => false,
+				'config'  => true,
 				'sha1'    => false
 			],
 			'asset'       => [
