@@ -7,6 +7,8 @@
 	use System\Config\Config;
 	use System\Controller\Controller;
 	use System\Orm\Entity;
+	use System\Request\Auth;
+	use System\Request\Data;
 	use System\Response\Response;
 	use System\Template\Template;
 
@@ -18,9 +20,29 @@
 		}
 
 		public function actionDefault() {
-			return (new Template('index/default', 'gcsDefault'))
+			/*return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V' . VERSION)
-				->show();
+				->show();*/
+
+			//print_r(Data::instance()->param);
+			print_r(new Auth('gcs'));
+
+			//$this->getClassAnnotations('\System\Response\Response');
+		}
+
+		function getClassAnnotations($className) {
+			/** @var \ReflectionClass $r */
+			$class = new \ReflectionClass($className);
+
+			$propertiesNames = $class->getProperties();
+
+			foreach ($propertiesNames as $propertyName){
+				$property = new \ReflectionProperty($className, $propertyName->getName());
+
+				$doc = $property->getDocComment();
+				preg_match_all('#@(.*?)\n#s', $doc, $annotations);
+				print_r($annotations[1]);
+			}
 		}
 
 		public function actionGet() {
