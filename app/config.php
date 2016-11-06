@@ -11,7 +11,7 @@
 
 	return [
 		'framework' => [
-			'folder' => '',
+			'folder' => 'gcsystem/gcs-dev/',
 			'http'   => [
 				'error' => [
 					'template' => '.app/error/http',
@@ -114,7 +114,7 @@
 			'timezone'    => 'Europe/Paris',
 			'cache'       => [
 				'enabled' => true,
-				'config'  => true,
+				'config'  => false,
 				'sha1'    => false
 			],
 			'asset'       => [

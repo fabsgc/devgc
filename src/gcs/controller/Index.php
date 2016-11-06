@@ -3,8 +3,11 @@
 
 	use Controller\Request\Gcs\FormRequest;
 	use Orm\Entity\Article;
+	use Orm\Entity\Course;
 	use Orm\Entity\Post;
+	use Orm\Entity\Student;
 	use System\Annotation\Annotation;
+	use System\Collection\Collection;
 	use System\Config\Config;
 	use System\Controller\Controller;
 	use System\Orm\Entity;
@@ -17,6 +20,7 @@
 	 * Class Index
 	 * @package Gcs
 	 * @Before(class="\Gcs\Index", method="init")
+	 * @Before(class="\Gcs\Index", method="end")
 	 */
 
 	class Index extends Controller {
@@ -32,9 +36,45 @@
 		 */
 
 		public function actionDefault() {
-			return (new Template('index/default', 'gcsDefault'))
+			//$articles = new Article();
+			//$articles = Article::find()->fetch();
+			//Post::find()->fetch();
+
+			/** @var Course $course */
+			$course = Course::find()->where('Course.id = 55')->fetch()->first();
+			/** @var Student $student */
+			//$student = Student::find()->where('Student.id = 53')->fetch()->first();
+
+			print_r($course);
+
+			$course->update();
+
+
+			//$student->name = "dsfsdf";
+			//$student->courses = new Collection([$course]);
+
+			//$student->update();
+
+			//print_r($student);
+
+			/*$course = new Course();
+			$course->name = 'course de merde';
+			$course->insert();*/
+
+			/** @var Post $post */
+			//$post = Post::find()->where('Post.id = 1')->fetch()->first();
+
+			//$article = Article::find()->where('Article.id = 2')->fetch()->first();
+
+			//print_r($student);
+
+			//$post->content ="sdsdklmfsdfsfsdf---";
+			//$post->article = $article;
+			//$post->update();
+
+			/*return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V' . VERSION)
-				->show();
+				->show();*/
 		}
 
 		/**

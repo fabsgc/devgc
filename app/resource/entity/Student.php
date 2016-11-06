@@ -1,22 +1,39 @@
 <?php
 	namespace Orm\Entity;
 
+	use System\Collection\Collection;
 	use System\Orm\Entity\Entity;
-	use System\Orm\Entity\Field;
-	use System\Orm\Entity\ForeignKey;
+
+	/**
+	 * Class Student
+	 * @Table(name="student")
+	 * @Form(name="form-student")
+	 * @property integer $id
+	 * @property string $name
+	 * @property Collection $courses
+	 * @package Orm\Entity
+    */
 
 	class Student extends Entity {
-		public function tableDefinition() {
-			$this->name('student');
-			$this->field('id')
-				->primary(true)
-				->unique(true)
-				->type(Field::INCREMENT);
-			$this->field('name')
-				->type(Field::STRING)
-				->size(255)
-				->beNull(false);
-			$this->field('courses')
-				->foreign(['type' => ForeignKey::MANY_TO_MANY, 'reference' => ['Course', 'id'], 'current' => ['Student', 'id']]);
-		}
+
+		/**
+		 * @var int
+		 * @Column(type="INCREMENT", primary="true")
+		 */
+
+		protected $id;
+
+		/**
+		 * @var string
+		 * @Column(type="STRING", size="255")
+		 */
+
+		protected $name;
+
+		/**
+		 * @var Collection
+		 * @ManyToMany(from="Student.id", to="Course.id")
+		 */
+
+		protected $courses;
 	}

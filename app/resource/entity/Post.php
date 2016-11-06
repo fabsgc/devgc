@@ -2,33 +2,47 @@
 	namespace Orm\Entity;
 
 	use System\Orm\Entity\Entity;
-	use System\Orm\Entity\Field;
-	use System\Orm\Entity\ForeignKey;
+	use System\Orm\Validation\Element\File;
 
 	/**
-	 * @property integer                      id
-	 * @property string                       content
-	 * @property integer                      article
+	 * Class Post
+	 * @Table(name="post")
+	 * @Form(name="form-post")
+	 * @property integer id
+	 * @property string content
+	 * @property integer article
 	 * @property \System\Orm\Entity\Type\File file
 	 */
 	class Post extends Entity {
-		public function tableDefinition() {
-			$this->name('post');
-			$this->form('form-post');
-			$this->field('id')
-				->primary(true)
-				->type(Field::INCREMENT);
-			$this->field('content')
-				->type(Field::TEXT)
-				->beNull(false);
-			$this->field('article')
-				->type(Field::INT)
-				->beNull(false)
-				->foreign(['type' => ForeignKey::MANY_TO_ONE, 'reference' => ['Article', 'id']]);
-			$this->field('file')
-				->type(Field::FILE)
-				->beNull(false);
-		}
+
+		/**
+		 * @var int
+		 * @Column(type="INCREMENT", primary="true")
+		 */
+
+		protected $id;
+
+		/**
+		 * @var string
+		 * @Column(type="TEXT", size="65536")
+		 */
+
+		protected $content;
+
+		/**
+		 * @var Article
+		 * @Column(type="INT")
+		 * @ManyToOne(to="Article.id")
+		 */
+
+		protected $article;
+
+		/**
+		 * @var File
+		 * @Column(type="FILE")
+		 */
+
+		protected $file;
 
 		public function beforeInsert() {
 			$this->validation->text('content', 'contenu')

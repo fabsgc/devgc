@@ -2,17 +2,29 @@
 	namespace Orm\Entity;
 
 	use System\Orm\Entity\Entity;
-	use System\Orm\Entity\Field;
+
+	/**
+	 * Class Book
+	 * @Table(name="book")
+	 * @Form(name="form-book")
+	 * @property int $id
+	 * @property string $content
+	 * @package Orm\Entity
+	 */
 
 	class Book extends Entity {
-		public function tableDefinition() {
-			$this->name('book');
-			$this->field('id')
-				->primary(true)
-				->unique(true)
-				->type(Field::INCREMENT);
-			$this->field('content')
-				->type(Field::STRING)
-				->size(512);
-		}
+
+		/**
+		 * @var int
+		 * @Column(type="INCREMENT", primary="true")
+		 */
+
+		protected $id;
+
+		/**
+		 * @var Post
+		 * @Column(type="STRING", size="512")
+		 */
+
+		protected $content;
 	}

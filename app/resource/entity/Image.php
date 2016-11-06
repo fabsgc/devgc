@@ -2,15 +2,21 @@
 	namespace Orm\Entity;
 
 	use System\Orm\Entity\Entity;
-	use System\Orm\Entity\Field;
+
+	/**
+	 * Class Image
+	 * @Table(name="image")
+	 * @Form(name="form-image")
+	 * @property integer $id
+	 * @package Orm\Entity
+	 */
 
 	class Image extends Entity {
-		public function tableDefinition() {
-			$this->name('image');
-			$this->field('id')
-				->primary(true)
-				->unique(true)
-				->type(Field::INCREMENT)
-				->beNull(false);
-		}
+
+		/**
+		 * @var int
+		 * @Column(type="INCREMENT", primary="true")
+		 */
+
+		protected $id;
 	}
