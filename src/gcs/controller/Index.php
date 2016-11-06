@@ -4,6 +4,7 @@
 	use Controller\Request\Gcs\FormRequest;
 	use Orm\Entity\Article;
 	use Orm\Entity\Course;
+	use Orm\Entity\Mydate;
 	use Orm\Entity\Post;
 	use Orm\Entity\Student;
 	use System\Annotation\Annotation;
@@ -41,14 +42,23 @@
 			//Post::find()->fetch();
 
 			/** @var Course $course */
-			$course = Course::find()->where('Course.id = 55')->fetch()->first();
+			//$course = Course::find()->where('Course.id = 55')->fetch()->first();
 			/** @var Student $student */
 			//$student = Student::find()->where('Student.id = 53')->fetch()->first();
 
-			print_r($course);
+			//$student = new Student();
+			//$student->name = 'Nom';
+			//$student->courses->add($course);
+			//$student->insert();
 
-			$course->update();
+			//$course->update();
 
+			/** @var Mydate $mydate */
+			$mydate = new Mydate();
+			$mydate->date= new \DateTime('2011-01-01T15:03:01.012345Z');
+			$mydate->insert();
+
+			var_dump(Mydate::find()->where('Mydate.id = 3')->fetch()->first());
 
 			//$student->name = "dsfsdf";
 			//$student->courses = new Collection([$course]);
