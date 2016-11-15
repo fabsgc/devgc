@@ -7,21 +7,18 @@
 	use Orm\Entity\Mydate;
 	use Orm\Entity\Post;
 	use Orm\Entity\Student;
-	use System\Annotation\Annotation;
-	use System\Collection\Collection;
 	use System\Config\Config;
 	use System\Controller\Controller;
-	use System\Orm\Entity;
-	use System\Request\Auth;
-	use System\Request\Data;
 	use System\Response\Response;
-	use System\Template\Template;
+    use System\Session\Session;
+    use System\Template\Template;
 
 	/**
 	 * Class Index
 	 * @package Gcs
 	 * @Before(class="\Gcs\Index", method="init")
-	 * @Before(class="\Gcs\Index", method="end")
+	 * @Before(class="\Gcs\Index", method="base")
+	 * @After(class="\Gcs\Index", method="end")
 	 */
 
 	class Index extends Controller {
@@ -31,6 +28,10 @@
 				Response::instance()->status(404);
 			}
 		}
+
+		public static function base(){
+            echo 'base';
+        }
 
 		/**
 		 * @Routing(name="index", url="(/*)", method="get,post,put")
@@ -54,11 +55,11 @@
 			//$course->update();
 
 			/** @var Mydate $mydate */
-			$mydate = new Mydate();
-			$mydate->date= new \DateTime('2011-01-01T15:03:01.012345Z');
-			$mydate->insert();
+			//$mydate = new Mydate();
+			//$mydate->date= new \DateTime('2011-01-01T15:03:01.012345Z');
+			//$mydate->insert();
 
-			var_dump(Mydate::find()->where('Mydate.id = 3')->fetch()->first());
+            //print_r(Mydate::find()->where('Mydate.id = 3')->fetch()->first());
 
 			//$student->name = "dsfsdf";
 			//$student->courses = new Collection([$course]);
