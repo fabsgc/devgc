@@ -7,3 +7,4 @@ app/log/error.log
 app/log/history.log
 app/log/sql.log
 app/log/system.log
+composer.lock
