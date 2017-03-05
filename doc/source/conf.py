@@ -271,7 +271,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'documentationgcsystem', 'Documentation GCsystem',
+    (master_doc, 'documentationgcsystem', 'Documentation GCsystem Documentation',
      [author], 1)
 ]
 
@@ -285,8 +285,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'DocumentationGCsystem', 'Documentation GCsystem',
-   author, 'DocumentationGCsystem', 'Full stack PHP framework.',
+  (master_doc, 'DocumentationGCsystem', 'Documentation GCsystem Documentation',
+   author, 'DocumentationGCsystem', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -301,6 +301,3 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
-
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
