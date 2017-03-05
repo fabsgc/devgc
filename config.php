@@ -84,4 +84,4 @@
 
 	define('DOCUMENT_ROOT', str_replace('\\', '/', __DIR__) . '/');
 
-	return require_once('app/config.php');
+	return require_once('app/config.php.example');
