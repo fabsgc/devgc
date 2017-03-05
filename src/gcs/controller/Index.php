@@ -17,7 +17,6 @@
 	 * Class Index
 	 * @package Gcs
 	 * @Before(class="\Gcs\Index", method="init")
-	 * @Before(class="\Gcs\Index", method="base")
 	 * @After(class="\Gcs\Index", method="end")
 	 */
 
@@ -83,9 +82,9 @@
 			//$post->article = $article;
 			//$post->update();
 
-			/*return (new Template('index/default', 'gcsDefault'))
+			return (new Template('index/default', 'gcsDefault'))
 				->assign('title', 'GCsystem V' . VERSION)
-				->show();*/
+				->show();
 		}
 
 		/**
