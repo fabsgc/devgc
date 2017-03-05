@@ -11,7 +11,7 @@
 
 	return [
 		'framework' => [
-			'folder' => 'gcsystem/gcs-dev/',
+			'folder' => '',
 			'http'   => [
 				'error' => [
 					'template' => '.app/error/http',
