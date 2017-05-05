@@ -31,5 +31,7 @@
             else {
                 Response::instance()->status(404);
             }
+
+            return null;
         }
     }

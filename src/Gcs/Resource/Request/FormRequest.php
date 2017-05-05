@@ -1,11 +1,16 @@
 <?php
-	namespace Controller\Request\Gcs;
+	namespace Src\Gcs\Resource\Request;
 
-	use Controller\Request\Plugin\Captcha;
+	use Gcs\App\Resource\Request\Plugin\Captcha;
 	use Gcs\Framework\Core\Request\Form;
 
+    /**
+     * Class FormRequest
+     * @package Controller\Request\Gcs
+     */
+
 	class FormRequest extends Form {
-		use captcha;
+		use Captcha;
 
 		public function init() {
 			$this->form = 'form-request';
@@ -25,7 +30,6 @@
 				->lengthBetween([10, 20], 'la taille doit être entre 10 et 20 caractères')
 				->alpha('la valeur ne doit contenir que des lettres')
 				->countIn([1, 2], 'il y a trop peu de valeurs')
-				//->notExist('le champs ne doit pas exister')
 				->exist('le champs doit exister')
 				->custom('username');
 

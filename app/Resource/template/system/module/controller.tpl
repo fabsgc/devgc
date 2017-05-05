@@ -1,17 +1,17 @@
 {$php}
 
-	namespace {ucfirst($src)};
+	namespace {$src};
 
 	use System\Controller\Controller;
 
 	/**
 	 * Class Index
-	 * @package {ucfirst($src)}
+	 * @package {$src}
 
-	 * @Before(class="\{ucfirst($src)}\{ucfirst($controller)}", method="init")
+	 * @Before(class="\{$src}\{$controller}", method="init")
 	 */
 
-	class {ucfirst($controller)} extends Controller{
+	class {$controller} extends Controller{
 
 		/**
 		 * @Routing(name="{lcfirst($src)}-{strtolower($controller)}-default", url="/{lcfirst($src)}/{strtolower($controller)}/default(/*)", method="*")

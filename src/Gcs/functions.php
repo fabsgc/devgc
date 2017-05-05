@@ -1,7 +1,6 @@
 <?php
 	function printArray($a, $n = 0) {
 		if (!is_array($a)) {
-			$n = 0;
 			echo $a . "</li>";
 			return;
 		}
