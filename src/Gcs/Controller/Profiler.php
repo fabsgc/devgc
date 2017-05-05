@@ -1,16 +1,16 @@
 <?php
-	namespace Gcs;
+	namespace Src\Gcs\Controller;
 
-	use System\Cache\Cache;
-	use System\Config\Config;
-	use System\Controller\Controller;
-	use System\Response\Response;
-	use System\Template\Template;
+	use Gcs\Framework\Core\Cache\Cache;
+	use Gcs\Framework\Core\Config\Config;
+	use Gcs\Framework\Core\Controller\Controller;
+	use Gcs\Framework\Core\Response\Response;
+	use Gcs\Framework\Core\Template\Template;
 
 	/**
 	 * Class Profiler
 	 * @package Gcs
-	 * @Before(class="\Gcs\Profiler", method="init")
+	 * @Before(class="\Src\Gcs\Controller\Profiler", method="init")
 	 */
 
 	class Profiler extends Controller {

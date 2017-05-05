@@ -2,7 +2,7 @@
 	namespace Controller\Request\Gcs;
 
 	use Controller\Request\Plugin\Captcha;
-	use System\Request\Form;
+	use Gcs\Framework\Core\Request\Form;
 
 	class FormRequest extends Form {
 		use captcha;

@@ -1,14 +1,14 @@
 <?php
-	namespace Gcs;
+	namespace Src\Gcs\Controller;
 
-	use System\Config\Config;
-	use System\Controller\Controller;
-	use System\Response\Response;
+	use Gcs\Framework\Core\Config\Config;
+	use Gcs\Framework\Core\Controller\Controller;
+	use Gcs\Framework\Core\Response\Response;
 
 	/**
 	 * Class Lang
 	 * @package Gcs
-	 * @Before(class="\Gcs\Lang", method="init")
+	 * @Before(class="\Src\Gcs\Controller\Lang", method="init")
 	 */
 
 	class Lang extends Controller {

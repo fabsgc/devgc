@@ -1,15 +1,15 @@
 <?php
-    namespace Gcs;
+    namespace Src\Gcs\Controller;
 
-    use System\Cache\Cache;
-    use System\Config\Config;
-    use System\Controller\Controller;
-    use System\Response\Response;
+    use Gcs\Framework\Core\Cache\Cache;
+    use Gcs\Framework\Core\Config\Config;
+    use Gcs\Framework\Core\Controller\Controller;
+    use Gcs\Framework\Core\Response\Response;
 
     /**
      * Class Asset
-     * @package Gcs
-     * @Before(class="\Gcs\Asset", method="init")
+     * @package Src\Gcs\Controller
+     * @Before(class="\Src\Gcs\Controller\Asset", method="init")
      */
 
     class Asset extends Controller {
