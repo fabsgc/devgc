@@ -3,8 +3,8 @@
 	/*\
 	 | ------------------------------------------------------
 	 | @file : index.php
-	 | @author : fab@c++
-	 | @description : front controller of the application
+	 | @author : Fabien Beaujean
+	 | @description : Front controller of the application
 	 | @version : 3.0 bêta
 	 | ------------------------------------------------------
 	\*/

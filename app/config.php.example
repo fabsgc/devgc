@@ -3,7 +3,7 @@
 	/*\
 	 | ------------------------------------------------------
 	 | @file : config.php
-	 | @author : fab@c++
+	 | @author : Fabien Beaujean
 	 | @description : User configuration of the application
 	 | @version : 3.0 Bêta
 	 | ------------------------------------------------------
@@ -11,7 +11,7 @@
 
 	return [
 		'framework' => [
-			'folder' => '',
+			'folder' => '/gcsystem/gcs-dev',
 			'http'   => [
 				'error' => [
 					'template' => '.app/error/http',

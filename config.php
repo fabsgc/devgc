@@ -2,7 +2,7 @@
 	/*\
 	 | ------------------------------------------------------
 	 | @file : config.php
-	 | @author : fab@c++
+	 | @author : Fabien Beaujean
 	 | @description : Configuration of the application
 	 | @version : 3.0 Bêta
 	 | ------------------------------------------------------
@@ -84,4 +84,4 @@
 
 	define('DOCUMENT_ROOT', str_replace('\\', '/', __DIR__) . '/');
 
-	return require_once('app/config.php.example');
+	return require_once('app/config.php');
