@@ -10,7 +10,7 @@
 	 * @Before(class="\Src\Gcs\Controller\Scaffolding", method="init")
 	 */
 
-	class Scaffolding extends \Scaffolding\Scaffolding {
+	class Scaffolding extends \Gcs\Scaffolding\Scaffolding {
 
 		public function init() {
 			if (Config::config()['user']['debug']['environment'] != 'development') {
