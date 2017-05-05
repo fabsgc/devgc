@@ -11,12 +11,13 @@
 
 	session_start();
 
-	use System\Config\Config;
-	use System\Engine\Engine;
+	require_once('vendor/autoload.php');
+
+	use Gcs\Framework\Autload;
+	use Gcs\Framework\Core\Config\Config;
+	use Gcs\Framework\Core\Engine\Engine;
 
 	$config = require_once('config.php');
-	require_once(VENDOR_PATH . 'autoload.php');
-	require_once(CLASS_AUTOLOAD);
 
 	Config::instance($config);
 	$engine = new Engine();
