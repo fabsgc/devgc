@@ -1,12 +1,13 @@
 {$php}
 
-namespace {$src};
+namespace Src\{$src}\Controller;
 
 use Gcs\Framework\Core\Controller\Controller;
 
 /**
  * Class Index
  * @package {$src}
+
  * @Before(class="\{$src}\{$controller}", method="init")
  */
 

@@ -1,11 +1,12 @@
 <?php
-namespace Gcs;
+namespace Src\Gcs\Controller;
 
 use Gcs\Framework\Core\Controller\Controller;
 
 /**
  * Class Index
- * @package Gcs * @Before(class="\Gcs\Test", method="init")
+ * @package Gcs
+ * @Before(class="\Gcs\Test", method="init")
  */
 
 class Test extends Controller{
