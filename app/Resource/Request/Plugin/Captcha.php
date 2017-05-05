@@ -1,8 +1,8 @@
 <?php
-	namespace Controller\Request\Plugin;
+	namespace Gcs\App\Resource\Request\Plugin;
 
 	/**
-	 * @property \System\Form\Validation\Validation $validation
+	 * @property \Gcs\Framework\Core\Form\Validation\Validation $validation
 	 */
 	trait Captcha {
 		public function captcha() {

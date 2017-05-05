@@ -1,7 +1,7 @@
 <?php
-	namespace Orm\Entity;
+	namespace Gcs\App\Resource\Entity;
 
-	use System\Orm\Entity\Entity;
+	use Gcs\Framework\Core\Orm\Entity\Entity;
 
 	/**
 	 * Class Mydate

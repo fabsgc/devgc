@@ -13,13 +13,14 @@
 
 	require_once('vendor/autoload.php');
 
-	use Gcs\Framework\Autload;
 	use Gcs\Framework\Core\Config\Config;
 	use Gcs\Framework\Core\Engine\Engine;
 
 	$config = require_once('config.php');
 
 	Config::instance($config);
+
 	$engine = new Engine();
 	$engine->init();
 	$engine->run();
+

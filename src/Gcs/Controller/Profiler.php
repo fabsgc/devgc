@@ -27,7 +27,7 @@
 		 */
 
 		public function actionDefault() {
-			\System\Profiler\Profiler::instance()->enable(false);
+			\Gcs\Framework\Core\Profiler\Profiler::instance()->enable(false);
 
 			if (isset($_POST['id'])) {
 				if ($_POST['id'] == '') {

@@ -1,9 +1,9 @@
 <?php
-	namespace Orm\Entity\Custom;
+	namespace Gcs\App\Resource\Request\Custom;
 
-	use System\Orm\Validation\Custom\Custom;
+	use Gcs\Framework\Core\Form\Validation\Custom\Custom;
 
-	class Title extends Custom {
+	class Username extends Custom {
 		public function filter() {
 			if (strlen($this->value) < 9) {
 				return false;

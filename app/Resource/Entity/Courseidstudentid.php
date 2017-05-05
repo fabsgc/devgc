@@ -1,10 +1,12 @@
 <?php
-	namespace Orm\Entity;
+	namespace Gcs\App\Resource\Entity;
 
-	use System\Collection\Collection;
-	use System\Orm\Entity\Entity;
+	use Gcs\Framework\Core\Collection\Collection;
+	use Gcs\Framework\Core\Orm\Entity\Entity;
+    use Gcs\Framework\Core\Orm\Entity\Field;
+    use Gcs\Framework\Core\Orm\Entity\ForeignKey;
 
-	/**
+    /**
 	 * Class Courseidstudentid
 	 * @Table(name="courseidstudentid")
 	 * @Form(name="form-courseidstudentid")

@@ -1,8 +1,8 @@
 <?php
-	namespace Orm\Entity;
+	namespace Gcs\App\Resource\Entity;
 
-	use System\Orm\Entity\Entity;
-	use System\Orm\Validation\Element\File;
+	use Gcs\Framework\Core\Orm\Entity\Entity;
+	use Gcs\Framework\Core\Orm\Validation\Element\File;
 
 	/**
 	 * Class Post
@@ -11,7 +11,7 @@
 	 * @property integer id
 	 * @property string content
 	 * @property integer article
-	 * @property \System\Orm\Entity\Type\File file
+	 * @property \Gcs\Framework\Core\Orm\Entity\Type\File file
 	 */
 	class Post extends Entity {
 
