@@ -1,69 +1,64 @@
 <?php
-	namespace Gcs\App\Resource\Entity;
 
-	use Gcs\Framework\Core\Orm\Entity\Entity;
-	use Gcs\Framework\Core\Orm\Validation\Element\File;
+namespace Gcs\App\Resource\Entity;
 
-	/**
-	 * Class Post
-	 * @Table(name="post")
-	 * @Form(name="form-post")
-	 * @property integer id
-	 * @property string content
-	 * @property integer article
-	 * @property \Gcs\Framework\Core\Orm\Entity\Type\File file
-	 */
-	class Post extends Entity {
+use Gcs\Framework\Core\Orm\Entity\Entity;
+use Gcs\Framework\Core\Orm\Validation\Element\File;
 
-		/**
-		 * @var int
-		 * @Column(type="INCREMENT", primary="true")
-		 */
+/**
+ * Class Post
+ * @Table(name="post")
+ * @Form(name="form-post")
+ * @property integer id
+ * @property string content
+ * @property integer article
+ * @property \Gcs\Framework\Core\Orm\Entity\Type\File file
+ */
+class Post extends Entity {
 
-		protected $id;
+    /**
+     * @var int
+     * @Column(type="INCREMENT", primary="true")
+     */
 
-		/**
-		 * @var string
-		 * @Column(type="TEXT", size="65536")
-		 */
+    protected $id;
 
-		protected $content;
+    /**
+     * @var string
+     * @Column(type="TEXT", size="65536")
+     */
 
-		/**
-		 * @var Article
-		 * @Column(type="INT")
-		 * @ManyToOne(to="Article.id")
-		 */
+    protected $content;
 
-		protected $article;
+    /**
+     * @var Article
+     * @Column(type="INT")
+     * @ManyToOne(to="Article.id")
+     */
 
-		/**
-		 * @var File
-		 * @Column(type="FILE")
-		 */
+    protected $article;
 
-		protected $file;
+    /**
+     * @var File
+     * @Column(type="FILE")
+     */
 
-		public function beforeInsert() {
-			$this->validation->text('content', 'contenu')
-				->equal('content', 'vous devez écrire "content"')
-				->custom('title');
+    protected $file;
 
-			$this->validation->text('article.content', 'content')
-				->equal('content', 'vous devez écrire "content"');
+    public function beforeInsert() {
+        $this->validation->text('content', 'contenu')
+            ->equal('content', 'vous devez écrire "content"')
+            ->custom('title');
 
-			$this->validation->text('article.title', 'article nom')
-				->sql([
-					'query'      => 'SELECT COUNT(*) FROM article WHERE title = :value',
-					'constraint' => '==',
-					'value'      => 0,
-					'vars'       => []
-				],
-					'cet article existe déjà')
-				->custom('title');
+        $this->validation->text('article.content', 'content')
+            ->equal('content', 'vous devez écrire "content"');
 
-			$this->validation->file('file', 'fichier')
-				->accept(['image/png', 'image/jpeg'], 'le fichier doit être une image png')
-				->extension(['png', 'jpeg', 'jpg'], 'le fichier n\'a pas la bonne extension');
-		}
-	}
+        $this->validation->text('article.title', 'article nom')
+            ->sql(['query' => 'SELECT COUNT(*) FROM article WHERE title = :value', 'constraint' => '==', 'value' => 0, 'vars' => []], 'cet article existe déjà')
+            ->custom('title');
+
+        $this->validation->file('file', 'fichier')
+            ->accept(['image/png', 'image/jpeg'], 'le fichier doit être une image png')
+            ->extension(['png', 'jpeg', 'jpg'], 'le fichier n\'a pas la bonne extension');
+    }
+}

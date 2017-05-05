@@ -1,23 +1,22 @@
 {$php}
 
-	namespace {$src};
+namespace {$src};
 
-	use System\Controller\Controller;
+use Gcs\Framework\Core\Controller\Controller;
 
-	/**
-	 * Class Index
-	 * @package {$src}
+/**
+ * Class Index
+ * @package {$src}
+ * @Before(class="\{$src}\{$controller}", method="init")
+ */
 
-	 * @Before(class="\{$src}\{$controller}", method="init")
-	 */
+class {$controller} extends Controller{
 
-	class {$controller} extends Controller{
+    /**
+     * @Routing(name="{lcfirst($src)}-{strtolower($controller)}-default", url="/{lcfirst($src)}/{strtolower($controller)}/default(/*)", method="*")
+    */
 
-		/**
-		 * @Routing(name="{lcfirst($src)}-{strtolower($controller)}-default", url="/{lcfirst($src)}/{strtolower($controller)}/default(/*)", method="*")
-		 */
-
-		public function actionDefault(){
-			return $this->showDefault();
-		}
-	}
+    public function actionDefault(){
+        return $this->showDefault();
+    }
+}

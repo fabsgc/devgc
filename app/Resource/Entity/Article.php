@@ -1,47 +1,47 @@
 <?php
-	namespace Gcs\App\Resource\Entity;
 
-	use Gcs\Framework\Core\Collection\Collection;
-	use Gcs\Framework\Core\Orm\Entity\Entity;
+namespace Gcs\App\Resource\Entity;
 
-	/**
-	 * Class Article
-	 * @Table(name="article")
-	 * @Form(name="form-article")
-	 * @property int $id
-	 * @property string $title
-	 * @property string $content
-	 * @property Collection $posts
-	 * @package Orm\Entity
-	 */
+use Gcs\Framework\Core\Collection\Collection;
+use Gcs\Framework\Core\Orm\Entity\Entity;
 
-	class Article extends Entity {
+/**
+ * Class Article
+ * @Table(name="article")
+ * @Form(name="form-article")
+ * @property int $id
+ * @property string $title
+ * @property string $content
+ * @property Collection $posts
+ * @package Orm\Entity
+ */
+class Article extends Entity {
 
-		/**
-		 * @var int
-		 * @Column(type="INCREMENT", primary="true")
-		 */
+    /**
+     * @var int
+     * @Column(type="INCREMENT", primary="true")
+     */
 
-		protected $id;
+    protected $id;
 
-		/**
-		 * @var string
-		 * @Column(type="STRING", size="255")
-		 */
+    /**
+     * @var string
+     * @Column(type="STRING", size="255")
+     */
 
-		protected $title;
+    protected $title;
 
-		/**
-		 * @var string
-		 * @Column(type="TEXT", size="65536")
-		 */
+    /**
+     * @var string
+     * @Column(type="TEXT", size="65536")
+     */
 
-		protected $content;
+    protected $content;
 
-		/**
-		 * @var Collection
-		 * @OneToMany(from="Article.id", to="Post.article", belong="COMPOSITION", join="JOIN_LEFT")
-		 */
+    /**
+     * @var Collection
+     * @OneToMany(from="Article.id", to="Post.article", belong="COMPOSITION", join="JOIN_LEFT")
+     */
 
-		protected $posts;
-	}
+    protected $posts;
+}

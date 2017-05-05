@@ -1,7 +1,8 @@
 <?php
-	namespace Event;
 
-	use Gcs\Framework\Core\Event\Event;
+namespace Event;
 
-	class Cron extends Event {
-	}
+use Gcs\Framework\Core\Event\Event;
+
+class Cron extends Event {
+}

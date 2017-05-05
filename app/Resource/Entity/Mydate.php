@@ -1,30 +1,30 @@
 <?php
-	namespace Gcs\App\Resource\Entity;
 
-	use Gcs\Framework\Core\Orm\Entity\Entity;
+namespace Gcs\App\Resource\Entity;
 
-	/**
-	 * Class Mydate
-	 * @Table(name="mydate")
-	 * @Form(name="form-mydate")
-	 * @property integer $id
-	 * @property \DateTime $date
-	 * @package Orm\Entity
-	 */
+use Gcs\Framework\Core\Orm\Entity\Entity;
 
-	class Mydate extends Entity {
+/**
+ * Class Mydate
+ * @Table(name="mydate")
+ * @Form(name="form-mydate")
+ * @property integer $id
+ * @property \DateTime $date
+ * @package Orm\Entity
+ */
+class Mydate extends Entity {
 
-		/**
-		 * @var int
-		 * @Column(type="INCREMENT", primary="true")
-		 */
+    /**
+     * @var int
+     * @Column(type="INCREMENT", primary="true")
+     */
 
-		protected $id;
+    protected $id;
 
-		/**
-		 * @var \DateTime
-		 * @Column(type="DATETIME")
-		 */
+    /**
+     * @var \DateTime
+     * @Column(type="DATETIME")
+     */
 
-		protected $date;
-	}
+    protected $date;
+}
