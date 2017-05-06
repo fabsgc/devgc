@@ -4,8 +4,6 @@ namespace Gcs\App\Resource\Entity;
 
 use Gcs\Framework\Core\Collection\Collection;
 use Gcs\Framework\Core\Orm\Entity\Entity;
-use Gcs\Framework\Core\Orm\Entity\Field;
-use Gcs\Framework\Core\Orm\Entity\ForeignKey;
 
 /**
  * Class Courseidstudentid
