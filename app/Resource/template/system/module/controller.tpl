@@ -5,7 +5,8 @@ namespace Src\{$src}\Controller;
 use Gcs\Framework\Core\Controller\Controller;
 
 /**
- * Class Index
+ * Class {$controller}
+
  * @package {$src}
 
  * @Before(class="\{$src}\{$controller}", method="init")
