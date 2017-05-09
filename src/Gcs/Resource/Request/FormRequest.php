@@ -2,7 +2,7 @@
 	namespace Src\Gcs\Resource\Request;
 
 	use Gcs\App\Resource\Request\Plugin\Captcha;
-	use Gcs\Framework\Core\Request\Form;
+	use Gcs\Framework\Core\Http\Request\Form;
 
     /**
      * Class FormRequest

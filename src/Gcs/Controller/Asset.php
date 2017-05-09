@@ -4,7 +4,7 @@ namespace Src\Gcs\Controller;
 use Gcs\Framework\Core\Cache\Cache;
 use Gcs\Framework\Core\Config\Config;
 use Gcs\Framework\Core\Controller\Controller;
-use Gcs\Framework\Core\Response\Response;
+use Gcs\Framework\Core\Http\Response\Response;
 
 /**
  * Class Asset
