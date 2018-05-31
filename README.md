@@ -3,7 +3,7 @@
 
 * Open-Source
 * Version  : 3.1 Bêta
-* Créateur : Fabien Beaujean
+* Créateur : Fabsgc
 * Contributeurs : Lucas5190, t1307
 * Description : framework PHP MVC de développement d'applications Web.
 
